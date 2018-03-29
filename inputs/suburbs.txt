@@ -265,7 +265,6 @@ Grays Point
 Great Mackerel Beach
 Green Valley
 Greenacre
-Greendale
 Greenfield Park
 Greenhills Beach
 Greenwich
@@ -280,7 +279,6 @@ Hammondville
 Harrington Park
 Harris Park
 Hassall Grove
-Hawkesbury River
 Haymarket
 Heathcote
 Hebersham
@@ -347,9 +345,7 @@ Lane Cove North
 Lane Cove West
 Lansdowne
 Lansvale
-Laughtondale
 Lavender Bay
-Leets Vale
 Leichhardt
 Len Waters Estate
 Leonay
@@ -370,8 +366,6 @@ Loftus
 Londonderry
 Long Point
 Longueville
-Lower Portland
-Luddenham
 Lugarno
 Lurnea
 Macquarie Fields
@@ -406,7 +400,6 @@ Middleton Grange
 Miller
 Millers Point
 Milperra
-Milsons Passage
 Milsons Point
 Minchinbury
 Minto
@@ -535,14 +528,12 @@ Roseville
 Roseville Chase
 Rossmore
 Rouse Hill
-Royal National Park
 Rozelle
 Ruse
 Rushcutters Bay
 Russell Lea
 Rydalmere
 Ryde
-Sackville North
 Sadleir
 Sandringham
 Sans Souci

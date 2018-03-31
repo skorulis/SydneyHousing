@@ -1,5 +1,6 @@
 let fs = require('fs');
 let helpers = require("./helperFunctions");
+let gpsUtil = require("gps-util")
 let suburbs = fs.readFileSync('./inputs/suburbs.txt', 'utf8').split("\n");
 const cheerio = require('cheerio');
 let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));
@@ -27,6 +28,15 @@ const generateStats = function(suburb) {
     locResult["duration"] = Math.round(locData["duration"]["value"] / 60);
     locResult["distance"] = locData["distance"]["value"] / 1000;
     obj.travel.push(locResult)
+
+    let gps = locData["start_location"];
+    let lat = gps["lat"]
+    let lng = gps["lng"]
+
+    let best = helpers.findClosestStation(lat,lng)
+    let stationDistance = gpsUtil.getDistance(lng,lat,best.lngDec,best.latDec)
+    obj["closestStation"] = best.name;
+    obj["stationDistance"] = parseFloat((stationDistance/1000).toFixed(2));
   }
 
   let profileFilename = helpers.getSuburbJSONFilename(suburb);

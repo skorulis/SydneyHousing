@@ -2,861 +2,1205 @@
   {
     "name": "Allawah railway station",
     "lat": "33°58′11″S",
-    "lng": "33°58′11″S"
+    "lng": "151°06′51″E",
+    "latDec": -33.9697,
+    "lngDec": 151.1142
   },
   {
     "name": "Arncliffe railway station",
     "lat": "33°56′11″S",
-    "lng": "33°56′11″S"
+    "lng": "151°08′51″E",
+    "latDec": -33.9364,
+    "lngDec": 151.1475
   },
   {
     "name": "Artarmon railway station",
     "lat": "33°48′31″S",
-    "lng": "33°48′31″S"
+    "lng": "151°11′06″E",
+    "latDec": -33.8086,
+    "lngDec": 151.185
   },
   {
     "name": "Ashfield railway station, Sydney",
     "lat": "33°53′15″S",
-    "lng": "33°53′15″S"
+    "lng": "151°07′32″E",
+    "latDec": -33.8875,
+    "lngDec": 151.1256
   },
   {
     "name": "Asquith railway station",
     "lat": "33°41′19″S",
-    "lng": "33°41′19″S"
+    "lng": "151°06′28″E",
+    "latDec": -33.6886,
+    "lngDec": 151.1078
   },
   {
     "name": "Auburn railway station, Sydney",
     "lat": "33°50′58″S",
-    "lng": "33°50′58″S"
+    "lng": "151°01′58″E",
+    "latDec": -33.8494,
+    "lngDec": 151.0328
   },
   {
     "name": "Banksia railway station",
     "lat": "33°56′43″S",
-    "lng": "33°56′43″S"
+    "lng": "151°08′26″E",
+    "latDec": -33.9453,
+    "lngDec": 151.1406
   },
   {
     "name": "Bankstown railway station",
     "lat": "33°55′04″S",
-    "lng": "33°55′04″S"
+    "lng": "151°02′05″E",
+    "latDec": -33.9178,
+    "lngDec": 151.0347
   },
   {
     "name": "Bardwell Park railway station",
     "lat": "33°55′54″S",
-    "lng": "33°55′54″S"
+    "lng": "151°07′29″E",
+    "latDec": -33.9317,
+    "lngDec": 151.1247
   },
   {
     "name": "Beecroft railway station",
     "lat": "33°44′59″S",
-    "lng": "33°44′59″S"
+    "lng": "151°03′59″E",
+    "latDec": -33.7497,
+    "lngDec": 151.0664
   },
   {
     "name": "Belmore railway station",
     "lat": "33°55′02″S",
-    "lng": "33°55′02″S"
+    "lng": "151°05′19″E",
+    "latDec": -33.9172,
+    "lngDec": 151.0886
   },
   {
     "name": "Berala railway station",
     "lat": "33°52′19″S",
-    "lng": "33°52′19″S"
+    "lng": "151°01′56″E",
+    "latDec": -33.8719,
+    "lngDec": 151.0322
   },
   {
     "name": "Berowra railway station",
     "lat": "33°37′25″S",
-    "lng": "33°37′25″S"
+    "lng": "151°09′11″E",
+    "latDec": -33.6236,
+    "lngDec": 151.1531
   },
   {
     "name": "Beverly Hills railway station",
     "lat": "33°56′56″S",
-    "lng": "33°56′56″S"
+    "lng": "151°04′53″E",
+    "latDec": -33.9489,
+    "lngDec": 151.0814
   },
   {
     "name": "Bexley North railway station",
     "lat": "33°56′15″S",
-    "lng": "33°56′15″S"
+    "lng": "151°06′47″E",
+    "latDec": -33.9375,
+    "lngDec": 151.1131
   },
   {
     "name": "Birrong railway station",
     "lat": "33°53′36″S",
-    "lng": "33°53′36″S"
+    "lng": "151°01′26″E",
+    "latDec": -33.8933,
+    "lngDec": 151.0239
   },
   {
     "name": "Blacktown railway station",
     "lat": "33°46′06″S",
-    "lng": "33°46′06″S"
+    "lng": "150°54′26″E",
+    "latDec": -33.7683,
+    "lngDec": 150.9072
   },
   {
     "name": "Bondi Junction railway station",
     "lat": "33°53′28″S",
-    "lng": "33°53′28″S"
+    "lng": "151°14′50″E",
+    "latDec": -33.8911,
+    "lngDec": 151.2472
   },
   {
     "name": "Burwood railway station, Sydney",
     "lat": "33°52′38″S",
-    "lng": "33°52′38″S"
+    "lng": "151°06′16″E",
+    "latDec": -33.8772,
+    "lngDec": 151.1044
   },
   {
     "name": "Cabramatta railway station",
     "lat": "33°53′42″S",
-    "lng": "33°53′42″S"
+    "lng": "150°56′20″E",
+    "latDec": -33.895,
+    "lngDec": 150.9389
   },
   {
     "name": "Camellia railway station",
     "lat": "33°49′06″S",
-    "lng": "33°49′06″S"
+    "lng": "151°01′28″E",
+    "latDec": -33.8183,
+    "lngDec": 151.0244
   },
   {
     "name": "Campbelltown railway station",
     "lat": "34°03′49″S",
-    "lng": "34°03′49″S"
+    "lng": "150°48′52″E",
+    "latDec": -34.0636,
+    "lngDec": 150.8144
   },
   {
     "name": "Campsie railway station",
     "lat": "33°54′37″S",
-    "lng": "33°54′37″S"
+    "lng": "151°06′09″E",
+    "latDec": -33.9103,
+    "lngDec": 151.1025
   },
   {
     "name": "Canley Vale railway station",
     "lat": "33°53′13″S",
-    "lng": "33°53′13″S"
+    "lng": "150°56′37″E",
+    "latDec": -33.8869,
+    "lngDec": 150.9436
   },
   {
     "name": "Canterbury railway station, Sydney",
     "lat": "33°54′43″S",
-    "lng": "33°54′43″S"
+    "lng": "151°07′06″E",
+    "latDec": -33.9119,
+    "lngDec": 151.1183
   },
   {
     "name": "Caringbah railway station",
     "lat": "34°02′29″S",
-    "lng": "34°02′29″S"
+    "lng": "151°07′20″E",
+    "latDec": -34.0414,
+    "lngDec": 151.1222
   },
   {
     "name": "Carlingford railway station",
     "lat": "33°46′56″S",
-    "lng": "33°46′56″S"
+    "lng": "151°02′49″E",
+    "latDec": -33.7822,
+    "lngDec": 151.0469
   },
   {
     "name": "Carlton railway station, Sydney",
     "lat": "33°58′06″S",
-    "lng": "33°58′06″S"
+    "lng": "151°07′28″E",
+    "latDec": -33.9683,
+    "lngDec": 151.1244
   },
   {
     "name": "Carramar railway station",
     "lat": "33°53′03″S",
-    "lng": "33°53′03″S"
+    "lng": "150°57′41″E",
+    "latDec": -33.8842,
+    "lngDec": 150.9614
   },
   {
     "name": "Casula railway station",
     "lat": "33°56′59″S",
-    "lng": "33°56′59″S"
+    "lng": "150°54′43″E",
+    "latDec": -33.9497,
+    "lngDec": 150.9119
   },
   {
     "name": "Central railway station, Sydney",
     "lat": "33°52′57″S",
-    "lng": "33°52′57″S"
+    "lng": "151°12′24″E",
+    "latDec": -33.8825,
+    "lngDec": 151.2067
   },
   {
     "name": "Chatswood railway station",
     "lat": "33°47′50″S",
-    "lng": "33°47′50″S"
+    "lng": "151°10′51″E",
+    "latDec": -33.7972,
+    "lngDec": 151.1808
   },
   {
     "name": "Cheltenham railway station, Sydney",
     "lat": "33°45′21″S",
-    "lng": "33°45′21″S"
+    "lng": "151°04′43″E",
+    "latDec": -33.7558,
+    "lngDec": 151.0786
   },
   {
     "name": "Chester Hill railway station",
     "lat": "33°53′01″S",
-    "lng": "33°53′01″S"
+    "lng": "150°59′58″E",
+    "latDec": -33.8836,
+    "lngDec": 150.9994
   },
   {
     "name": "Circular Quay railway station",
     "lat": "",
-    "lng": ""
+    "lng": "",
+    "latDec": null,
+    "lngDec": null
   },
   {
     "name": "Clarendon railway station",
     "lat": "33°36′32″S",
-    "lng": "33°36′32″S"
+    "lng": "150°47′17″E",
+    "latDec": -33.6089,
+    "lngDec": 150.7881
   },
   {
     "name": "Clyde railway station, Sydney",
     "lat": "33°50′10″S",
-    "lng": "33°50′10″S"
+    "lng": "151°01′02″E",
+    "latDec": -33.8361,
+    "lngDec": 151.0172
   },
   {
     "name": "Como railway station, Sydney",
     "lat": "34°00′15″S",
-    "lng": "34°00′15″S"
+    "lng": "151°04′05″E",
+    "latDec": -34.0042,
+    "lngDec": 151.0681
   },
   {
     "name": "Concord West railway station",
     "lat": "33°50′55″S",
-    "lng": "33°50′55″S"
+    "lng": "151°05′08″E",
+    "latDec": -33.8486,
+    "lngDec": 151.0856
   },
   {
     "name": "Cronulla railway station",
     "lat": "34°03′20″S",
-    "lng": "34°03′20″S"
+    "lng": "151°09′05″E",
+    "latDec": -34.0556,
+    "lngDec": 151.1514
   },
   {
     "name": "Croydon railway station, Sydney",
     "lat": "33°53′00″S",
-    "lng": "33°53′00″S"
+    "lng": "151°06′56″E",
+    "latDec": -33.8833,
+    "lngDec": 151.1156
   },
   {
     "name": "Denistone railway station",
     "lat": "33°47′59″S",
-    "lng": "33°47′59″S"
+    "lng": "151°05′15″E",
+    "latDec": -33.7997,
+    "lngDec": 151.0875
   },
   {
     "name": "Domestic railway station, Sydney",
     "lat": "33°56′01″S",
-    "lng": "33°56′01″S"
+    "lng": "151°10′51″E",
+    "latDec": -33.9336,
+    "lngDec": 151.1808
   },
   {
     "name": "Doonside railway station",
     "lat": "33°48′06″S",
-    "lng": "33°48′06″S"
+    "lng": "150°57′23″E",
+    "latDec": -33.8017,
+    "lngDec": 150.9564
   },
   {
     "name": "Dulwich Hill railway station",
     "lat": "33°54′40″S",
-    "lng": "33°54′40″S"
+    "lng": "151°08′27″E",
+    "latDec": -33.9111,
+    "lngDec": 151.1408
   },
   {
     "name": "Dundas railway station",
     "lat": "33°48′14″S",
-    "lng": "33°48′14″S"
+    "lng": "151°01′59″E",
+    "latDec": -33.8039,
+    "lngDec": 151.0331
   },
   {
     "name": "East Hills railway station",
     "lat": "33°57′41″S",
-    "lng": "33°57′41″S"
+    "lng": "150°59′06″E",
+    "latDec": -33.9614,
+    "lngDec": 150.985
   },
   {
     "name": "East Richmond railway station, Sydney",
     "lat": "33°36′07″S",
-    "lng": "33°36′07″S"
+    "lng": "150°45′35″E",
+    "latDec": -33.6019,
+    "lngDec": 150.7597
   },
   {
     "name": "Eastwood railway station",
     "lat": "33°47′25″S",
-    "lng": "33°47′25″S"
+    "lng": "151°04′56″E",
+    "latDec": -33.7903,
+    "lngDec": 151.0822
   },
   {
     "name": "Edgecliff railway station",
     "lat": "33°52′45″S",
-    "lng": "33°52′45″S"
+    "lng": "151°14′10″E",
+    "latDec": -33.8792,
+    "lngDec": 151.2361
   },
   {
     "name": "Edmondson Park railway station",
     "lat": "",
-    "lng": ""
+    "lng": "",
+    "latDec": null,
+    "lngDec": null
   },
   {
     "name": "Emu Plains railway station",
     "lat": "33°44′44″S",
-    "lng": "33°44′44″S"
+    "lng": "150°40′20″E",
+    "latDec": -33.7456,
+    "lngDec": 150.6722
   },
   {
     "name": "Engadine railway station",
     "lat": "34°04′03″S",
-    "lng": "34°04′03″S"
+    "lng": "151°00′53″E",
+    "latDec": -34.0675,
+    "lngDec": 151.0147
   },
   {
     "name": "Epping railway station, Sydney",
     "lat": "33°46′23″S",
-    "lng": "33°46′23″S"
+    "lng": "151°04′56″E",
+    "latDec": -33.7731,
+    "lngDec": 151.0822
   },
   {
     "name": "Erskineville railway station",
     "lat": "33°54′04″S",
-    "lng": "33°54′04″S"
+    "lng": "151°11′07″E",
+    "latDec": -33.9011,
+    "lngDec": 151.1853
   },
   {
     "name": "Fairfield railway station, Sydney",
     "lat": "33°52′21″S",
-    "lng": "33°52′21″S"
+    "lng": "150°57′25″E",
+    "latDec": -33.8725,
+    "lngDec": 150.9569
   },
   {
     "name": "Flemington railway station, Sydney",
     "lat": "33°51′54″S",
-    "lng": "33°51′54″S"
+    "lng": "151°04′12″E",
+    "latDec": -33.865,
+    "lngDec": 151.07
   },
   {
     "name": "Glenfield railway station, Sydney",
     "lat": "33°58′20″S",
-    "lng": "33°58′20″S"
+    "lng": "150°53′35″E",
+    "latDec": -33.9722,
+    "lngDec": 150.8931
   },
   {
     "name": "Gordon railway station, Sydney",
     "lat": "33°45′22″S",
-    "lng": "33°45′22″S"
+    "lng": "151°09′16″E",
+    "latDec": -33.7561,
+    "lngDec": 151.1544
   },
   {
     "name": "Granville railway station",
     "lat": "33°50′00″S",
-    "lng": "33°50′00″S"
+    "lng": "151°00′45″E",
+    "latDec": -33.8333,
+    "lngDec": 151.0125
   },
   {
     "name": "Green Square railway station",
     "lat": "33°54′22″S",
-    "lng": "33°54′22″S"
+    "lng": "151°12′09″E",
+    "latDec": -33.9061,
+    "lngDec": 151.2025
   },
   {
     "name": "Guildford railway station, Sydney",
     "lat": "33°51′16″S",
-    "lng": "33°51′16″S"
+    "lng": "150°59′04″E",
+    "latDec": -33.8544,
+    "lngDec": 150.9844
   },
   {
     "name": "Gymea railway station",
     "lat": "34°02′06″S",
-    "lng": "34°02′06″S"
+    "lng": "151°05′07″E",
+    "latDec": -34.035,
+    "lngDec": 151.0853
   },
   {
     "name": "Harris Park railway station",
     "lat": "33°49′24″S",
-    "lng": "33°49′24″S"
+    "lng": "151°00′28″E",
+    "latDec": -33.8233,
+    "lngDec": 151.0078
   },
   {
     "name": "Heathcote railway station",
     "lat": "34°05′18″S",
-    "lng": "34°05′18″S"
+    "lng": "151°00′29″E",
+    "latDec": -34.0883,
+    "lngDec": 151.0081
   },
   {
     "name": "Holsworthy railway station, Sydney",
     "lat": "33°57′48″S",
-    "lng": "33°57′48″S"
+    "lng": "150°57′24″E",
+    "latDec": -33.9633,
+    "lngDec": 150.9567
   },
   {
     "name": "Homebush railway station",
     "lat": "33°52′01″S",
-    "lng": "33°52′01″S"
+    "lng": "151°05′11″E",
+    "latDec": -33.8669,
+    "lngDec": 151.0864
   },
   {
     "name": "Hornsby railway station",
     "lat": "33°42′11″S",
-    "lng": "33°42′11″S"
+    "lng": "151°05′55″E",
+    "latDec": -33.7031,
+    "lngDec": 151.0986
   },
   {
     "name": "Hurlstone Park railway station",
     "lat": "33°54′38″S",
-    "lng": "33°54′38″S"
+    "lng": "151°07′55″E",
+    "latDec": -33.9106,
+    "lngDec": 151.1319
   },
   {
     "name": "Hurstville railway station",
     "lat": "33°58′02″S",
-    "lng": "33°58′02″S"
+    "lng": "151°06′09″E",
+    "latDec": -33.9672,
+    "lngDec": 151.1025
   },
   {
     "name": "Ingleburn railway station",
     "lat": "33°59′51″S",
-    "lng": "33°59′51″S"
+    "lng": "150°51′53″E",
+    "latDec": -33.9975,
+    "lngDec": 150.8647
   },
   {
     "name": "International railway station, Sydney",
     "lat": "33°56′03″S",
-    "lng": "33°56′03″S"
+    "lng": "151°09′57″E",
+    "latDec": -33.9342,
+    "lngDec": 151.1658
   },
   {
     "name": "Jannali railway station",
     "lat": "34°00′58″S",
-    "lng": "34°00′58″S"
+    "lng": "151°03′52″E",
+    "latDec": -34.0161,
+    "lngDec": 151.0644
   },
   {
     "name": "Killara railway station",
     "lat": "33°45′56″S",
-    "lng": "33°45′56″S"
+    "lng": "151°09′42″E",
+    "latDec": -33.7656,
+    "lngDec": 151.1617
   },
   {
     "name": "Kings Cross railway station, Sydney",
     "lat": "33°52′29″S",
-    "lng": "33°52′29″S"
+    "lng": "151°13′21″E",
+    "latDec": -33.8747,
+    "lngDec": 151.2225
   },
   {
     "name": "Kingsgrove railway station",
     "lat": "33°56′26″S",
-    "lng": "33°56′26″S"
+    "lng": "151°06′02″E",
+    "latDec": -33.9406,
+    "lngDec": 151.1006
   },
   {
     "name": "Kingswood railway station, Sydney",
     "lat": "33°45′30″S",
-    "lng": "33°45′30″S"
+    "lng": "150°43′13″E",
+    "latDec": -33.7583,
+    "lngDec": 150.7203
   },
   {
     "name": "Kirrawee railway station",
     "lat": "34°02′06″S",
-    "lng": "34°02′06″S"
+    "lng": "151°04′16″E",
+    "latDec": -34.035,
+    "lngDec": 151.0711
   },
   {
     "name": "Kogarah railway station",
     "lat": "33°57′44″S",
-    "lng": "33°57′44″S"
+    "lng": "151°07′57″E",
+    "latDec": -33.9622,
+    "lngDec": 151.1325
   },
   {
     "name": "Lakemba railway station",
     "lat": "33°55′12″S",
-    "lng": "33°55′12″S"
+    "lng": "151°04′33″E",
+    "latDec": -33.92,
+    "lngDec": 151.0758
   },
   {
     "name": "Leightonfield railway station",
     "lat": "33°52′53″S",
-    "lng": "33°52′53″S"
+    "lng": "150°59′05″E",
+    "latDec": -33.8814,
+    "lngDec": 150.9847
   },
   {
     "name": "Leppington railway station",
     "lat": "33°57′18″S",
-    "lng": "33°57′18″S"
+    "lng": "150°48′29″E",
+    "latDec": -33.955,
+    "lngDec": 150.8081
   },
   {
     "name": "Leumeah railway station",
     "lat": "34°03′03″S",
-    "lng": "34°03′03″S"
+    "lng": "150°49′49″E",
+    "latDec": -34.0508,
+    "lngDec": 150.8303
   },
   {
     "name": "Lewisham railway station, Sydney",
     "lat": "33°53′36″S",
-    "lng": "33°53′36″S"
+    "lng": "151°08′51″E",
+    "latDec": -33.8933,
+    "lngDec": 151.1475
   },
   {
     "name": "Lidcombe railway station",
     "lat": "33°51′50″S",
-    "lng": "33°51′50″S"
+    "lng": "151°02′43″E",
+    "latDec": -33.8639,
+    "lngDec": 151.0453
   },
   {
     "name": "Lindfield railway station",
     "lat": "33°46′30″S",
-    "lng": "33°46′30″S"
+    "lng": "151°10′08″E",
+    "latDec": -33.775,
+    "lngDec": 151.1689
   },
   {
     "name": "Liverpool railway station",
     "lat": "33°55′30″S",
-    "lng": "33°55′30″S"
+    "lng": "150°55′38″E",
+    "latDec": -33.925,
+    "lngDec": 150.9272
   },
   {
     "name": "Loftus railway station, Sydney",
     "lat": "34°02′42″S",
-    "lng": "34°02′42″S"
+    "lng": "151°03′05″E",
+    "latDec": -34.045,
+    "lngDec": 151.0514
   },
   {
     "name": "Macarthur railway station",
     "lat": "34°04′19″S",
-    "lng": "34°04′19″S"
+    "lng": "150°47′49″E",
+    "latDec": -34.0719,
+    "lngDec": 150.7969
   },
   {
     "name": "Macdonaldtown railway station",
     "lat": "33°53′48″S",
-    "lng": "33°53′48″S"
+    "lng": "151°11′11″E",
+    "latDec": -33.8967,
+    "lngDec": 151.1864
   },
   {
     "name": "Macquarie Fields railway station",
     "lat": "33°59′06″S",
-    "lng": "33°59′06″S"
+    "lng": "150°52′43″E",
+    "latDec": -33.985,
+    "lngDec": 150.8786
   },
   {
     "name": "Macquarie Park railway station",
     "lat": "33°47′06″S",
-    "lng": "33°47′06″S"
+    "lng": "151°07′42″E",
+    "latDec": -33.785,
+    "lngDec": 151.1283
   },
   {
     "name": "Macquarie University railway station",
     "lat": "33°46′38″S",
-    "lng": "33°46′38″S"
+    "lng": "151°07′05″E",
+    "latDec": -33.7772,
+    "lngDec": 151.1181
   },
   {
     "name": "Marayong railway station",
     "lat": "33°44′46″S",
-    "lng": "33°44′46″S"
+    "lng": "150°54′01″E",
+    "latDec": -33.7461,
+    "lngDec": 150.9003
   },
   {
     "name": "Marrickville railway station",
     "lat": "33°54′51″S",
-    "lng": "33°54′51″S"
+    "lng": "151°09′17″E",
+    "latDec": -33.9142,
+    "lngDec": 151.1547
   },
   {
     "name": "Martin Place railway station",
     "lat": "33°52′04″S",
-    "lng": "33°52′04″S"
+    "lng": "151°12′37″E",
+    "latDec": -33.8678,
+    "lngDec": 151.2103
   },
   {
     "name": "Mascot railway station",
     "lat": "33°55′23″S",
-    "lng": "33°55′23″S"
+    "lng": "151°11′16″E",
+    "latDec": -33.9231,
+    "lngDec": 151.1878
   },
   {
     "name": "Meadowbank railway station, Sydney",
     "lat": "33°48′59″S",
-    "lng": "33°48′59″S"
+    "lng": "151°05′24″E",
+    "latDec": -33.8164,
+    "lngDec": 151.09
   },
   {
     "name": "Merrylands railway station",
     "lat": "33°50′11″S",
-    "lng": "33°50′11″S"
+    "lng": "150°59′35″E",
+    "latDec": -33.8364,
+    "lngDec": 150.9931
   },
   {
     "name": "Milsons Point railway station",
     "lat": "33°50′46″S",
-    "lng": "33°50′46″S"
+    "lng": "151°12′42″E",
+    "latDec": -33.8461,
+    "lngDec": 151.2117
   },
   {
     "name": "Minto railway station",
     "lat": "34°01′38″S",
-    "lng": "34°01′38″S"
+    "lng": "150°50′33″E",
+    "latDec": -34.0272,
+    "lngDec": 150.8425
   },
   {
     "name": "Miranda railway station",
     "lat": "34°02′10″S",
-    "lng": "34°02′10″S"
+    "lng": "151°06′08″E",
+    "latDec": -34.0361,
+    "lngDec": 151.1022
   },
   {
     "name": "Mortdale railway station",
     "lat": "33°58′15″S",
-    "lng": "33°58′15″S"
+    "lng": "151°04′52″E",
+    "latDec": -33.9708,
+    "lngDec": 151.0811
   },
   {
     "name": "Mount Colah railway station",
     "lat": "33°40′19″S",
-    "lng": "33°40′19″S"
+    "lng": "151°06′52″E",
+    "latDec": -33.6719,
+    "lngDec": 151.1144
   },
   {
     "name": "Mount Druitt railway station",
     "lat": "33°46′11″S",
-    "lng": "33°46′11″S"
+    "lng": "150°49′11″E",
+    "latDec": -33.7697,
+    "lngDec": 150.8197
   },
   {
     "name": "Mount Kuring-gai railway station",
     "lat": "33°39′11″S",
-    "lng": "33°39′11″S"
+    "lng": "151°08′13″E",
+    "latDec": -33.6531,
+    "lngDec": 151.1369
   },
   {
     "name": "Mulgrave railway station",
     "lat": "33°37′36″S",
-    "lng": "33°37′36″S"
+    "lng": "150°49′49″E",
+    "latDec": -33.6267,
+    "lngDec": 150.8303
   },
   {
     "name": "Museum railway station",
     "lat": "33°52′34″S",
-    "lng": "33°52′34″S"
+    "lng": "151°12′35″E",
+    "latDec": -33.8761,
+    "lngDec": 151.2097
   },
   {
     "name": "Narwee railway station",
     "lat": "33°56′51″S",
-    "lng": "33°56′51″S"
+    "lng": "151°04′12″E",
+    "latDec": -33.9475,
+    "lngDec": 151.07
   },
   {
     "name": "Newtown railway station, Sydney",
     "lat": "33°53′53″S",
-    "lng": "33°53′53″S"
+    "lng": "151°10′46″E",
+    "latDec": -33.8981,
+    "lngDec": 151.1794
   },
   {
     "name": "Normanhurst railway station",
     "lat": "33°43′15″S",
-    "lng": "33°43′15″S"
+    "lng": "151°05′50″E",
+    "latDec": -33.7208,
+    "lngDec": 151.0972
   },
   {
     "name": "North Strathfield railway station",
     "lat": "33°51′32″S",
-    "lng": "33°51′32″S"
+    "lng": "151°05′17″E",
+    "latDec": -33.8589,
+    "lngDec": 151.0881
   },
   {
     "name": "North Sydney railway station",
     "lat": "33°30′10″S",
-    "lng": "33°30′10″S"
+    "lng": "151°07′21″E",
+    "latDec": -33.5028,
+    "lngDec": 151.1225
   },
   {
     "name": "North Ryde railway station",
     "lat": "33°47′41″S",
-    "lng": "33°47′41″S"
+    "lng": "151°08′18″E",
+    "latDec": -33.7947,
+    "lngDec": 151.1383
   },
   {
     "name": "Oatley railway station",
     "lat": "33°58′50″S",
-    "lng": "33°58′50″S"
+    "lng": "151°04′44″E",
+    "latDec": -33.9806,
+    "lngDec": 151.0789
   },
   {
     "name": "Olympic Park railway station, Sydney",
     "lat": "33°50′48″S",
-    "lng": "33°50′48″S"
+    "lng": "151°04′10″E",
+    "latDec": -33.8467,
+    "lngDec": 151.0694
   },
   {
     "name": "Padstow railway station, Sydney",
     "lat": "33°57′07″S",
-    "lng": "33°57′07″S"
+    "lng": "151°01′56″E",
+    "latDec": -33.9519,
+    "lngDec": 151.0322
   },
   {
     "name": "Panania railway station",
     "lat": "33°57′16″S",
-    "lng": "33°57′16″S"
+    "lng": "150°59′52″E",
+    "latDec": -33.9544,
+    "lngDec": 150.9978
   },
   {
     "name": "Parramatta railway station",
     "lat": "33°49′04″S",
-    "lng": "33°49′04″S"
+    "lng": "151°00′20″E",
+    "latDec": -33.8178,
+    "lngDec": 151.0056
   },
   {
     "name": "Pendle Hill railway station",
     "lat": "33°48′06″S",
-    "lng": "33°48′06″S"
+    "lng": "150°57′23″E",
+    "latDec": -33.8017,
+    "lngDec": 150.9564
   },
   {
     "name": "Pennant Hills railway station",
     "lat": "33°44′17″S",
-    "lng": "33°44′17″S"
+    "lng": "151°04′21″E",
+    "latDec": -33.7381,
+    "lngDec": 151.0725
   },
   {
     "name": "Penrith railway station, Sydney",
     "lat": "33°45′01″S",
-    "lng": "33°45′01″S"
+    "lng": "150°41′47″E",
+    "latDec": -33.7503,
+    "lngDec": 150.6964
   },
   {
     "name": "Penshurst railway station, Sydney",
     "lat": "33°57′58″S",
-    "lng": "33°57′58″S"
+    "lng": "151°05′21″E",
+    "latDec": -33.9661,
+    "lngDec": 151.0892
   },
   {
     "name": "Petersham railway station",
     "lat": "33°53′38″S",
-    "lng": "33°53′38″S"
+    "lng": "151°09′19″E",
+    "latDec": -33.8939,
+    "lngDec": 151.1553
   },
   {
     "name": "Punchbowl railway station",
     "lat": "33°33′12″S",
-    "lng": "33°33′12″S"
+    "lng": "151°01′56″E",
+    "latDec": -33.5533,
+    "lngDec": 151.0322
   },
   {
     "name": "Pymble railway station",
     "lat": "33°44′41″S",
-    "lng": "33°44′41″S"
+    "lng": "151°08′32″E",
+    "latDec": -33.7447,
+    "lngDec": 151.1422
   },
   {
     "name": "Quakers Hill railway station",
     "lat": "33°43′41″S",
-    "lng": "33°43′41″S"
+    "lng": "150°53′12″E",
+    "latDec": -33.7281,
+    "lngDec": 150.8867
   },
   {
     "name": "Redfern railway station",
     "lat": "33°53′31″S",
-    "lng": "33°53′31″S"
+    "lng": "151°11′55″E",
+    "latDec": -33.8919,
+    "lngDec": 151.1986
   },
   {
     "name": "Regents Park railway station",
     "lat": "33°52′59″S",
-    "lng": "33°52′59″S"
+    "lng": "151°01′27″E",
+    "latDec": -33.8831,
+    "lngDec": 151.0242
   },
   {
     "name": "Revesby railway station",
     "lat": "33°57′09″S",
-    "lng": "33°57′09″S"
+    "lng": "151°00′53″E",
+    "latDec": -33.9525,
+    "lngDec": 151.0147
   },
   {
     "name": "Rhodes railway station",
     "lat": "33°49′50″S",
-    "lng": "33°49′50″S"
+    "lng": "151°05′13″E",
+    "latDec": -33.8306,
+    "lngDec": 151.0869
   },
   {
     "name": "Richmond railway station, Sydney",
     "lat": "33°35′57″S",
-    "lng": "33°35′57″S"
+    "lng": "150°45′11″E",
+    "latDec": -33.5992,
+    "lngDec": 150.7531
   },
   {
     "name": "Riverstone railway station",
     "lat": "33°40′45″S",
-    "lng": "33°40′45″S"
+    "lng": "150°51′37″E",
+    "latDec": -33.6792,
+    "lngDec": 150.8603
   },
   {
     "name": "Riverwood railway station",
     "lat": "33°57′06″S",
-    "lng": "33°57′06″S"
+    "lng": "151°03′07″E",
+    "latDec": -33.9517,
+    "lngDec": 151.0519
   },
   {
     "name": "Rockdale railway station",
     "lat": "33°57′07″S",
-    "lng": "33°57′07″S"
+    "lng": "151°08′12″E",
+    "latDec": -33.9519,
+    "lngDec": 151.1367
   },
   {
     "name": "Rooty Hill railway station",
     "lat": "33°46′18″S",
-    "lng": "33°46′18″S"
+    "lng": "150°50′42″E",
+    "latDec": -33.7717,
+    "lngDec": 150.845
   },
   {
     "name": "Rosehill railway station",
     "lat": "33°49′24″S",
-    "lng": "33°49′24″S"
+    "lng": "151°01′19″E",
+    "latDec": -33.8233,
+    "lngDec": 151.0219
   },
   {
     "name": "Roseville railway station, Sydney",
     "lat": "33°47′03″S",
-    "lng": "33°47′03″S"
+    "lng": "151°10′38″E",
+    "latDec": -33.7842,
+    "lngDec": 151.1772
   },
   {
     "name": "Rydalmere railway station",
     "lat": "33°48′37″S",
-    "lng": "33°48′37″S"
+    "lng": "151°01′45″E",
+    "latDec": -33.8103,
+    "lngDec": 151.0292
   },
   {
     "name": "Schofields railway station",
     "lat": "33°42′17″S",
-    "lng": "33°42′17″S"
+    "lng": "150°52′26″E",
+    "latDec": -33.7047,
+    "lngDec": 150.8739
   },
   {
     "name": "Sefton railway station",
     "lat": "33°53′07″S",
-    "lng": "33°53′07″S"
+    "lng": "151°00′41″E",
+    "latDec": -33.8853,
+    "lngDec": 151.0114
   },
   {
     "name": "Seven Hills railway station",
     "lat": "33°46′28″S",
-    "lng": "33°46′28″S"
+    "lng": "150°56′12″E",
+    "latDec": -33.7744,
+    "lngDec": 150.9367
   },
   {
     "name": "St James railway station, Sydney",
     "lat": "33°52′13″S",
-    "lng": "33°52′13″S"
+    "lng": "151°12′43″E",
+    "latDec": -33.8703,
+    "lngDec": 151.2119
   },
   {
     "name": "St Leonards railway station",
     "lat": "33°49′20″S",
-    "lng": "33°49′20″S"
+    "lng": "151°11′39″E",
+    "latDec": -33.8222,
+    "lngDec": 151.1942
   },
   {
     "name": "St Marys railway station, Sydney",
     "lat": "33°45′30″S",
-    "lng": "33°45′30″S"
+    "lng": "150°43′13″E",
+    "latDec": -33.7583,
+    "lngDec": 150.7203
   },
   {
     "name": "St Peters railway station",
     "lat": "33°54′27″S",
-    "lng": "33°54′27″S"
+    "lng": "151°10′49″E",
+    "latDec": -33.9075,
+    "lngDec": 151.1803
   },
   {
     "name": "Stanmore railway station, Sydney",
     "lat": "33°53′40″S",
-    "lng": "33°53′40″S"
+    "lng": "151°09′50″E",
+    "latDec": -33.8944,
+    "lngDec": 151.1639
   },
   {
     "name": "Strathfield railway station",
     "lat": "33°52′18″S",
-    "lng": "33°52′18″S"
+    "lng": "151°05′40″E",
+    "latDec": -33.8717,
+    "lngDec": 151.0944
   },
   {
     "name": "Summer Hill railway station",
     "lat": "33°53′26″S",
-    "lng": "33°53′26″S"
+    "lng": "151°08′22″E",
+    "latDec": -33.8906,
+    "lngDec": 151.1394
   },
   {
     "name": "Sutherland railway station",
     "lat": "34°01′54″S",
-    "lng": "34°01′54″S"
+    "lng": "151°03′26″E",
+    "latDec": -34.0317,
+    "lngDec": 151.0572
   },
   {
     "name": "Sydenham railway station, Sydney",
     "lat": "33°54′52″S",
-    "lng": "33°54′52″S"
+    "lng": "151°10′00″E",
+    "latDec": -33.9144,
+    "lngDec": 151.1667
   },
   {
     "name": "Telopea railway station",
     "lat": "33°47′37″S",
-    "lng": "33°47′37″S"
+    "lng": "151°02′30″E",
+    "latDec": -33.7936,
+    "lngDec": 151.0417
   },
   {
     "name": "Tempe railway station",
     "lat": "33°55′28″S",
-    "lng": "33°55′28″S"
+    "lng": "151°09′23″E",
+    "latDec": -33.9244,
+    "lngDec": 151.1564
   },
   {
     "name": "Thornleigh railway station",
     "lat": "33°43′55″S",
-    "lng": "33°43′55″S"
+    "lng": "151°04′42″E",
+    "latDec": -33.7319,
+    "lngDec": 151.0783
   },
   {
     "name": "Toongabbie railway station",
     "lat": "33°28′17″S",
-    "lng": "33°28′17″S"
+    "lng": "150°34′32″E",
+    "latDec": -33.4714,
+    "lngDec": 150.5756
   },
   {
     "name": "Town Hall railway station, Sydney",
     "lat": "33°52′25″S",
-    "lng": "33°52′25″S"
+    "lng": "151°12′17″E",
+    "latDec": -33.8736,
+    "lngDec": 151.2047
   },
   {
     "name": "Turramurra railway station",
     "lat": "33°43′57″S",
-    "lng": "33°43′57″S"
+    "lng": "151°07′42″E",
+    "latDec": -33.7325,
+    "lngDec": 151.1283
   },
   {
     "name": "Turrella railway station",
     "lat": "33°55′48″S",
-    "lng": "33°55′48″S"
+    "lng": "151°08′24″E",
+    "latDec": -33.93,
+    "lngDec": 151.14
   },
   {
     "name": "Villawood railway station",
     "lat": "33°52′53″S",
-    "lng": "33°52′53″S"
+    "lng": "150°59′05″E",
+    "latDec": -33.8814,
+    "lngDec": 150.9847
   },
   {
     "name": "Vineyard railway station",
     "lat": "33°39′04″S",
-    "lng": "33°39′04″S"
+    "lng": "150°51′04″E",
+    "latDec": -33.6511,
+    "lngDec": 150.8511
   },
   {
     "name": "Wahroonga railway station",
     "lat": "33°43′03″S",
-    "lng": "33°43′03″S"
+    "lng": "151°07′01″E",
+    "latDec": -33.7175,
+    "lngDec": 151.1169
   },
   {
     "name": "Waitara railway station",
     "lat": "33°42′36″S",
-    "lng": "33°42′36″S"
+    "lng": "151°06′16″E",
+    "latDec": -33.71,
+    "lngDec": 151.1044
   },
   {
     "name": "Warrawee railway station",
     "lat": "33°43′27″S",
-    "lng": "33°43′27″S"
+    "lng": "151°07′18″E",
+    "latDec": -33.7242,
+    "lngDec": 151.1217
   },
   {
     "name": "Warwick Farm railway station",
     "lat": "33°54′48″S",
-    "lng": "33°54′48″S"
+    "lng": "150°56′06″E",
+    "latDec": -33.9133,
+    "lngDec": 150.935
   },
   {
     "name": "Waterfall railway station, Sydney",
     "lat": "34°08′04″S",
-    "lng": "34°08′04″S"
+    "lng": "150°59′40″E",
+    "latDec": -34.1344,
+    "lngDec": 150.9944
   },
   {
     "name": "Waverton railway station, Sydney",
     "lat": "33°50′16″S",
-    "lng": "33°50′16″S"
+    "lng": "151°11′51″E",
+    "latDec": -33.8378,
+    "lngDec": 151.1975
   },
   {
     "name": "Wentworthville railway station",
     "lat": "33°48′26″S",
-    "lng": "33°48′26″S"
+    "lng": "150°58′21″E",
+    "latDec": -33.8072,
+    "lngDec": 150.9725
   },
   {
     "name": "Werrington railway station",
     "lat": "33°45′33″S",
-    "lng": "33°45′33″S"
+    "lng": "150°45′30″E",
+    "latDec": -33.7592,
+    "lngDec": 150.7583
   },
   {
     "name": "West Ryde railway station",
     "lat": "33°48′26″S",
-    "lng": "33°48′26″S"
+    "lng": "151°05′25″E",
+    "latDec": -33.8072,
+    "lngDec": 151.0903
   },
   {
     "name": "Westmead railway station",
     "lat": "33°48′31″S",
-    "lng": "33°48′31″S"
+    "lng": "150°59′17″E",
+    "latDec": -33.8086,
+    "lngDec": 150.9881
   },
   {
     "name": "Wiley Park railway station",
     "lat": "33°55′23″S",
-    "lng": "33°55′23″S"
+    "lng": "151°04′02″E",
+    "latDec": -33.9231,
+    "lngDec": 151.0672
   },
   {
     "name": "Windsor railway station, Sydney",
     "lat": "33°36′50″S",
-    "lng": "33°36′50″S"
+    "lng": "150°48′39″E",
+    "latDec": -33.6139,
+    "lngDec": 150.8108
   }
 ]

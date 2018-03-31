@@ -1,6 +1,6 @@
 let fs = require('fs');
 let fetch = require("node-fetch")
-let helpers = require("../helperFunctions");
+let helpers = require("./helperFunctions");
 let HouseListing = require("./HouseListing");
 
 let suburbs = fs.readFileSync('./inputs/focus-suburbs.txt', 'utf8').split("\n");

@@ -3,11 +3,12 @@ let sleep = require('sleep');
 let fs = require('fs');
 let suburbs = fs.readFileSync('./inputs/suburbs.txt', 'utf8').split("\n");
 let helpers = require("./helperFunctions");
+let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));
 
-let baseURL = "https://maps.googleapis.com/maps/api/directions/json";
 
 const getDirections = async function(from,to,mode) {
   let arrival = new Date('09:00 2018.03.29').getTime() / 1000;
+  let baseURL = "https://maps.googleapis.com/maps/api/directions/json";
   let url = `${baseURL}?origin=${from},Sydney&destination=${to}&mode=${mode}&key=AIzaSyBSBzblLqx5_i0y-WjijmeDDW-NKuFnSDc&arrival_time=${arrival}`;
 
   console.log(url);
@@ -61,8 +62,11 @@ const getAllDirections = async function(to,mode) {
   }
 }
 
+for (let loc of params.locations) {
+  getAllDirections(loc.name,loc.mode);  
+}
 
 
-getAllDirections("Sydney Central Station","transit");
+
 
 

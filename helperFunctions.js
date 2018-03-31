@@ -6,7 +6,12 @@ const getSuburbFilename = function(suburb) {
   return `./results/suburbs/${suburb}.html`;
 }
 
+const getSuburbJSONFilename = function(suburb) {
+  return `./results/suburb-json/${suburb}.json`; 
+}
+
 module.exports = {
   getDirectionsFilename,
-  getSuburbFilename
+  getSuburbFilename,
+  getSuburbJSONFilename
 };

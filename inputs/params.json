@@ -1,0 +1,28 @@
+{
+	"locations":[
+		{
+			"name":"Sydney Central Station",
+			"weight":1,
+			"mode":"transit",
+			"max":50
+		},
+		{
+			"name":"North Sydney Station",
+			"weight":1,
+			"mode":"transit",
+			"max":50
+		}
+	],
+	"prices":[
+		{
+			"keyPath":["unit-buy","2BR"],
+			"weightDivider":50000,
+			"max":900000
+		},
+		{
+			"keyPath":["unit-buy","3BR"],
+			"weightDivider":50000,
+			"max":1000000
+		}
+	]
+}

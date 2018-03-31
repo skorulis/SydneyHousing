@@ -116,7 +116,9 @@ let stats = generateAllStats();
 stats = stats.filter(isAcceptable);
 stats = sortResults(stats);
 
-
+for (let s of stats) {
+  console.log(s.name)
+}
 
 
 fs.writeFile("./results/stats/stats.json", JSON.stringify(stats,null,2),function(err){

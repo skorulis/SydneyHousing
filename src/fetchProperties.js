@@ -1,6 +1,8 @@
 let fs = require('fs');
 let fetch = require("node-fetch")
 let helpers = require("../helperFunctions");
+let HouseListing = require("./HouseListing");
+
 let suburbs = fs.readFileSync('./inputs/focus-suburbs.txt', 'utf8').split("\n");
 
 const getProperties = async function(suburb) {
@@ -14,16 +16,28 @@ const getProperties = async function(suburb) {
   let url = "https://services.realestate.com.au/services/listings/search?query=";
   url = url + JSON.stringify(query)
 
+  console.log(url)
+
   let response = await fetch(url);
   let json = await response.json()
 
-  return json
+  let all = [];
+  for (let t of json.tieredResults) {
+    for (let p of t.results) {
+      let house = new HouseListing(p)
+      console.log(house.id())
+      all.push(house);
+    }
+  }
+
+  console.log("Found " + all.length)
+
+  return all
 }
 
 const getAllProperties = async function() {
   for (let s of suburbs) {
     let props = await getProperties(s);
-    console.log(props)
     break;
   }
 }

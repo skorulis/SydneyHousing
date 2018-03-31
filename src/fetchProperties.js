@@ -25,22 +25,35 @@ const getProperties = async function(suburb) {
   for (let t of json.tieredResults) {
     for (let p of t.results) {
       let house = new HouseListing(p)
-      console.log(house.id())
       all.push(house);
     }
   }
 
-  console.log("Found " + all.length)
-
   return all
+}
+
+const saveProperty = function(listing) {
+  let dir = "./results/properties/" + listing.suburb();
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir)
+  }
+  let filename = dir + "/" + listing.id() + ".json"
+  fs.writeFile(filename, JSON.stringify(listing.json,null,2),function(err){
+  });
 }
 
 const getAllProperties = async function() {
   for (let s of suburbs) {
     let props = await getProperties(s);
+    for (let p of props) {
+      saveProperty(p)
+    }
     break;
   }
 }
+
+
+
 
 for (let s of suburbs) {
   let dir = "./results/properties/" + s;

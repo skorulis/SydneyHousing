@@ -13,30 +13,26 @@ let options = {
 let geocoder = NodeGeocoder(options);
 
 
-let stores = JSON.parse(fs.readFileSync("./inputs/aldi.json"));
-let coded = [];
+let aldi = JSON.parse(fs.readFileSync("./inputs/aldi.json"));
+let coles = JSON.parse(fs.readFileSync("./inputs/coles.json"));
+let woolworths = JSON.parse(fs.readFileSync("./inputs/woolworths.json"));
 
-const checkSave = function() {
-  console.log("check save " + coded.length)
-  if (coded.length == stores.length) {
-    fs.writeFile("./inputs/aldi.json", JSON.stringify(coded,null,2),function(err){
-    })
-  }
+let allStores = [];
+
+for (let x of aldi) {
+  x["type"] = "aldi";
+  allStores.push(x);
 }
 
-for (let shop of stores) {
-  if (shop.lat) {
-    coded.push(shop)
-    checkSave()
-    continue;
-  }
-  geocoder.geocode(shop.address, function(err, res) {
-    if (res && res.length > 0) {
-      shop.lat = res[0].latitude
-      shop.lng = res[0].longitude  
-    }
-    
-    coded.push(shop)
-    checkSave()
-  });
+for (let x of coles) {
+  x["type"] = "coles";
+  allStores.push(x);
 }
+
+for (let x of woolworths) {
+  x["type"] = "woolworths";
+  allStores.push(x);
+}
+
+fs.writeFile("./inputs/supermarkets.json", JSON.stringify(allStores,null,2),function(err){
+})

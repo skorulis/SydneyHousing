@@ -1,6 +1,7 @@
 let gpsUtil = require("gps-util")
 let fs = require('fs');
 let stations = JSON.parse(fs.readFileSync("./inputs/stations.json", 'utf8'));
+let keys = JSON.parse(fs.readFileSync("./keys/keys.json", 'utf8'));
 
 const getDirectionsFilename = function(from,to,mode) {
   return `./results/${mode}/${from}-${to}.json`;
@@ -27,9 +28,14 @@ const findClosestStation = function(lat,lon) {
   return best
 }
 
+const getKey = function(name) {
+  return keys[name]
+}
+
 module.exports = {
   getDirectionsFilename,
   getSuburbFilename,
   getSuburbJSONFilename,
-  findClosestStation
+  findClosestStation,
+  getKey
 };

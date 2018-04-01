@@ -8,7 +8,6 @@ Mascot
 Burwood
 Waterloo
 North Strathfield
-Lakemba
 Canterbury
 Willoughby
 Dulwich Hill
@@ -28,10 +27,8 @@ Turrella
 Hornsby
 Eastwood
 Epping
-Lidcombe
 Kingsgrove
 Penshurst
-Wentworthville
 Riverwood
 Marrickville
 Kingsford

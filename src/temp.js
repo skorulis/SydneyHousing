@@ -17,32 +17,16 @@ let $ = cheerio.load(colesData);
 
 let places = $(".storeAddress")
 
-let stores = [];
+let stores = JSON.parse(fs.readFileSync("./inputs/coles.json"));
 let coded = [];
 
 const checkSave = function() {
+  console.log("check save " + coded.length)
   if (coded.length == stores.length) {
     fs.writeFile("./inputs/coles.json", JSON.stringify(coded,null,2),function(err){
     })
   }
 }
-
-places.each(function(index,element) {
-  let name = $(this).children("h3").text()
-  let address = $(this).children(".storeStreet").text()
-  let parts = address.split("\n").splice(1,2)
-  parts = parts.map(x => x.trim())
-  address = parts.join(" ")
-
-  console.log(address)
-  console.log("---")
-
-  let obj = {name:name,address:address}
-  stores.push(obj)
-
-  //console.log($(this).text())
-});
-
 
 for (let shop of stores) {
   if (shop.lat) {

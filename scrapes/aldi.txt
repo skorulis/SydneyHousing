@@ -1,0 +1,60 @@
+Aldi -- Edgecliff|203-233 New South Head Rd, Edgecliff Centre Shop 16-21, Edgecliff Centre NSW 2027
+Aldi -- Waterloo|8 Danks Street, Waterloo NSW 2017
+Aldi -- North Sydney|Cnr Mount St and Walker St, North Sydney NSW 2060
+Aldi -- Bondi Junction|71 - 91 Spring Street, Eastgate Shopping Centre, Bondi Junction NSW 2022
+Aldi -- Birkenhead Point|19a Roseby Street, Drummoyne NSW 2047
+Aldi -- Leichhardt|Cnr Marion & Flood Streets, Leichhardt Market Place, Leichhart NSW 2040
+Aldi -- Marrickville|Cnr Victoria Road, Marrickville Metro Shopping Centre, Marrickville NSW 2204
+Aldi -- Maroubra|737 Anzac Pde, Shop M2 Pacific Square Centre, Maroubra NSW 2035
+Aldi -- Ashfield|260a Liverpool Road, Ashfield NSW 2131
+Aldi -- Chatswood|1 Anderson St, Westfield Shoppingtown Shop 201, Chatswood NSW 2067
+Aldi -- Canterbury|73 Jeffrey Street, Canterbury NSW 2193
+Aldi -- Gladesville|413 - 417 Victoria Rd, Gladesville NSW 2111
+Aldi -- Gladesville|413 - 417 Victoria Rd, Gladesville NSW 2111
+Aldi -- Manly Wharf|East Esplanade, Shop 24A, Manly Wharf NSW 2095
+Aldi -- Rockdale|Rockdale Plaza Drive, Shop 40a Rockdale Plaza, Rockdale NSW 2216
+Aldi -- North Strathfield|20 George Street, Bakehouse Quarter, North Strathfield NSW 2137
+Aldi -- Top Ryde|Cnr Devlin Street and Blaxland Road, Top Ryde City Shopping Centre, Ryde NSW 2113
+Aldi -- Kogarah|1 Railway Parade, Kogarah NSW 2217
+Aldi -- Meadowbank|11A Bay Drive, Shop 6.6 Village Plaza Sheppard?s Bay, Meadowbank NSW 2114
+Aldi -- Lakemba|212-226 Haldon Street, Lakemba NSW 2195
+Aldi -- Brookvale|3-5 Cross Street, Brookvale NSW 2100
+Aldi -- Macquarie Park|Shop 3380 197 - 233 Herring Road, Macquarie Centre, North Ryde NSW 2113
+Aldi -- Frenchs Forest|Forestway Shopping Centre, Corner Forest Way and Warringah Road, Frenchs Forest NSW 2086
+Aldi -- Hurstville|Cnr Cross Street & Park Road, Westfield Shopping Centre Shop 1A, Hurstville NSW 2200
+Aldi -- Chullora|355-357 Waterloo Road, Chullora Marketplace, Chullora NSW 2190
+Aldi -- Macquarie|Bowman Street, Jamison Centre Shop D01, Macquarie NSW 2113
+Aldi -- Eastwood|62-80 Rowe Street, Eastwood NSW 2122
+Aldi -- Dee Why|Cnr Pittwater Rd and Sturgee Pde, Dee Why Grand Shopping Centre, Dee Why NSW 2099
+Aldi -- Belrose|56-58 Glen Street, Glenrose Village Shopping Centre, Belrose NSW 2085
+Aldi -- Auburn|6-10 Harrow Road, Auburn NSW 2144
+Aldi -- Rydalmere|359-363 Victoria Road, Rydalmere NSW 2116
+Aldi -- Bankstown Central|440-450 Chapel Road, Bankstown Central NSW 2200
+Aldi -- Rosehill|1C Grand Ave, Rosehill NSW 2142
+Aldi -- Bankstown Airport|Cnr Henry Lawson Drive & Milperra Road, Bankstown Airport NSW 2200
+Aldi -- Guildford|278-284 Woodville Road, Guildford NSW 2912
+Aldi -- Bass Hill|753 Hume Highway, Bass Hill Plaza, Bass Hill NSW 2197
+Aldi -- Parramatta|37 - 39 George St, Parramatta NSW 2150
+Aldi -- Miranda|600 The Kingsway, Shop 1058A/1059 Level 1, Westfield Shopping Centre, Miranda NSW 2228
+Aldi -- Merrylands|191-201 Pitt Street, Stockland Merrylands, Merrylands NSW 2160
+Aldi -- North Rocks|328-336 North Rocks Road, Westfield North Rocks, North Rocks NSW 2151
+Aldi -- Villawood|2 Villawood Road, Villawood NSW 2163
+Aldi -- Hornsby|236 Pacific Highway, Westfield Shopping Centre Shop M1 Level 2, Hornsby NSW 2077
+Aldi -- Wentworthville|331-339 Gret Western Highway, Wentworthville NSW 2145
+Aldi -- Fairfield Central|366 The Horsley Drive, Fairfield Central NSW 2165
+Aldi -- Mona Vale|13 Waratah Street, Mona Vale NSW 2103
+Aldi -- Baulkham Hills|Cnr Olive Street & Old Northern Road, Shop B46 Stockland Mall, Baulkham Hills NSW 2153
+Aldi -- Menai|509 Old Illawarra Road, Menai NSW 2234
+Aldi -- Castle Hill|Corner Showground Road & Old Northern Road, Shop 200A Castle Towers Shopping Centre, Castle Hill NSW 2154
+Aldi -- Winston Hills|180-190 Caroline Chrisholm Drive, Winston Hills NSW 2153
+Aldi -- Mt Kuring-gai|757 Pacific Hwy, Mt Kuring-gai NSW 2080
+Aldi -- Dural|508 Old Northern Rd, Dural Mall Shopping Centre Shop 22, Dural NSW 2158
+Aldi -- Fairfield West|368 Hamilton Road, Fairfield West NSW 2165
+Aldi -- Liverpool Plaza|161 - 191 Macquarie Street, Liverpool NSW 2170
+Aldi -- Seven Hills|Cnr Federal Rd & Prospect Hwy, Centro Seven Hills, Seven Hills NSW 2147
+Aldi -- Engadine|101 Caldarra Avenue, Engadine NSW 2253
+Aldi -- Kellyville|92 Wrights Road, Kellyville NSW 2155
+Aldi -- Liverpool|72-82 Hoxton Park Road, Liverpool NSW 2170
+Aldi -- Bonnyrigg|718 Cabramatta Road, Bonnyrigg Shopping Centre, Bonnyrigg NSW 2177
+Aldi -- Casula Mall|Cnr of Ingham Drive and Kurrajong Road, Casula NSW 2170
+Aldi -- Blacktown|17 Patrick Street, Shop M103, Westpoint Shopping Centre, Blacktown NSW 2148|

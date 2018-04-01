@@ -1,0 +1,358 @@
+[
+  {
+    "name": "Aldi -- Manly Wharf",
+    "address": "East Esplanade, Shop 24A, Manly Wharf NSW 2095",
+    "lat": -33.7997794,
+    "lng": 151.2845319
+  },
+  {
+    "name": "Aldi -- North Strathfield",
+    "address": "20 George Street, Bakehouse Quarter, North Strathfield NSW 2137",
+    "lat": -33.8629388,
+    "lng": 151.0881274
+  },
+  {
+    "name": "Aldi -- Gladesville",
+    "address": "413 - 417 Victoria Rd, Gladesville NSW 2111",
+    "lat": -33.82371,
+    "lng": 151.1240929
+  },
+  {
+    "name": "Aldi -- Gladesville",
+    "address": "413 - 417 Victoria Rd, Gladesville NSW 2111",
+    "lat": -33.82371,
+    "lng": 151.1240929
+  },
+  {
+    "name": "Aldi -- Waterloo",
+    "address": "8 Danks Street, Waterloo NSW 2017",
+    "lat": -33.897419,
+    "lng": 151.2101779
+  },
+  {
+    "name": "Aldi -- Marrickville",
+    "address": "Cnr Victoria Road, Marrickville Metro Shopping Centre, Marrickville NSW 2204",
+    "lat": -33.9067636,
+    "lng": 151.1718231
+  },
+  {
+    "name": "Aldi -- Edgecliff",
+    "address": "203-233 New South Head Rd, Edgecliff Centre Shop 16-21, Edgecliff Centre NSW 2027",
+    "lat": -33.8791419,
+    "lng": 151.235563
+  },
+  {
+    "name": "Aldi -- Canterbury",
+    "address": "73 Jeffrey Street, Canterbury NSW 2193",
+    "lat": -33.9105142,
+    "lng": 151.1200219
+  },
+  {
+    "name": "Aldi -- North Sydney",
+    "address": "Cnr Mount St and Walker St, North Sydney NSW 2060",
+    "lat": -33.8391059,
+    "lng": 151.2088247
+  },
+  {
+    "name": "Aldi -- Parramatta",
+    "address": "37 - 39 George St, Parramatta NSW 2150",
+    "lat": -33.8138701,
+    "lng": 151.0038144
+  },
+  {
+    "name": "Aldi -- Bondi Junction",
+    "address": "71 - 91 Spring Street, Eastgate Shopping Centre, Bondi Junction NSW 2022",
+    "lat": -33.8928745,
+    "lng": 151.2478647
+  },
+  {
+    "name": "Aldi -- Leichhardt",
+    "address": "Cnr Marion & Flood Streets, Leichhardt Market Place, Leichhart NSW 2040",
+    "lat": -33.8850694,
+    "lng": 151.1490066
+  },
+  {
+    "name": "Aldi -- Maroubra",
+    "address": "737 Anzac Pde, Shop M2 Pacific Square Centre, Maroubra NSW 2035",
+    "lat": -33.9407088,
+    "lng": 151.2384636
+  },
+  {
+    "name": "Aldi -- Bankstown Central",
+    "address": "440-450 Chapel Road, Bankstown Central NSW 2200",
+    "lat": -33.9137196,
+    "lng": 151.0339449
+  },
+  {
+    "name": "Aldi -- Brookvale",
+    "address": "3-5 Cross Street, Brookvale NSW 2100",
+    "lat": -33.7663352,
+    "lng": 151.2673539
+  },
+  {
+    "name": "Aldi -- Auburn",
+    "address": "6-10 Harrow Road, Auburn NSW 2144",
+    "lat": -33.8523244,
+    "lng": 151.0317324
+  },
+  {
+    "name": "Aldi -- Guildford",
+    "address": "278-284 Woodville Road, Guildford NSW 2912",
+    "lat": -33.8495037,
+    "lng": 150.9965286
+  },
+  {
+    "name": "Aldi -- Chatswood",
+    "address": "1 Anderson St, Westfield Shoppingtown Shop 201, Chatswood NSW 2067",
+    "lat": -33.7968921,
+    "lng": 151.1841106
+  },
+  {
+    "name": "Aldi -- Wentworthville",
+    "address": "331-339 Gret Western Highway, Wentworthville NSW 2145",
+    "lat": -33.8160344,
+    "lng": 150.9697523
+  },
+  {
+    "name": "Aldi -- Kogarah",
+    "address": "1 Railway Parade, Kogarah NSW 2217",
+    "lat": -33.9624658,
+    "lng": 151.1326345
+  },
+  {
+    "name": "Aldi -- Menai",
+    "address": "509 Old Illawarra Road, Menai NSW 2234",
+    "lat": -34.0180499,
+    "lng": 151.010796
+  },
+  {
+    "name": "Aldi -- Macquarie",
+    "address": "Bowman Street, Jamison Centre Shop D01, Macquarie NSW 2113",
+    "lat": -35.2522972,
+    "lng": 149.0726824
+  },
+  {
+    "name": "Aldi -- Baulkham Hills",
+    "address": "Cnr Olive Street & Old Northern Road, Shop B46 Stockland Mall, Baulkham Hills NSW 2153"
+  },
+  {
+    "name": "Aldi -- Hurstville",
+    "address": "Cnr Cross Street & Park Road, Westfield Shopping Centre Shop 1A, Hurstville NSW 2200",
+    "lat": -33.9661694,
+    "lng": 151.1051962
+  },
+  {
+    "name": "Aldi -- Rydalmere",
+    "address": "359-363 Victoria Road, Rydalmere NSW 2116",
+    "lat": -33.8126758,
+    "lng": 151.0420979
+  },
+  {
+    "name": "Aldi -- Dee Why",
+    "address": "Cnr Pittwater Rd and Sturgee Pde, Dee Why Grand Shopping Centre, Dee Why NSW 2099"
+  },
+  {
+    "name": "Aldi -- Fairfield West",
+    "address": "368 Hamilton Road, Fairfield West NSW 2165",
+    "lat": -33.8678159,
+    "lng": 150.9232977
+  },
+  {
+    "name": "Aldi -- Seven Hills",
+    "address": "Cnr Federal Rd & Prospect Hwy, Centro Seven Hills, Seven Hills NSW 2147",
+    "lat": -33.7747911,
+    "lng": 150.9332566
+  },
+  {
+    "name": "Aldi -- Bass Hill",
+    "address": "753 Hume Highway, Bass Hill Plaza, Bass Hill NSW 2197",
+    "lat": -33.899699,
+    "lng": 150.99337
+  },
+  {
+    "name": "Aldi -- Frenchs Forest",
+    "address": "Forestway Shopping Centre, Corner Forest Way and Warringah Road, Frenchs Forest NSW 2086",
+    "lat": -33.7503542,
+    "lng": 151.2244829
+  },
+  {
+    "name": "Aldi -- Winston Hills",
+    "address": "180-190 Caroline Chrisholm Drive, Winston Hills NSW 2153",
+    "lat": -33.7726895,
+    "lng": 150.9697144
+  },
+  {
+    "name": "Aldi -- Mt Kuring-gai",
+    "address": "757 Pacific Hwy, Mt Kuring-gai NSW 2080",
+    "lat": -33.6561163,
+    "lng": 151.1340259
+  },
+  {
+    "name": "Aldi -- Lakemba",
+    "address": "212-226 Haldon Street, Lakemba NSW 2195",
+    "lat": -33.9244854,
+    "lng": 151.0794292
+  },
+  {
+    "name": "Aldi -- Bankstown Airport",
+    "address": "Cnr Henry Lawson Drive & Milperra Road, Bankstown Airport NSW 2200",
+    "lat": -33.9286267,
+    "lng": 150.9815278
+  },
+  {
+    "name": "Aldi -- Eastwood",
+    "address": "62-80 Rowe Street, Eastwood NSW 2122",
+    "lat": -33.7911778,
+    "lng": 151.0845743
+  },
+  {
+    "name": "Aldi -- Engadine",
+    "address": "101 Caldarra Avenue, Engadine NSW 2253",
+    "lat": -34.0655652,
+    "lng": 151.0140834
+  },
+  {
+    "name": "Aldi -- Birkenhead Point",
+    "address": "19a Roseby Street, Drummoyne NSW 2047",
+    "lat": -33.8558295,
+    "lng": 151.1622209
+  },
+  {
+    "name": "Aldi -- Merrylands",
+    "address": "191-201 Pitt Street, Stockland Merrylands, Merrylands NSW 2160",
+    "lat": -33.834497,
+    "lng": 150.989415
+  },
+  {
+    "name": "Aldi -- Mona Vale",
+    "address": "13 Waratah Street, Mona Vale NSW 2103",
+    "lat": -33.677616,
+    "lng": 151.3022339
+  },
+  {
+    "name": "Aldi -- Rockdale",
+    "address": "Rockdale Plaza Drive, Shop 40a Rockdale Plaza, Rockdale NSW 2216",
+    "lat": -33.9577496,
+    "lng": 151.1399434
+  },
+  {
+    "name": "Aldi -- Top Ryde",
+    "address": "Cnr Devlin Street and Blaxland Road, Top Ryde City Shopping Centre, Ryde NSW 2113",
+    "lat": -33.812182,
+    "lng": 151.1060215
+  },
+  {
+    "name": "Aldi -- Rosehill",
+    "address": "1C Grand Ave, Rosehill NSW 2142",
+    "lat": -33.8191573,
+    "lng": 151.0241031
+  },
+  {
+    "name": "Aldi -- Villawood",
+    "address": "2 Villawood Road, Villawood NSW 2163",
+    "lat": -33.88241560000001,
+    "lng": 150.9766682
+  },
+  {
+    "name": "Aldi -- Fairfield Central",
+    "address": "366 The Horsley Drive, Fairfield Central NSW 2165",
+    "lat": -33.8683226,
+    "lng": 150.9579623
+  },
+  {
+    "name": "Aldi -- North Rocks",
+    "address": "328-336 North Rocks Road, Westfield North Rocks, North Rocks NSW 2151",
+    "lat": -33.7689743,
+    "lng": 151.028495
+  },
+  {
+    "name": "Aldi -- Hornsby",
+    "address": "236 Pacific Highway, Westfield Shopping Centre Shop M1 Level 2, Hornsby NSW 2077",
+    "lat": -33.7049459,
+    "lng": 151.100281
+  },
+  {
+    "name": "Aldi -- Liverpool Plaza",
+    "address": "161 - 191 Macquarie Street, Liverpool NSW 2170",
+    "lat": -33.9216044,
+    "lng": 150.9233006
+  },
+  {
+    "name": "Aldi -- Castle Hill",
+    "address": "Corner Showground Road & Old Northern Road, Shop 200A Castle Towers Shopping Centre, Castle Hill NSW 2154",
+    "lat": -33.7304839,
+    "lng": 151.0053721
+  },
+  {
+    "name": "Aldi -- Meadowbank",
+    "address": "11A Bay Drive, Shop 6.6 Village Plaza Sheppard?s Bay, Meadowbank NSW 2114",
+    "lat": -33.8183117,
+    "lng": 151.0901499
+  },
+  {
+    "name": "Aldi -- Chullora",
+    "address": "355-357 Waterloo Road, Chullora Marketplace, Chullora NSW 2190",
+    "lat": -33.8930485,
+    "lng": 151.0614528
+  },
+  {
+    "name": "Aldi -- Ashfield",
+    "address": "260a Liverpool Road, Ashfield NSW 2131",
+    "lat": -33.88906550000001,
+    "lng": 151.1233143
+  },
+  {
+    "name": "Aldi -- Dural",
+    "address": "508 Old Northern Rd, Dural Mall Shopping Centre Shop 22, Dural NSW 2158",
+    "lat": -33.6919212,
+    "lng": 151.0196307
+  },
+  {
+    "name": "Aldi -- Macquarie Park",
+    "address": "Shop 3380 197 - 233 Herring Road, Macquarie Centre, North Ryde NSW 2113",
+    "lat": -33.7767518,
+    "lng": 151.1205153
+  },
+  {
+    "name": "Aldi -- Kellyville",
+    "address": "92 Wrights Road, Kellyville NSW 2155",
+    "lat": -33.7139081,
+    "lng": 150.9730103
+  },
+  {
+    "name": "Aldi -- Belrose",
+    "address": "56-58 Glen Street, Glenrose Village Shopping Centre, Belrose NSW 2085",
+    "lat": -33.7392398,
+    "lng": 151.2100375
+  },
+  {
+    "name": "Aldi -- Liverpool",
+    "address": "72-82 Hoxton Park Road, Liverpool NSW 2170",
+    "lat": -33.9279806,
+    "lng": 150.9077381
+  },
+  {
+    "name": "Aldi -- Miranda",
+    "address": "600 The Kingsway, Shop 1058A/1059 Level 1, Westfield Shopping Centre, Miranda NSW 2228",
+    "lat": -34.0350519,
+    "lng": 151.1003508
+  },
+  {
+    "name": "Aldi -- Casula Mall",
+    "address": "Cnr of Ingham Drive and Kurrajong Road, Casula NSW 2170",
+    "lat": -33.9484388,
+    "lng": 150.9001266
+  },
+  {
+    "name": "Aldi -- Bonnyrigg",
+    "address": "718 Cabramatta Road, Bonnyrigg Shopping Centre, Bonnyrigg NSW 2177",
+    "lat": -33.8862695,
+    "lng": 150.8888729
+  },
+  {
+    "name": "Aldi -- Blacktown",
+    "address": "17 Patrick Street, Shop M103, Westpoint Shopping Centre, Blacktown NSW 2148",
+    "lat": -33.7703519,
+    "lng": 150.9059427
+  }
+]

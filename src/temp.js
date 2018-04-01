@@ -12,18 +12,14 @@ let options = {
 
 let geocoder = NodeGeocoder(options);
 
-let colesData = fs.readFileSync("./scrapes/coles.htm", 'utf8')
-let $ = cheerio.load(colesData);
 
-let places = $(".storeAddress")
-
-let stores = JSON.parse(fs.readFileSync("./inputs/coles.json"));
+let stores = JSON.parse(fs.readFileSync("./inputs/aldi.json"));
 let coded = [];
 
 const checkSave = function() {
   console.log("check save " + coded.length)
   if (coded.length == stores.length) {
-    fs.writeFile("./inputs/coles.json", JSON.stringify(coded,null,2),function(err){
+    fs.writeFile("./inputs/aldi.json", JSON.stringify(coded,null,2),function(err){
     })
   }
 }

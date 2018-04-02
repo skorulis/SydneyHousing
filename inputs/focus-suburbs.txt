@@ -24,7 +24,6 @@ Homebush
 Belmore
 Bankstown
 Turrella
-Hornsby
 Eastwood
 Epping
 Kingsgrove
@@ -55,4 +54,3 @@ Marsfield
 Concord
 Lane Cove North
 Pymble
-Hunters Hill

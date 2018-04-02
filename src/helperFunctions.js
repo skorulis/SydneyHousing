@@ -1,6 +1,7 @@
 let gpsUtil = require("gps-util")
 let fs = require('fs');
 let stations = JSON.parse(fs.readFileSync("./inputs/stations.json", 'utf8'));
+let supermarkets = JSON.parse(fs.readFileSync("./inputs/supermarkets.json", 'utf8'));
 let keys = JSON.parse(fs.readFileSync("./keys/keys.json", 'utf8'));
 
 const getDirectionsFilename = function(from,to,mode) {
@@ -28,6 +29,19 @@ const findClosestStation = function(lat,lon) {
   return best
 }
 
+const findClosestSupermarket = function(lat,lon) {
+  let best;
+  let bestDistance = 100000
+  for (let s of supermarkets) {
+    let distance = gpsUtil.getDistance(lon,lat,s.lng,s.lat)
+    if (distance < bestDistance) {
+      best = s;
+      bestDistance = distance;
+    }
+  }
+  return best
+}
+
 const getKey = function(name) {
   return keys[name]
 }
@@ -37,5 +51,6 @@ module.exports = {
   getSuburbFilename,
   getSuburbJSONFilename,
   findClosestStation,
+  findClosestSupermarket,
   getKey
 };

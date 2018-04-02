@@ -7347,5 +7347,1195 @@
     "lat": -34.5468313,
     "lng": 150.8629907,
     "type": "woolworths"
+  },
+  {
+    "name": "IGA Mosman",
+    "address": "902 Military Road, Mosman NSW 2088",
+    "lat": -33.8305498,
+    "lng": 151.2445576,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Castlecrag",
+    "address": "Cnr Eastern Valley Way & Edinburgh Rd, Castlecrag NSW 2068",
+    "lat": -33.8023845,
+    "lng": 151.2115277,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Cremorne",
+    "address": "287-305 Military Road, Cremorne NSW 2090",
+    "lat": -33.8286212,
+    "lng": 151.2299259,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Darlinghurst",
+    "address": "23 Oxford Street, Darlinghurst NSW 2010",
+    "lat": -33.8819741,
+    "lng": 151.2198158,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Mascot",
+    "address": "1169 Botany Road, Mascot NSW 2020",
+    "lat": -33.9306276,
+    "lng": 151.1947406,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Pyrmont",
+    "address": "1-29 Bunn Street, Shop 121, Pyrmont NSW 2009",
+    "lat": -33.8716325,
+    "lng": 151.1971727,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Telopea",
+    "address": "Corner Beanuad Place & Evans Rd, Telopea NSW 2117",
+    "lat": -33.7955264,
+    "lng": 151.0450073,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Walsh Bay",
+    "address": "16A Hickson Road, Dawes Point NSW 2000",
+    "lat": -33.8560868,
+    "lng": 151.2067092,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Paddington",
+    "address": "364-366 Oxford Street, Paddington NSW 2021",
+    "lat": -33.8864799,
+    "lng": 151.2299239,
+    "type": "iga"
+  },
+  {
+    "name": "Balgowlah Heights IGA Plus Liquor",
+    "address": "113 Beatrice Street, Balgowlah Heights NSW 2093",
+    "lat": -33.8008897,
+    "lng": 151.2570143,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Bondi",
+    "address": "48 Hall Street, Bondi NSW 2026",
+    "lat": -33.8900961,
+    "lng": 151.271704,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Dulwich Hill",
+    "address": "398-400 New Canterbury Rd, Dulwich Hill NSW 2203",
+    "lat": -33.9032167,
+    "lng": 151.1432567,
+    "type": "iga"
+  },
+  {
+    "name": "Carlo's IGA Plus Liquor Birrong",
+    "address": "85 Auburn Road, Birrong NSW 2143",
+    "lat": -33.8906864,
+    "lng": 151.0227112,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Oatley",
+    "address": "14 Oatley Avenue, Oatley NSW 2223",
+    "lat": -33.9805373,
+    "lng": 151.0805489,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Croydon Park",
+    "address": "242 Georges River Road, Croydon Park NSW 2133",
+    "lat": -33.8964591,
+    "lng": 151.1049368,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Glebe",
+    "address": "215 Glebe Point Road, Glebe NSW 2037",
+    "lat": -33.8799833,
+    "lng": 151.1874447,
+    "type": "iga"
+  },
+  {
+    "name": "Romeos IGA Martin Place Food Hall",
+    "address": "Level 4?MLC centre, Martin Place, Sydney NSW 2000",
+    "lat": -33.868385,
+    "lng": 151.209283,
+    "type": "iga"
+  },
+  {
+    "name": "Enfield IGA Plus Liquor",
+    "address": "190-194 Liverpool Rd, Enfield NSW 2136",
+    "lat": -33.8871993,
+    "lng": 151.0974206,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Pyrmont",
+    "address": "63 Miller Street, Pyrmont NSW 2009",
+    "lat": -33.8705305,
+    "lng": 151.1930142,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Bondi Beach",
+    "address": "142 Curlewis Street, Bondi NSW 2026",
+    "lat": -33.88904309999999,
+    "lng": 151.2748015,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Plus Liquor Breakfast Point",
+    "address": "19-21 Tennyson Rd, Breakfast Point NSW 2137",
+    "lat": -33.8421266,
+    "lng": 151.108188,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Putney",
+    "address": "221 Morrison Rd, Putney NSW 2112",
+    "lat": -33.8231255,
+    "lng": 151.1083268,
+    "type": "iga"
+  },
+  {
+    "name": "IGA North Strathfield",
+    "address": "3-5 George Street, North Strathfield NSW 2137",
+    "lat": -33.8631651,
+    "lng": 151.0888067,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Yagoona",
+    "address": "516-526 Hume Highway, Yagoona NSW 2199",
+    "lat": -33.9069407,
+    "lng": 151.0237093,
+    "type": "iga"
+  },
+  {
+    "name": "Lane Cove IGA X-press",
+    "address": "165 Burns Bay Rd, Lane Cove NSW 2066",
+    "lat": -33.814222,
+    "lng": 151.1578598,
+    "type": "iga"
+  },
+  {
+    "name": "Lamonica's IGA Haberfield",
+    "address": "155 Ramsay Rd, Haberfield NSW 2045",
+    "lat": -33.8799401,
+    "lng": 151.1387602,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Bexley",
+    "address": "424 - 426 Forest Road, Bexley NSW 2207",
+    "lat": -33.9497794,
+    "lng": 151.1269806,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Arncliffe",
+    "address": "32 Firth Street, Shop 2, Arncliffe NSW 2205",
+    "lat": -33.937583,
+    "lng": 151.1462138,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Summer Hill",
+    "address": "1-11 Hardie Street, Shop 5, Summer Hill NSW 2130",
+    "lat": -33.8910021,
+    "lng": 151.1368898,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Thaikee",
+    "address": "2 Quay Street, Shop 101, Haymarket NSW 2000",
+    "lat": -33.8801676,
+    "lng": 151.2032232,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Turramurra",
+    "address": "99A Eastern Road, Turramurra NSW 2074",
+    "lat": -33.7208276,
+    "lng": 151.1312058,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Drummoyne",
+    "address": "Unit 1 Sutton Place Shopping Centre, Victoria & Lyons Road, Drummoyne NSW 2047",
+    "lat": -33.8508905,
+    "lng": 151.153835,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Rozelle",
+    "address": "649 Darling Street, Rozelle NSW 2039",
+    "lat": -33.8621276,
+    "lng": 151.170794,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Enmore",
+    "address": "191-193 Enmore Rd, Enmore NSW 2042",
+    "lat": -33.8989344,
+    "lng": 151.1716256,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Annandale",
+    "address": "47 Booth Street, Annandale NSW 2038",
+    "lat": -33.8821069,
+    "lng": 151.1731713,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Kissing Point Rd South Turramurra",
+    "address": "217B Kissing Point Rd, South Turramurra NSW 2074",
+    "lat": -33.7490252,
+    "lng": 151.1119604,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Guildford",
+    "address": "291 Guildford Rd, Guildford NSW 2161",
+    "lat": -33.8538719,
+    "lng": 150.9870041,
+    "type": "iga"
+  },
+  {
+    "name": "East Lindfield IGA Plus Liquor",
+    "address": "1 Hughes Place, East Lindfield NSW 2070",
+    "lat": -33.7677588,
+    "lng": 151.1871306,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Rosebery",
+    "address": "741 Botany Rd, Rosebery NSW 2018",
+    "lat": -33.9143238,
+    "lng": 151.2016157,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Spit Junction (Ritchies)",
+    "address": "1-3 Brady Street, Shop 1 Bridgepoint Shopping Centre, Spit Junction NSW 2088",
+    "lat": -33.8237329,
+    "lng": 151.2405503,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Newtown",
+    "address": "259 King St, Newtown NSW 2042",
+    "lat": -33.8957222,
+    "lng": 151.1804906,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Yarrawarrah",
+    "address": "Lot 1, 1-3 Laurina Ave, Yarrawarrah NSW 2233",
+    "lat": -34.0579755,
+    "lng": 151.027532,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Appin",
+    "address": "80-82 Appin Rd, Appin NSW 2560",
+    "lat": -34.2003825,
+    "lng": 150.7887841,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Erina Heights",
+    "address": "375 The Entrance Road, Erina Heights NSW 2260",
+    "lat": -33.4248943,
+    "lng": 151.4009626,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Collaroy Plateau",
+    "address": "65 Veterans Parade, Collaroy Plateau NSW 2097",
+    "lat": -33.7274672,
+    "lng": 151.2869872,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Menai (Arora)",
+    "address": "5-21 Carter Street, Menai NSW 2234",
+    "lat": -34.0169357,
+    "lng": 151.0114055,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Lugarno",
+    "address": "1014A Forest Road, Lugarno NSW 2210",
+    "lat": -33.9752147,
+    "lng": 151.0474766,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Woronora Heights",
+    "address": "67 Warrangaree Drive, Woronora Heights NSW 2233",
+    "lat": -34.033236,
+    "lng": 151.026205,
+    "type": "iga"
+  },
+  {
+    "name": "IGA West Hoxton",
+    "address": "6 Edmondson Ave, West Hoxton NSW 2171",
+    "lat": -33.9210707,
+    "lng": 150.8144555,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Jannali",
+    "address": "541 Box Road, Jannali NSW 2226",
+    "lat": -34.0160356,
+    "lng": 151.0660135,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Hammondville",
+    "address": "48 Walder Road, Hammondville NSW 2170",
+    "lat": -33.9484269,
+    "lng": 150.9544082,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Circular Quay",
+    "address": "50 Bridge Street, Shop 19, Circular Quay NSW 2000",
+    "lat": -33.8628664,
+    "lng": 151.2115886,
+    "type": "iga"
+  },
+  {
+    "name": "Ritchies SUPA IGA Plus Liquor Erina",
+    "address": "216-218 The Entrance Road, Shop 3, Erina NSW 2250",
+    "lat": -33.4352331,
+    "lng": 151.3881979,
+    "type": "iga"
+  },
+  {
+    "name": "IGA North Ryde (Ritchies)",
+    "address": "203-211 Cox Road, Shop 16 Cox Road Shopping Centre, North Ryde NSW 2113",
+    "lat": -33.794378,
+    "lng": 151.1222021,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Knightsbridge",
+    "address": "Cnr Gilbert Rd & Ridgecrop Dr, Shop 10, Castle Hill NSW 2154",
+    "lat": -33.7133817,
+    "lng": 150.9941246,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Silverdale",
+    "address": "2320 Silverdale Road, Shop 3, Silverdale NSW 2752",
+    "lat": -33.890625,
+    "lng": 150.6187461,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press East Waterloo",
+    "address": "1/95 Wellington Street, Waterloo East NSW 2017",
+    "lat": -33.8980523,
+    "lng": 151.202689,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Dural",
+    "address": "644 Old Northern Road, Dural NSW 2158",
+    "lat": -33.6817937,
+    "lng": 151.0279426,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Old Toongabbie",
+    "address": "56 Fitzwilliam Road, Old Toongabbie NSW 2146",
+    "lat": -33.7863259,
+    "lng": 150.9670773,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Turramurra Plaza",
+    "address": "1380 Pacific Highway, Turramurra NSW 2074",
+    "lat": -33.7338199,
+    "lng": 151.1268986,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Engadine",
+    "address": "101 Carldarra Ave, Engadine NSW 2233",
+    "lat": -34.0655652,
+    "lng": 151.0140834,
+    "type": "iga"
+  },
+  {
+    "name": "IGA St Ives North",
+    "address": "351 Mona Vale Road, Shop 9, St Ives NSW 2075",
+    "lat": -33.71737330000001,
+    "lng": 151.1735937,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA North Cronulla",
+    "address": "1-7 Cronulla St, Shop 12, Cronulla NSW 2230",
+    "lat": -34.0518056,
+    "lng": 151.1525903,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press North Epping",
+    "address": "275 Malton Ave, Shop 10, North Epping NSW 2121",
+    "lat": -33.7582382,
+    "lng": 151.0937888,
+    "type": "iga"
+  },
+  {
+    "name": "Mint Fresh IGA",
+    "address": "30-32 Arthur Street, Shop 1, Baulkham Hills NSW 2153",
+    "lat": -33.7645642,
+    "lng": 150.9901237,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Waverton",
+    "address": "102 Bay Road, Shop 26, Waverton NSW 2060",
+    "lat": -33.8380058,
+    "lng": 151.1972178,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Lakemba",
+    "address": "90 Haldon Street, Lakemba NSW 2195",
+    "lat": -33.9210086,
+    "lng": 151.0772586,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Meadowbank",
+    "address": "11A Bay Drive, Level 4, Shop 7, Meadowbank NSW 2114",
+    "lat": -33.8183117,
+    "lng": 151.0901499,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Greenacre",
+    "address": "142 Waterloo Road, Greenacre NSW 2190",
+    "lat": -33.9079695,
+    "lng": 151.0567561,
+    "type": "iga"
+  },
+  {
+    "name": "Khans SUPA IGA Plus Liquor Wakeley",
+    "address": "Cnr Bulls Rd and Lamond St, Wakeley NSW 2176",
+    "lat": -33.869633,
+    "lng": 150.9110462,
+    "type": "iga"
+  },
+  {
+    "name": "North Sydney IGA Plus Liquor",
+    "address": "Greenwood Plaza, Shop 24, North Sydney NSW 2060",
+    "lat": -33.8403618,
+    "lng": 151.2075002,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Rouse Hill",
+    "address": "22 Adelphi St, Shop 6, Rouse Hill NSW 2155",
+    "lat": -33.6821615,
+    "lng": 150.9164594,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Beverly Hills",
+    "address": "22-26 Tooronga Tce, Beverly Hills NSW 2209",
+    "lat": -33.948184,
+    "lng": 151.0811575,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press ST MARY'S",
+    "address": "Cnr of Mamre & Great Western Highway, St Marys NSW 2760",
+    "lat": -33.7700617,
+    "lng": 150.7734839,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Bella Vista",
+    "address": "5/105 Bella Vista Driva, Bella Vista NSW 2153",
+    "lat": -33.7432718,
+    "lng": 150.9592319,
+    "type": "iga"
+  },
+  {
+    "name": "IGA St Martin's Village Blacktown",
+    "address": "Cnr Blacktown Rd & St Martins Crescent, Shop 8 St Martin's Field Shopping Centre, Blacktown NSW 2148",
+    "lat": -33.7819222,
+    "lng": 150.918984,
+    "type": "iga"
+  },
+  {
+    "name": "Belrose IGA Plus Liquor",
+    "address": "25-27 Ralston Ave, Shop 1, Belrose NSW 2085",
+    "lat": -33.7285116,
+    "lng": 151.2168684,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Mortdale",
+    "address": "42-44 Morts Rd, Mortdale NSW 2223",
+    "lat": -33.9696974,
+    "lng": 151.0797277,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Toongabbie",
+    "address": "Claudia Street, Shop 9, Toongabbie NSW 2146",
+    "lat": -33.7952832,
+    "lng": 150.934205,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Penshurst",
+    "address": "11 Bridge Street, Penshurst NSW 2222",
+    "lat": -33.9655054,
+    "lng": 151.0898531,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Galston",
+    "address": "Shop 2/350 Galston Road, Galston NSW 2159",
+    "lat": -33.6527623,
+    "lng": 151.0459073,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Homebush",
+    "address": "21 Rochester Street, Homebush NSW 2140",
+    "lat": -33.8671983,
+    "lng": 151.0845071,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Canley Heights",
+    "address": "213 - 217 Canley Vale Road, Canley Heights NSW 2166",
+    "lat": -33.8837948,
+    "lng": 150.9271429,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Chipping Norton",
+    "address": "94 Childs and Epson Roads, Shop 3, Chipping Norton NSW 2170",
+    "lat": -33.9194926,
+    "lng": 150.9538287,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Ramsgate",
+    "address": "191-201 Ramsgate Road, Ramsgate NSW 2217",
+    "lat": -33.9859938,
+    "lng": 151.1448785,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Woy Woy",
+    "address": "Cnr Railway & George Street, Woy Woy NSW 2256",
+    "lat": -33.4864857,
+    "lng": 151.3231221,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Castle Hill",
+    "address": "2-16 Terminus Street, Shop 107-109 Castle Mall Shopping Centre, Castle Hill NSW 2154",
+    "lat": -33.733161,
+    "lng": 151.005997,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Allambie Heights",
+    "address": "15 Grigor Place, Allambie Heights NSW 2100",
+    "lat": -33.7659355,
+    "lng": 151.2504557,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Bankstown",
+    "address": "Cnr Jacob Street & The Mall, Bankstown NSW 2200",
+    "lat": -33.915989,
+    "lng": 151.036831,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Ettalong",
+    "address": "396 Ocean View Road, Ettalong NSW 2257",
+    "lat": -33.5141294,
+    "lng": 151.3361039,
+    "type": "iga"
+  },
+  {
+    "name": "Airds IGA Plus Liquor",
+    "address": "1/44 Riverside Drive, Airds NSW 2560",
+    "lat": -34.0842234,
+    "lng": 150.8285015,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA South Hurstville",
+    "address": "8 Greenacre Rd, Shop 3, Hurstville South NSW 2221",
+    "lat": -33.97796710000001,
+    "lng": 151.1035825,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Pitt Town",
+    "address": "Eldon Street, Shop 1, Pitt Town NSW 2756",
+    "lat": -33.5869433,
+    "lng": 150.8631567,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Campbelltown",
+    "address": "251 Queen Street, Campbelltown NSW 2560",
+    "lat": -34.0682525,
+    "lng": 150.8124686,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Oakhill",
+    "address": "83 David Road, Shop 1, Oakhill NSW 2154",
+    "lat": -33.721821,
+    "lng": 151.02553,
+    "type": "iga"
+  },
+  {
+    "name": "IGA West Pymble",
+    "address": "Kendall Street, Shop 8 Phillip Mall, West Pymble NSW 2073",
+    "lat": -33.7610832,
+    "lng": 151.1282782,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Kearns",
+    "address": "Kearns Road Shopping Centre, Shop 10, Kearns NSW 2558",
+    "lat": -34.0224586,
+    "lng": 150.8039084,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Freshwater",
+    "address": "1-3 Moore Road, Shop 1 Freshwater Village, Freshwater NSW 2096",
+    "lat": -33.7790721,
+    "lng": 151.2857216,
+    "type": "iga"
+  },
+  {
+    "name": "Claremont Meadows IGA Plus Liquor",
+    "address": "182-186 Sunflower Drive, Shop 5, Claremont Meadows NSW 2747",
+    "lat": -33.7744898,
+    "lng": 150.7492599,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Ruse",
+    "address": "Junction Road, Shop 11 Ruse Shopping Centre, Ruse NSW 2560",
+    "lat": -34.0725586,
+    "lng": 150.8425292,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Peakhurst",
+    "address": "701 Forest Rd, Peakhurst NSW 2210",
+    "lat": -33.9598334,
+    "lng": 151.0631354,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA St Ives",
+    "address": "166 Mona Vale Rd, Shop 140 St Ives Shopping Village, St Ives NSW 2075",
+    "lat": -33.7297495,
+    "lng": 151.1586872,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Lilyfield",
+    "address": "402 Catherine Street, Lilyfield NSW 2040",
+    "lat": -33.8747613,
+    "lng": 151.1646258,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Leichhardt",
+    "address": "136 Norton Street, Leichhardt NSW 2040",
+    "lat": -33.8825864,
+    "lng": 151.1566485,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Waterloo",
+    "address": "13-21 Botany Rd, Waterloo NSW 2017",
+    "lat": -33.8956836,
+    "lng": 151.1993662,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Cronulla",
+    "address": "126 Cronulla Street, Cronulla NSW 2230",
+    "lat": -34.055215,
+    "lng": 151.1521713,
+    "type": "iga"
+  },
+  {
+    "name": "Lloyds IGA Panania",
+    "address": "219-223 Tower St, Panania NSW 2213",
+    "lat": -33.9564571,
+    "lng": 150.9986458,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Alexandria",
+    "address": "Shop 1/68 McEvoy Street, Alexandria NSW 2015",
+    "lat": -33.9018608,
+    "lng": 151.2006069,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Warriewood",
+    "address": "270 Garden Street, Warriewood NSW 2102",
+    "lat": -33.6860279,
+    "lng": 151.2899542,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Elanora Heights",
+    "address": "61 Kalang Road, Elanora Heights NSW 2101",
+    "lat": -33.6958842,
+    "lng": 151.2802451,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Northmead",
+    "address": "2 Campbell St, Northmead NSW 2152",
+    "lat": -33.7895917,
+    "lng": 150.996748,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Georges Hall",
+    "address": "Birdwood Rd, Georges Hall NSW 2198",
+    "lat": -33.9129075,
+    "lng": 150.9897661,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Parramatta",
+    "address": "159-175 Church Street, Parramatta Westfield Shopping Centre, Basement Level Shops 1159-1161, Parramatta NSW 2150",
+    "lat": -33.817258,
+    "lng": 151.0013383,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Lilli Pilli",
+    "address": "526-532 Port Hacking Rd, Shop 7-9, Caringbah NSW 2229",
+    "lat": -34.05910739999999,
+    "lng": 151.1211232,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Austral",
+    "address": "255 Edmondson Drive, Austral NSW 2179",
+    "lat": -33.9326553,
+    "lng": 150.812586,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Currans Hill",
+    "address": "5 Lando Way Drive, Currans Hill NSW 2567",
+    "lat": -34.0464972,
+    "lng": 150.7687843,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Leumeah",
+    "address": "2 O'Sullivan Road, Leumeah NSW 2560",
+    "lat": -34.0512478,
+    "lng": 150.8309997,
+    "type": "iga"
+  },
+  {
+    "name": "IGA South Windsor",
+    "address": "509-511 George St, South Windsor NSW 2756",
+    "lat": -33.6177874,
+    "lng": 150.8069171,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-Press East Campbelltown",
+    "address": "101 Waminda Ave, Shop 10, Campbelltown NSW 2560",
+    "lat": -34.0716989,
+    "lng": 150.8295579,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Llandilo",
+    "address": "255 Seventh Avenue, Llandilo NSW 2747",
+    "lat": -33.7084354,
+    "lng": 150.7505233,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Werrington",
+    "address": "Dunheved Road, Shop 1 Werrington County Shopping Village, Werrington NSW 2747",
+    "lat": -33.7464196,
+    "lng": 150.7406367,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Raby",
+    "address": "28 Spitfire Drive, Raby NSW 2566",
+    "lat": -34.0256422,
+    "lng": 150.8198763,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Saratoga",
+    "address": "Village Road, Shop 7, Saratoga NSW 2251",
+    "lat": -33.4754294,
+    "lng": 151.3535105,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Erskine Park",
+    "address": "Cnr Swallow & Peppertree Rd, Shop 12 Erskine Park Shopping Centre, Erskine Park NSW 2759",
+    "lat": -33.80387109999999,
+    "lng": 150.804171,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Riverstone",
+    "address": "1/3 Market Street, Riverstone NSW 2765",
+    "lat": -33.6784621,
+    "lng": 150.8615634,
+    "type": "iga"
+  },
+  {
+    "name": "Tregear IGA Plus Liquor",
+    "address": "161 Aurora Drive, Shop 1, Tregear NSW 2770",
+    "lat": -33.7449358,
+    "lng": 150.7955955,
+    "type": "iga"
+  },
+  {
+    "name": "IGA St Andrews",
+    "address": "91 Ballantrae Drive, St Andrews Shopping Centre, St Andrews NSW 2566",
+    "lat": -34.0217388,
+    "lng": 150.8326349,
+    "type": "iga"
+  },
+  {
+    "name": "IGA East Gosford",
+    "address": "87-91 Victoria Street, East Gosford NSW 2250",
+    "lat": -33.4373919,
+    "lng": 151.3536679,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Kingswood",
+    "address": "Caloola Ave, Shop 7 Kingswood Park Shopping Centre, Kingswood NSW 2747",
+    "lat": -33.7431861,
+    "lng": 150.7127531,
+    "type": "iga"
+  },
+  {
+    "name": "Bligh Park IGA Plus Liquor",
+    "address": "Shop 5 Colonial Drive, Bligh Park NSW 2756",
+    "lat": -33.6346468,
+    "lng": 150.7894896,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Luddenham",
+    "address": "2130 The Northern Rd, Luddenham NSW 2745",
+    "lat": -33.883592,
+    "lng": 150.6935914,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Colyton",
+    "address": "60-62 Hewitt St, Shop 9, Colyton NSW 2760",
+    "lat": -33.786104,
+    "lng": 150.8002066,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Kingsford",
+    "address": "361 Anzac Parade, Kingsford NSW 2032",
+    "lat": -33.9240264,
+    "lng": 151.2274475,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Stanmore Plaza",
+    "address": "2 Holt Street, Stanmore NSW 2048",
+    "lat": -33.894945,
+    "lng": 151.1640341,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Rose Bay",
+    "address": "1 Dover Road, Rose Bay NSW 2029",
+    "lat": -33.8702251,
+    "lng": 151.269938,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Wahroonga",
+    "address": "19 Railway Avenue, Wahroonga NSW 2076",
+    "lat": -33.7179544,
+    "lng": 151.1164268,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Greenwich",
+    "address": "87-89 Greenwich Road, Greenwich NSW 2065",
+    "lat": -33.8312484,
+    "lng": 151.1862952,
+    "type": "iga"
+  },
+  {
+    "name": "IGA UNSW",
+    "address": "Gate 2, 17 High St, Tenancy 6, University Terraces, Kensington NSW 2033",
+    "lat": -33.9156231,
+    "lng": 151.2280755,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Condell Park",
+    "address": "63/77 Simmat Avenue, Condell Park NSW 2200",
+    "lat": -33.9232464,
+    "lng": 151.0115942,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press East Wahroonga",
+    "address": "46-48 Hampden Ave, Shop 7, Wahroonga NSW 2076",
+    "lat": -33.7109687,
+    "lng": 151.1372074,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Bobbin Head",
+    "address": "245 Bobbin Head Rd, North Turramurra NSW 2074",
+    "lat": -33.7138056,
+    "lng": 151.1472834,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Sefton",
+    "address": "40 Helen St, Sefton NSW 2162",
+    "lat": -33.886259,
+    "lng": 151.0115919,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Oatlands",
+    "address": "41A Belmore Street East, Oatlands NSW 2117",
+    "lat": -33.7972696,
+    "lng": 151.0253749,
+    "type": "iga"
+  },
+  {
+    "name": "Aschs IGA X-press Collaroy Beach",
+    "address": "1139-1140 Pittwater Road, Collaroy Beach NSW 2097",
+    "lat": -33.7311275,
+    "lng": 151.3004646,
+    "type": "iga"
+  },
+  {
+    "name": "IGA X-press Sylvania",
+    "address": "264 Box Rd, Shop 7, Sylvania NSW 2224",
+    "lat": -34.0210974,
+    "lng": 151.0982252,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Hunters Hill",
+    "address": "45 Gladesville Road, Hunters Hill NSW 2110",
+    "lat": -33.8339158,
+    "lng": 151.1429595,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Abbotsford",
+    "address": "302 Great North Rd, Wareemba NSW 2046",
+    "lat": -33.8560999,
+    "lng": 151.1305779,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Botany",
+    "address": "1128 Botany Road, Botany NSW 2019",
+    "lat": -33.9449594,
+    "lng": 151.1962887,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Pennant Hills",
+    "address": "Ramsay & Hillcrest Roads, Pennant Hills NSW 2120",
+    "lat": -33.73772,
+    "lng": 151.071448,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Wentworthville",
+    "address": "32 Dunmore Street, Wentworthville NSW 2145",
+    "lat": -33.8079448,
+    "lng": 150.9711415,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Bangor",
+    "address": "Yala Rd, Bangor NSW 2234",
+    "lat": -34.0137551,
+    "lng": 151.035539,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Sutherland",
+    "address": "561 President Ave, Sutherland NSW 2232",
+    "lat": -34.0335777,
+    "lng": 151.0579631,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Bundeena",
+    "address": "96-98 Loftus Street, Shop 1 & 2, Bundeena NSW 2230",
+    "lat": -34.0840098,
+    "lng": 151.1517518,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Lalor Park",
+    "address": "58 Freeman St, Lalor Park NSW 2147",
+    "lat": -33.7625437,
+    "lng": 150.9305623,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Abbotsbury",
+    "address": "60-68 Stockade Cres, Shop 1, Abbotsbury NSW 2716",
+    "lat": -33.8697811,
+    "lng": 150.8650701,
+    "type": "iga"
+  },
+  {
+    "name": "Carlo's SUPA IGA Plus Liquor Beaumont Hills",
+    "address": "Cnr The Parkway & Buller Circuit, Beaumont Hills NSW 2155",
+    "lat": -33.6985086,
+    "lng": 150.9413073,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Prestons",
+    "address": "57 Wroxham St, Shop A1, Prestons NSW 2170",
+    "lat": -33.949881,
+    "lng": 150.8640046,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Horsley Park",
+    "address": "8-12 Horsley Rd, Horsley Park NSW 2175",
+    "lat": -33.8420573,
+    "lng": 150.8466211,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Doonside North",
+    "address": "6 Hill End Road, Doonside NSW 2767",
+    "lat": -33.7630795,
+    "lng": 150.8691701,
+    "type": "iga"
+  },
+  {
+    "name": "Heathcote IGA",
+    "address": "1331-1335 Princess Highway, Heathcote NSW 2233",
+    "lat": -34.0866535,
+    "lng": 151.0084249,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Rooty Hill South",
+    "address": "1 Rooty Hill Rd South, Rooty Hill South NSW 2766",
+    "lat": -33.7720587,
+    "lng": 150.8444452,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Rooty Hill North",
+    "address": "26 Rooty Hill Road North, Rooty Hill North NSW 2766",
+    "lat": -33.7703312,
+    "lng": 150.8436275,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Quakers Hill",
+    "address": "216 Farnham Rd, Shop 6, Quakers Hill NSW 2763",
+    "lat": -33.7269577,
+    "lng": 150.9044196,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Minchinbury",
+    "address": "12 Minchin Dr Shopping Centre, Shop 9, Minchinbury NSW 2770",
+    "lat": -33.787531,
+    "lng": 150.8326537,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Thirroul",
+    "address": "275 Lawrence Hargrave Drive, Thirroul NSW 2515",
+    "lat": -34.3150753,
+    "lng": 150.9235074,
+    "type": "iga"
+  },
+  {
+    "name": "IGA Revesby",
+    "address": "2 Selems Pde, Revesby NSW 2212",
+    "lat": -33.9509805,
+    "lng": 151.0155436,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Taren Point",
+    "address": "123 Parraweena Road, Taren Point NSW 2229",
+    "lat": -34.0257245,
+    "lng": 151.1180195,
+    "type": "iga"
+  },
+  {
+    "name": "SUPA IGA Doonside",
+    "address": "52 Rosenthal Street, Doonside NSW 2767",
+    "lat": -33.7722626,
+    "lng": 150.8763832,
+    "type": "iga"
+  },
+  {
+    "name": "R & R SUPA IGA Merrylands West",
+    "address": "530 Merrylands Rd, Merrylands West NSW 2160",
+    "lat": -33.8325313,
+    "lng": 150.9684185,
+    "type": "iga"
+  },
+  {
+    "name": "IGA St Johns Park",
+    "address": "Shop 1 Greenfield Shopping Village, St Johns Park NSW 2176",
+    "lat": -33.8714644,
+    "lng": 150.8903343,
+    "type": "iga"
   }
 ]

@@ -25,6 +25,10 @@ class HouseListing {
     return "./results/properties/" + this.suburb() + "/" + this.id() + ".json";
   }
 
+  address() {
+    return this.json.address.streetAddress + "," + this.suburb()
+  }
+
   save() {
     let dir = "./results/properties/" + this.suburb();
     if (!fs.existsSync(dir)) {

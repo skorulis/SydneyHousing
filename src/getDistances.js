@@ -7,17 +7,7 @@ let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));
 
 
 const getDirections = async function(from,to,mode) {
-  let arrival = new Date('09:00 2018.03.29').getTime() / 1000;
-  let baseURL = "https://maps.googleapis.com/maps/api/directions/json";
-  let url = `${baseURL}?origin=${from},Sydney&destination=${to}&mode=${mode}&key=AIzaSyBSBzblLqx5_i0y-WjijmeDDW-NKuFnSDc&arrival_time=${arrival}`;
-
-  console.log(url);
-
-  let response = await fetch(url);
-  let json = await response.json()
-
-  delete json["routes"][0]["legs"][0]["steps"]
-  delete json["routes"][0]["overview_polyline"]
+  let json = helpers.getDirections(from,to,mode);
 
   let filename = helpers.getDirectionsFilename(from,to,mode);
 

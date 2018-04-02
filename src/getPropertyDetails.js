@@ -24,9 +24,24 @@ const calculateMetrics = async function(listing) {
   let lat = listing.latitude();
   let lng = listing.longitude();
   let shop = helpers.findClosestSupermarket(lat,lng)
-  shop["distance"] = gpsUtil.getDistance(lng,lat,shop.lng,shop.lat) 
+  let shopDistance = gpsUtil.getDistance(lng,lat,shop.lng,shop.lat) 
+  shop["distance"] = parseFloat((shopDistance/1000).toFixed(2));
+  
+  let station = helpers.findClosestStation(lat,lng)
+  let stationDistance = gpsUtil.getDistance(lng,lat,station.lngDec,station.latDec)
+  station["distance"] = parseFloat((stationDistance/1000).toFixed(2));
 
-  return {shop:shop}
+  let obj = {shop:shop,station:station,travel:[]}
+  for (let loc of params.locations) {
+    let directions = await helpers.getDirections(listing.address(),loc.name,loc.mode)
+    let locData = directions["routes"][0]["legs"][0]
+    let locResult = {name:loc.name,mode:loc.mode};
+    locResult["duration"] = Math.round(locData["duration"]["value"] / 60);
+    locResult["distance"] = locData["distance"]["value"] / 1000;
+    obj.travel.push(locResult);
+  }
+
+  return obj
 
 }
 
@@ -36,7 +51,7 @@ const evaluateProperty = async function(propertyId) {
   let metrics = await calculateMetrics(property)
   let filename = property.filename().replace(".json","-metrics.json");
   fs.writeFile(filename, JSON.stringify(metrics,null,2),function(err){
-    
+
   });
 
   console.log(metrics)

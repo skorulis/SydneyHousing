@@ -41,6 +41,12 @@ const calculateMetrics = async function(listing) {
     obj.travel.push(locResult);
   }
 
+  let nearbyPubs = helpers.findPubsNear(lat,lng,1000)
+  obj.pubs = {count1KM:nearbyPubs.length}
+  if (nearbyPubs.length > 0) {
+    obj.pubs.local = nearbyPubs[0]
+  }
+
   return obj
 
 }

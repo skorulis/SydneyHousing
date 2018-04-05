@@ -131,7 +131,5 @@ for (let s of stats) {
 }
 
 
-fs.writeFile("./results/stats/stats.json", JSON.stringify(stats,null,2),function(err){
-
-});
+fs.writeFile("./results/stats/stats.json", JSON.stringify(stats,null,2),function(err){});
 

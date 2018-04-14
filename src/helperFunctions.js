@@ -63,7 +63,7 @@ const getKey = function(name) {
 }
 
 const getDirections = async function(from,to,mode) {
-  let arrival = new Date('09:00 2018.04.04').getTime() / 1000;
+  let arrival = new Date('09:00 2018.04.30').getTime() / 1000;
   let baseURL = "https://maps.googleapis.com/maps/api/directions/json";
   let key = getKey("googleDirections");
   let url = `${baseURL}?origin=${from},Sydney&destination=${to}&mode=${mode}&key=${key}&arrival_time=${arrival}`;
@@ -79,6 +79,25 @@ const getDirections = async function(from,to,mode) {
   return json;
 }
 
+const allPropertyFiles = function() {
+  let rootDir = "./results/properties";
+  let props = [];
+
+  let dirs = fs.readdirSync(rootDir);
+  for (let i = 0; i < dirs.length; ++i) { 
+      let suburbDir = rootDir + "/" + dirs[i];
+      let files = fs.readdirSync(suburbDir)
+      for (let j = 0; j < files.length; ++j) { 
+        let file = files[j]
+        if (file.indexOf("-metrics.json") == -1) {
+          let fullname = suburbDir + "/" + file;
+          props.push(fullname)
+        }
+      }
+    }
+  return props;
+}
+
 module.exports = {
   getDirectionsFilename,
   getSuburbFilename,
@@ -87,5 +106,6 @@ module.exports = {
   findClosestSupermarket,
   getKey,
   getDirections,
-  findPubsNear
+  findPubsNear,
+  allPropertyFiles
 };

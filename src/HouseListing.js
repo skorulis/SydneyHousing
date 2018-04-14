@@ -29,6 +29,18 @@ class HouseListing {
     return this.json.address.streetAddress + "," + this.suburb()
   }
 
+  description() {
+    return this.json.description;
+  }
+
+  inspections() {
+    let inspections = this.json.inspectionsAndAuctions;
+    if (!inspections) {
+      return []
+    }
+    return inspections.filter(x => !x.auction);
+  }
+
   save() {
     let dir = "./results/properties/" + this.suburb();
     if (!fs.existsSync(dir)) {

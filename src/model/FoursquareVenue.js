@@ -7,6 +7,10 @@ class FourSquareVenue {
     return this.json.id
   }
 
+  address() {
+    return this.json.location.address;
+  }
+
 }
 
 module.exports = FourSquareVenue;

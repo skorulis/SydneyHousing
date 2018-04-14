@@ -20,6 +20,15 @@ const downloadProperty = async function(propertyId) {
   return listing
 }
 
+const getInternalSize = function(listing) {
+  let p1 = /internal size: (\d{2,4})sqm/i;
+  let m1 = listing.description().match(p1)
+  if (m1) {
+    return {value:m1[1],text:m1[0]}
+  }
+  return null;
+}
+
 const calculateMetrics = async function(listing) {
   let lat = listing.latitude();
   let lng = listing.longitude();
@@ -46,6 +55,9 @@ const calculateMetrics = async function(listing) {
   if (nearbyPubs.length > 0) {
     obj.pubs.local = nearbyPubs[0]
   }
+
+  obj.size = {}
+  obj.size.internal = getInternalSize(listing)
 
   return obj
 

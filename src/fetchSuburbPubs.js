@@ -30,6 +30,7 @@ const findNearbyPubs = async function(suburb) {
   let json = await response.json()
 
   let venues = json.response.venues.map((x) => {return new FourSquareVenue(x)})
+  venues = venues.filter(x => x.address())
 
   console.log("Got " + venues.length + " pubs")
   return venues

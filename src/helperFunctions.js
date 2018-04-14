@@ -18,6 +18,16 @@ const getSuburbJSONFilename = function(suburb) {
   return `./results/suburb-json/${suburb}.json`; 
 }
 
+const getSuburb = function(name) {
+  let subs = JSON.parse(fs.readFileSync('./inputs/all-suburbs.json', 'utf8'));
+  for (let s of subs) {
+    if (s.name.toUpperCase() == name.toUpperCase()) {
+      return s
+    }
+  }
+  return null;
+}
+
 const findClosestStation = function(lat,lon) {
   let best;
   let bestDistance = 100000
@@ -107,5 +117,6 @@ module.exports = {
   getKey,
   getDirections,
   findPubsNear,
-  allPropertyFiles
+  allPropertyFiles,
+  getSuburb
 };

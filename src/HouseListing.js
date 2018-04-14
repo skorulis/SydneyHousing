@@ -5,6 +5,10 @@ class HouseListing {
     this.json = json
   }
 
+  url() {
+    return this.json._links.short.href;
+  }
+
   id() {
     return this.json._links.short.href.replace("http://www.realestate.com.au/","")
   }

@@ -6,6 +6,8 @@ let gpsUtil = require("gps-util")
 
 let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));
 
+let onTheHouseAuth = "Bearer 1ba2f663-0995-4e99-afa7-cbdca58c2315";
+
 const downloadProperty = async function(propertyId) {
   let url = "https://services.realestate.com.au/services/listings/withIds?id=" + propertyId;
 
@@ -20,6 +22,29 @@ const downloadProperty = async function(propertyId) {
   return listing
 }
 
+const downloadHistory = async function(address) {
+  console.log(address);
+  let searchURL = "https://mobile-api.othsolutions.com.au/location/locations?query=" + address;
+  console.log(searchURL)
+
+  let headers = {"Authorization": onTheHouseAuth};
+
+  let response = await fetch(searchURL);
+  let json = await response.json()
+  if (json.content.length > 0) {
+    let first = json.content[0];
+    console.log("Looking up " + first.formattedAddress);
+    let onTheHouseId = first.propertyId;
+    let historyURL = "https://mobile-api.othsolutions.com.au/property/properties/"+onTheHouseId+"/events?page.sort=date&page.sort.dir=desc";
+    console.log(historyURL)
+
+    response = await fetch(historyURL,{headers:headers});
+    return await response.json()
+  }
+
+  return null
+}
+
 const getInternalSize = function(listing) {
   let p1 = /internal size: (\d{2,4})sqm/i;
   let m1 = listing.description().match(p1)
@@ -29,7 +54,7 @@ const getInternalSize = function(listing) {
   return null;
 }
 
-const calculateMetrics = async function(listing) {
+const calculateMetrics = async function(listing,history) {
   let lat = listing.latitude();
   let lng = listing.longitude();
   let shop = helpers.findClosestSupermarket(lat,lng)
@@ -59,6 +84,10 @@ const calculateMetrics = async function(listing) {
   obj.size = {}
   obj.size.internal = getInternalSize(listing)
 
+  if (history) {
+    obj.pastSales = history.content;
+  }
+
   return obj
 
 }
@@ -66,11 +95,17 @@ const calculateMetrics = async function(listing) {
 const evaluateProperty = async function(propertyId) {
   let property = await downloadProperty(propertyId);
   property.save()
-  let metrics = await calculateMetrics(property)
-  let filename = property.filename().replace(".json","-metrics.json");
-  fs.writeFile(filename, JSON.stringify(metrics,null,2),function(err){
 
-  });
+  let history = null;
+  /*if (property.hasLocation()) {
+    history = await downloadHistory(property.address())
+    let filename = property.filename().replace(".json","-history.json");
+    fs.writeFile(filename, JSON.stringify(history,null,2),function(err){});
+  }*/
+
+  let metrics = await calculateMetrics(property,history)
+  let filename = property.filename().replace(".json","-metrics.json");
+  fs.writeFile(filename, JSON.stringify(metrics,null,2),function(err){});
 
   console.log(metrics)
 }

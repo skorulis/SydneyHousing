@@ -99,7 +99,7 @@ const allPropertyFiles = function() {
       let files = fs.readdirSync(suburbDir)
       for (let j = 0; j < files.length; ++j) { 
         let file = files[j]
-        if (file.indexOf("-metrics.json") == -1) {
+        if (file.indexOf("-metrics.json") == -1 && file.indexOf("-history.json") == -1) {
           let fullname = suburbDir + "/" + file;
           props.push(fullname)
         }

@@ -33,6 +33,10 @@ class HouseListing {
     return this.json.address.streetAddress + "," + this.suburb()
   }
 
+  hasLocation() {
+    return this.json.address.location;
+  }
+
   description() {
     return this.json.description;
   }

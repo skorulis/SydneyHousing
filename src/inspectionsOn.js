@@ -35,7 +35,7 @@ for(let file of propFiles) {
 
   let distance = gpsUtil.getDistance(suburb.lng,suburb.lat,property.longitude(),property.latitude())
 
-  if (distance > 2000) {
+  if (distance > 3000) {
     continue;
   }
 

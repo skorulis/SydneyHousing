@@ -8,6 +8,7 @@ let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));
 
 let onTheHouseAuth = "Bearer 1ba2f663-0995-4e99-afa7-cbdca58c2315";
 
+
 const downloadProperty = async function(propertyId) {
   let url = "https://services.realestate.com.au/services/listings/withIds?id=" + propertyId;
 
@@ -45,16 +46,48 @@ const downloadHistory = async function(address) {
   return null
 }
 
-const getInternalSize = function(listing) {
-  let p1 = /internal size: (\d{2,4})sqm/i;
-  let m1 = listing.description().match(p1)
+const getBodyMatch = function(listing,regex) {
+  let m1 = listing.description().match(regex)
   if (m1) {
     return {value:m1[1],text:m1[0]}
   }
   return null;
 }
 
-const calculateMetrics = async function(listing,history) {
+const getInternalSize = function(listing) {
+  let p1 = /internal[ size]?.{1,2}(\d{2,4}\.*\d{0,2})sqm/i;
+  return getBodyMatch(listing,p1);
+}
+
+const getTotalSize = function(listing) {
+  let p1 = /total(?: size)?.{1,2}?(\d{2,4}\.*\d{0,2})sqm/i;
+  return getBodyMatch(listing,p1);
+}
+
+const getStrata = function(listing) {
+  let p1 = /Strata Levies.{1,3}\$(\d+\.*\d{0,2})/i;
+  return getBodyMatch(listing,p1);
+}
+
+const getCouncilRates = function(listing) {
+  let p1 = /Council Rates.{1,3}\$(\d+\.*\d{0,2})/i;
+  return getBodyMatch(listing,p1);
+}
+
+const getWaterRates = function(listing) {
+  let p1 = /Water Rates.{1,3}\$(\d+\.*\d{0,2})/i;
+  return getBodyMatch(listing,p1);
+}
+
+const getLandSize = function(listing) {
+  let landSize = listing.landSize();
+  if (landSize) {
+    return {value:landSize.value,text:landSize.displayApp};
+  }
+  return null;
+}
+
+const calculateMetrics = async function(listing,history,oldMetrics) {
   let lat = listing.latitude();
   let lng = listing.longitude();
   let shop = helpers.findClosestSupermarket(lat,lng)
@@ -65,15 +98,32 @@ const calculateMetrics = async function(listing,history) {
   let stationDistance = gpsUtil.getDistance(lng,lat,station.lngDec,station.latDec)
   station["distance"] = parseFloat((stationDistance/1000).toFixed(2));
 
-  let obj = {shop:shop,station:station,travel:[]}
-  for (let loc of params.locations) {
-    let directions = await helpers.getDirections(listing.address(),loc.name,loc.mode)
-    let locData = directions["routes"][0]["legs"][0]
-    let locResult = {name:loc.name,mode:loc.mode};
-    locResult["duration"] = Math.round(locData["duration"]["value"] / 60);
-    locResult["distance"] = locData["distance"]["value"] / 1000;
-    obj.travel.push(locResult);
+  let obj;
+  let oldSize = {};
+  let oldCosts = {};
+  if(oldMetrics) {
+    obj = oldMetrics;
+    oldMetrics.size = oldMetrics.size || {};
+    oldMetrics.costs = oldMetrics.costs || {};
+    oldSize = oldMetrics.size;
+    oldCosts = oldMetrics.costs;
+  } else {
+    obj = {shop:shop,station:station,travel:[]};
+    obj.firstSeen = new Date();
+    obj.size = {};
+    obj.costs = {};
+
+    for (let loc of params.locations) {
+      let directions = await helpers.getDirections(listing.address(),loc.name,loc.mode)
+      let locData = directions["routes"][0]["legs"][0]
+      let locResult = {name:loc.name,mode:loc.mode};
+      locResult["duration"] = Math.round(locData["duration"]["value"] / 60);
+      locResult["distance"] = locData["distance"]["value"] / 1000;
+      obj.travel.push(locResult);
+    }
   }
+
+  
 
   let nearbyPubs = helpers.findPubsNear(lat,lng,1000)
   obj.pubs = {count1KM:nearbyPubs.length}
@@ -81,8 +131,15 @@ const calculateMetrics = async function(listing,history) {
     obj.pubs.local = nearbyPubs[0]
   }
 
-  obj.size = {}
-  obj.size.internal = getInternalSize(listing)
+  obj.size.internal = getInternalSize(listing) || oldSize.internal;
+  obj.size.land = getLandSize(listing) || oldSize.land;
+  obj.size.total = getTotalSize(listing) || oldSize.total;
+
+  obj.costs.strata =  getStrata(listing) || oldCosts.strata;
+  obj.costs.council = getCouncilRates(listing) || oldCosts.council;
+  obj.costs.water = getWaterRates(listing) || oldCosts.water;
+
+  obj.estimatedPrice = listing.priceEstimate()
 
   if (history) {
     obj.pastSales = history.content;
@@ -94,6 +151,13 @@ const calculateMetrics = async function(listing,history) {
 
 const evaluateProperty = async function(propertyId) {
   let property = await downloadProperty(propertyId);
+  let metricsFilename = property.filename().replace(".json","-metrics.json");
+  let oldMetrics = null;
+  if (fs.existsSync(metricsFilename)) {
+    oldMetrics = JSON.parse(fs.readFileSync(metricsFilename, 'utf8'));  
+  }
+  
+
   property.save()
 
   let history = null;
@@ -103,9 +167,8 @@ const evaluateProperty = async function(propertyId) {
     fs.writeFile(filename, JSON.stringify(history,null,2),function(err){});
   }*/
 
-  let metrics = await calculateMetrics(property,history)
-  let filename = property.filename().replace(".json","-metrics.json");
-  fs.writeFile(filename, JSON.stringify(metrics,null,2),function(err){});
+  let metrics = await calculateMetrics(property,history,oldMetrics)
+  fs.writeFile(metricsFilename, JSON.stringify(metrics,null,2),function(err){});
 
   console.log(metrics)
 }

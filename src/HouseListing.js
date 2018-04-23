@@ -1,5 +1,16 @@
 let fs = require('fs');
 
+function averagePriceMatches(matches,multiplier) {
+  let total = 0;
+  console.log(matches)
+  for (let m of matches) {
+    let mStripped = m.replace("$","").replace(",","").replace("k","");
+    total += parseFloat(mStripped) * multiplier;
+  }
+  total = total / matches.length;
+  return total;
+}
+
 class HouseListing {
   constructor(json) {
     this.json = json
@@ -39,6 +50,28 @@ class HouseListing {
 
   description() {
     return this.json.description;
+  }
+
+  landSize() {
+    return this.json.landSize;
+  }
+
+  priceEstimate() {
+    let display = this.json.price.display;
+    let regex = /\$(\d{3},\d{3})/ig;
+    let matches = display.match(regex);
+
+    let multiplier = 1;
+    if (!matches || matches.length == 0) {
+      regex = /\$\d{3,4}k/ig;
+      matches = display.match(regex);
+      multiplier = 1000;
+      if (!matches || matches.length == 0) {
+        return null;
+      }      
+    }
+
+    return averagePriceMatches(matches,multiplier);
   }
 
   inspections() {

@@ -5,9 +5,10 @@ let helpers = require("./helperFunctions");
 let HouseListing = require("./HouseListing");
 
 let inspectionDate = new Date('09:00 2018.04.21');
-let suburbName = process.argv[2]
 
-let suburb = helpers.getSuburb(suburbName)
+
+let suburbName = process.argv[2]
+let suburb = suburbName ? helpers.getSuburb(suburbName) : null;
 console.log(suburb)
 
 let propFiles = helpers.allPropertyFiles();
@@ -24,30 +25,47 @@ function printResult(property,inspections) {
   console.log(inspections)
 }
 
-for(let file of propFiles) {
-  let propJson = JSON.parse(fs.readFileSync(file));
-  let property = new HouseListing(propJson)
+function findAllInspections() {
+  let allinspections = []
+  for(let file of propFiles) {
+    let propJson = JSON.parse(fs.readFileSync(file));
+    let property = new HouseListing(propJson)
 
-  if (!property.json.address.location) {
-    console.log("No location for " + property.address());
-    continue;
+    if (!property.json.address.location) {
+      console.log("No location for " + property.address());
+      continue;
+    }
+
+    if (suburb) {
+      let distance = gpsUtil.getDistance(suburb.lng,suburb.lat,property.longitude(),property.latitude())
+
+      if (distance > 2000) {
+        continue;
+      }  
+    }
+    
+
+    let inspections = property.inspections();
+    inspections = inspections.filter(function(x) {
+      let startTimestamp = Date.parse(x.startTime)
+      let startTime = new Date(startTimestamp);
+      return sameDay(inspectionDate,startTime);
+    })
+
+    for(let i of inspections) {
+      i.url = property.url()
+      i.address = property.address()
+      i.latitude = property.latitude()
+      i.longitude = property.longitude()
+      allinspections.push(i);
+    }
   }
-
-  let distance = gpsUtil.getDistance(suburb.lng,suburb.lat,property.longitude(),property.latitude())
-
-  if (distance > 3000) {
-    continue;
-  }
-
-  let inspections = property.inspections();
-  inspections = inspections.filter(function(x) {
-    let startTimestamp = Date.parse(x.startTime)
-    let startTime = new Date(startTimestamp);
-    return sameDay(inspectionDate,startTime);
-  })
-
-  if (inspections.length > 0) {
-    printResult(property,inspections)
-  }
-
+  return allinspections;
 }
+
+let inspections = findAllInspections();
+console.log(inspections)
+
+let filename = "./results/inspections.json";
+let obj = {inspections:inspections}
+fs.writeFile(filename, JSON.stringify(obj,null,2),function(err){});

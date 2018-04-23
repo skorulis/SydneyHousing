@@ -13,6 +13,8 @@
 			"max":50
 		}
 	],
+	"deposit":200000,
+	"interestRate":0.04,
 	"prices":[
 		{
 			"keyPath":["unit-buy","2BR"],

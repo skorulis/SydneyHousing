@@ -141,12 +141,30 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
 
   obj.estimatedPrice = listing.priceEstimate()
 
+  calculatePropertyCosts(obj);
+
   if (history) {
     obj.pastSales = history.content;
   }
 
   return obj
 
+}
+
+const calculatePropertyCosts = async function(metrics) {
+  if(!metrics.estimatedPrice || !metrics.costs.strata || !metrics.costs.council || !metrics.costs.water) {
+    return; //Bail early
+  }
+  let interest = (metrics.estimatedPrice - params.deposit) * params.interestRate;
+  let fixed = metrics.costs.strata.value * 4;
+  fixed += metrics.costs.council.value * 4;
+  fixed += metrics.costs.water.value * 4;
+
+  let total = interest + fixed;
+
+  metrics.costs.yearly = total;
+  metrics.costs.interest = interest; 
+  metrics.costs.fixed = fixed; 
 }
 
 const evaluateProperty = async function(propertyId) {

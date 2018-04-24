@@ -7,6 +7,7 @@ let gpsUtil = require("gps-util")
 let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));
 
 let onTheHouseAuth = "Bearer 1ba2f663-0995-4e99-afa7-cbdca58c2315";
+let numberExtractor = require("./algo/numberExtractor")
 
 
 const downloadProperty = async function(propertyId) {
@@ -65,8 +66,7 @@ const getTotalSize = function(listing) {
 }
 
 const getStrata = function(listing) {
-  let p1 = /Strata Levies.{1,3}\$(\d+\.*\d{0,2})/i;
-  return getBodyMatch(listing,p1);
+  return numberExtractor.getStrata(listing.description())
 }
 
 const getCouncilRates = function(listing) {

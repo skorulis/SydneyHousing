@@ -105,7 +105,6 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
     oldCosts = oldMetrics.costs;
   } else {
     obj = {shop:shop,station:station,travel:[]};
-    obj.firstSeen = new Date();
     obj.size = {};
     obj.costs = {};
 
@@ -118,7 +117,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
       obj.travel.push(locResult);
     }
   }
-
+  obj.firstSeen = obj.firstSeen || new Date();
   
 
   let nearbyPubs = helpers.findPubsNear(lat,lng,1000)
@@ -157,7 +156,7 @@ const calculatePropertyCosts = async function(metrics) {
     let fixed = metrics.costs.strata.value * 4;
     fixed += metrics.costs.council.value * 4;
     fixed += metrics.costs.water.value * 4;
-    metrics.costs.fixed = fixed;
+    metrics.costs.fixed = parseFloat(fixed.toFixed(0));
   }
 
   if (metrics.costs.interest && metrics.costs.fixed) {
@@ -172,7 +171,7 @@ const calculatePropertyCosts = async function(metrics) {
     let cost = (t.duration / 60) * 48 * 10 * params.hourValue;
     travelCost += cost / metrics.travel.length;
   }
-  metrics.costs.virtual.travel = travelCost;
+  metrics.costs.virtual.travel = parseFloat(travelCost.toFixed(0));
 
 }
 
@@ -186,6 +185,8 @@ const evaluateProperty = async function(propertyId) {
   
 
   property.save()
+
+  console.log(property.description())
 
   let history = null;
   /*if (property.hasLocation()) {

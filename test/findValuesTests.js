@@ -18,7 +18,10 @@ describe("Number extractors", function() {
       s4.value.should.equal("1529.00")
 
       let s5 = numberExtractor.getStrata("Council: $279/q; Strata: $579/q; Water: $177/q; Approx. area: 77sqm");
-      s5.value.should.equal("579")      
+      s5.value.should.equal("579")    
+
+      let s6 = numberExtractor.getStrata("Strata Approx $825/q, Council fee Approx $253/q and water fee Approx $177/q"); 
+      s6.value.should.equal("825")            
   });
 
   it("Extracts council rates",function() {
@@ -27,6 +30,8 @@ describe("Number extractors", function() {
       let s2 = numberExtractor.getCouncilRates("Strata approx. $1048p/q , Council approx. $302 p/q.");
       s2.value.should.equal("302")
 
+      let s3 = numberExtractor.getCouncilRates("Strata Approx $825/q, Council fee Approx $253/q and water fee Approx $177/q"); 
+      s3.value.should.equal("253")
 
   });
 

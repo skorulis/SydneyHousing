@@ -70,13 +70,11 @@ const getStrata = function(listing) {
 }
 
 const getCouncilRates = function(listing) {
-  let p1 = /Council Rates.{1,3}\$(\d+\.*\d{0,2})/i;
-  return getBodyMatch(listing,p1);
+  return numberExtractor.getCouncilRates(listing.description())
 }
 
 const getWaterRates = function(listing) {
-  let p1 = /Water Rates.{1,3}\$(\d+\.*\d{0,2})/i;
-  return getBodyMatch(listing,p1);
+  return numberExtractor.getWaterRates(listing.description());
 }
 
 const getLandSize = function(listing) {
@@ -138,6 +136,8 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.costs.strata =  getStrata(listing) || oldCosts.strata;
   obj.costs.council = getCouncilRates(listing) || oldCosts.council;
   obj.costs.water = getWaterRates(listing) || oldCosts.water;
+
+  console.log(listing.description())
 
   obj.estimatedPrice = listing.priceEstimate()
 

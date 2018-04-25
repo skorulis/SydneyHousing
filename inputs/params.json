@@ -15,7 +15,7 @@
 	],
 	"deposit":200000,
 	"interestRate":0.04,
-	"hourValue":100,
+	"hourValue":50,
 	"prices":[
 		{
 			"keyPath":["unit-buy","2BR"],

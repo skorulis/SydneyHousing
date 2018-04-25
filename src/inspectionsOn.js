@@ -4,7 +4,7 @@ let gpsUtil = require("gps-util");
 let helpers = require("./helperFunctions");
 let HouseListing = require("./HouseListing");
 
-let inspectionDate = new Date('09:00 2018.04.21');
+let inspectionDate = new Date('09:00 2018.04.28');
 
 
 let suburbName = process.argv[2]
@@ -32,7 +32,6 @@ function findAllInspections() {
     let property = new HouseListing(propJson)
 
     if (!property.json.address.location) {
-      console.log("No location for " + property.address());
       continue;
     }
 

@@ -56,13 +56,11 @@ const getBodyMatch = function(listing,regex) {
 }
 
 const getInternalSize = function(listing) {
-  let p1 = /internal[ size]?.{1,2}(\d{2,4}\.*\d{0,2})sqm/i;
-  return getBodyMatch(listing,p1);
+  return numberExtractor.getInternalSize(listing.description())
 }
 
 const getTotalSize = function(listing) {
-  let p1 = /total(?: size)?.{1,2}?(\d{2,4}\.*\d{0,2})sqm/i;
-  return getBodyMatch(listing,p1);
+  return numberExtractor.getTotalSize(listing.description());
 }
 
 const getStrata = function(listing) {
@@ -137,8 +135,6 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.costs.council = getCouncilRates(listing) || oldCosts.council;
   obj.costs.water = getWaterRates(listing) || oldCosts.water;
 
-  console.log(listing.description())
-
   obj.estimatedPrice = listing.priceEstimate()
 
   calculatePropertyCosts(obj);
@@ -152,19 +148,32 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
 }
 
 const calculatePropertyCosts = async function(metrics) {
-  if(!metrics.estimatedPrice || !metrics.costs.strata || !metrics.costs.council || !metrics.costs.water) {
-    return; //Bail early
+  if (metrics.estimatedPrice) {
+    let interest = (metrics.estimatedPrice - params.deposit) * params.interestRate;
+    metrics.costs.interest = interest; 
   }
-  let interest = (metrics.estimatedPrice - params.deposit) * params.interestRate;
-  let fixed = metrics.costs.strata.value * 4;
-  fixed += metrics.costs.council.value * 4;
-  fixed += metrics.costs.water.value * 4;
 
-  let total = interest + fixed;
+  if(metrics.costs.strata && metrics.costs.council && metrics.costs.water) {
+    let fixed = metrics.costs.strata.value * 4;
+    fixed += metrics.costs.council.value * 4;
+    fixed += metrics.costs.water.value * 4;
+    metrics.costs.fixed = fixed;
+  }
 
-  metrics.costs.yearly = total;
-  metrics.costs.interest = interest; 
-  metrics.costs.fixed = fixed; 
+  if (metrics.costs.interest && metrics.costs.fixed) {
+    metrics.costs.yearly = metrics.costs.interest + metrics.costs.fixed;
+  }
+  
+  metrics.costs.virtual = {};
+
+
+  let travelCost = 0;
+  for (let t of metrics.travel) {
+    let cost = (t.duration / 60) * 48 * 10 * params.hourValue;
+    travelCost += cost / metrics.travel.length;
+  }
+  metrics.costs.virtual.travel = travelCost;
+
 }
 
 const evaluateProperty = async function(propertyId) {
@@ -184,11 +193,17 @@ const evaluateProperty = async function(propertyId) {
     let filename = property.filename().replace(".json","-history.json");
     fs.writeFile(filename, JSON.stringify(history,null,2),function(err){});
   }*/
+  try {
+    let metrics = await calculateMetrics(property,history,oldMetrics)
+    console.log(metrics)  
+    fs.writeFile(metricsFilename, JSON.stringify(metrics,null,2),function(err){});
+  } catch (error) {
+    console.log(error);
+  }
+  
+  
 
-  let metrics = await calculateMetrics(property,history,oldMetrics)
-  fs.writeFile(metricsFilename, JSON.stringify(metrics,null,2),function(err){});
-
-  console.log(metrics)
+  
 }
 
 evaluateProperty(process.argv[2])

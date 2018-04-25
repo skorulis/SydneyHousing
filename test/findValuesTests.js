@@ -16,6 +16,9 @@ describe("Number extractors", function() {
       s3.value.should.equal("1048")
       let s4 = numberExtractor.getStrata("Strata rates: approximately $1,529.00 per quarter");
       s4.value.should.equal("1529.00")
+
+      let s5 = numberExtractor.getStrata("Council: $279/q; Strata: $579/q; Water: $177/q; Approx. area: 77sqm");
+      s5.value.should.equal("579")      
   });
 
   it("Extracts council rates",function() {
@@ -35,6 +38,11 @@ describe("Number extractors", function() {
   it("Extracts building size",function() {
     let s1 = numberExtractor.getBuildingSize("Internal + Balconly = approx. 69 sqm, car space + storage = approx. 22 sqm, Total area approx. 91 sqm");
     s1.value.should.equal("69")
+  });
+
+  it("Extracts total area",function() {
+    let s1 = numberExtractor.getTotalSize("Total area: 181sqm approx.");
+    s1.value.should.equal("181")
   });
 
 });

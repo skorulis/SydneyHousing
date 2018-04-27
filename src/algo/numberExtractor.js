@@ -24,7 +24,7 @@ const extractNumber = function(text,prefixes,optionals,suffixes) {
 const getStrata = function(text) {
   prefixes = ["Strata Levies","Levies","Strata","Strata levy"]
   optionals = ["-","rates","rate",":","approx\\.","approximately","approx"];
-  suffixes = ["per quarter","pq","p/q","/q"];
+  suffixes = ["per quarter","pq","p/q","/q","¼","p\\.q"];
 
   return extractNumber(text,prefixes,optionals,suffixes);
 }
@@ -32,7 +32,7 @@ const getStrata = function(text) {
 const getCouncilRates = function(text) {
   prefixes = ["Council Rates","Council","Council fee"]
   optionals = ["-","rates","rate",":","approx\\.","approximately","approx"];
-  suffixes = ["per quarter","pq","p/q","/q","$"];
+  suffixes = ["per quarter","pq","p/q","/q","$","¼","p\\.q"];
 
   return extractNumber(text,prefixes,optionals,suffixes);
 }
@@ -40,7 +40,7 @@ const getCouncilRates = function(text) {
 const getWaterRates = function(text) {
   prefixes = ["Water","water fee"]
   optionals = ["-","rates","rate",":","approx\\.","approximately","approx"];
-  suffixes = ["per quarter","pq","p/q","/q"];
+  suffixes = ["per quarter","pq","p/q","/q","¼","p\\.q"];
 
   return extractNumber(text,prefixes,optionals,suffixes);
 }
@@ -62,7 +62,7 @@ const getInternalSize = function(text) {
 }
 
 const getTotalSize = function(text) {
-  prefixes = ["Total area","Total size","total"]
+  prefixes = ["Total area","Total size","total","Total area size","Total living area","Apartment size"]
   optionals = [":"];
   suffixes = ["sqm","m²","m2"];
 

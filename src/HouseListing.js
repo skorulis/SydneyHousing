@@ -56,9 +56,13 @@ class HouseListing {
     return this.json.landSize;
   }
 
+  isAuction() {
+    return this.json.authorityType == "Auction";
+  }
+
   priceEstimate() {
     let display = this.json.price.display;
-    let regex = /\$(\d{3},\d{3})/ig;
+    let regex = /\$(\d{3},?\d{3})/ig;
     let matches = display.match(regex);
 
     let multiplier = 1;

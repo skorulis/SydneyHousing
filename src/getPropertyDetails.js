@@ -165,13 +165,19 @@ const calculatePropertyCosts = async function(metrics) {
   
   metrics.costs.virtual = {};
 
-
   let travelCost = 0;
   for (let t of metrics.travel) {
     let cost = (t.duration / 60) * 48 * 10 * params.hourValue;
     travelCost += cost / metrics.travel.length;
   }
   metrics.costs.virtual.travel = parseFloat(travelCost.toFixed(0));
+  metrics.costs.virtual.shopping = parseFloat((metrics.shop.distance / 5 * 3 * 2 * 48 * params.hourValue).toFixed(0));
+
+  if (metrics.costs.yearly && metrics.size.total) {
+    metrics.score = metrics.costs.yearly + metrics.costs.virtual.travel + metrics.costs.virtual.shopping  
+    metrics.score = (metrics.score / parseFloat(metrics.size.total.value)).toFixed(0);
+    metrics.score = -parseFloat(metrics.score)
+  }
 
 }
 
@@ -183,10 +189,7 @@ const evaluateProperty = async function(propertyId) {
     oldMetrics = JSON.parse(fs.readFileSync(metricsFilename, 'utf8'));  
   }
   
-
   property.save()
-
-  console.log(property.description())
 
   let history = null;
   /*if (property.hasLocation()) {

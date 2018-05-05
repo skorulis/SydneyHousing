@@ -119,6 +119,11 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   }
   obj.firstSeen = obj.firstSeen || new Date();
   
+  if (!obj.shop.travel) {
+    let to = obj.shop.lat + "," + obj.shop.lng;
+    let directions = await helpers.getDirections(listing.address(),to,"walking");
+    obj.shop.travel = helpers.condenseDirections(directions,to,"walking");
+  }
 
   let nearbyPubs = helpers.findPubsNear(lat,lng,1000)
   obj.pubs = {count1KM:nearbyPubs.length}
@@ -170,8 +175,11 @@ const calculatePropertyCosts = async function(metrics) {
     let cost = (t.duration / 60) * 48 * 10 * params.hourValue;
     travelCost += cost / metrics.travel.length;
   }
+  let shopCost = (metrics.shop.travel.duration/60) * 48 * 6 * params.hourValue;
+
   metrics.costs.virtual.travel = parseFloat(travelCost.toFixed(0));
-  metrics.costs.virtual.shopping = parseFloat((metrics.shop.distance / 5 * 3 * 2 * 48 * params.hourValue).toFixed(0));
+  metrics.costs.virtual.shopping = parseFloat(shopCost.toFixed(0));
+  parseFloat((metrics.shop.distance / 5 * 3 * 2 * 48 * params.hourValue).toFixed(0));
 
   if (metrics.costs.yearly && metrics.size.total) {
     metrics.score = metrics.costs.yearly + metrics.costs.virtual.travel + metrics.costs.virtual.shopping  

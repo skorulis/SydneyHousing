@@ -89,6 +89,14 @@ const getDirections = async function(from,to,mode) {
   return json;
 }
 
+const condenseDirections = function(directions,to,mode) {
+  let locData = directions["routes"][0]["legs"][0]
+  let locResult = {name:to,mode:mode};
+  locResult["duration"] = Math.round(locData["duration"]["value"] / 60);
+  locResult["distance"] = locData["distance"]["value"] / 1000;
+  return locResult
+}
+
 const allPropertyFiles = function() {
   let rootDir = "./results/properties";
   let props = [];
@@ -116,6 +124,7 @@ module.exports = {
   findClosestSupermarket,
   getKey,
   getDirections,
+  condenseDirections,
   findPubsNear,
   allPropertyFiles,
   getSuburb

@@ -69,6 +69,34 @@ const getTotalSize = function(text) {
   return extractNumber(text,prefixes,optionals,suffixes);
 }
 
+const getAveragedPrice = function(text) {
+  let regex = /\$((?:\d,)?\d{3},?\d{3})/ig;
+  let matches = text.match(regex);
+
+  let multiplier = 1;
+  if (!matches || matches.length == 0) {
+    regex = /\$\d{3,4}k/ig;
+    matches = text.match(regex);
+    multiplier = 1000;
+    if (!matches || matches.length == 0) {
+      return null;
+    }      
+  }
+
+  return averagePriceMatches(matches,multiplier);
+}
+
+function averagePriceMatches(matches,multiplier) {
+  let total = 0;
+  for (let m of matches) {
+    let mStripped = m.replace(new RegExp(",", 'g'), "");
+    mStripped = mStripped.replace("$","").replace("k","");
+    total += parseFloat(mStripped) * multiplier;
+  }
+  total = total / matches.length;
+  return total;
+}
+
 module.exports = {
   extractNumber,
   getStrata,
@@ -76,5 +104,6 @@ module.exports = {
   getWaterRates,
   getBuildingSize,
   getTotalSize,
-  getInternalSize
+  getInternalSize,
+  getAveragedPrice
 };

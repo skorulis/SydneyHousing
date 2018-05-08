@@ -55,4 +55,12 @@ describe("Number extractors", function() {
     s1.value.should.equal("50")
   })
 
+  it("Extracts prices",function() {
+    let s1 = numberExtractor.getAveragedPrice("$550,000")
+    s1.should.equal(550000)
+
+    let s2 = numberExtractor.getAveragedPrice("$1,127,000")
+    s2.should.equal(1127000)
+  })
+
 });

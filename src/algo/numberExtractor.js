@@ -54,7 +54,7 @@ const getBuildingSize = function(text) {
 }
 
 const getInternalSize = function(text) {
-  prefixes = ["Internal Size"]
+  prefixes = ["Internal Size","Internal area"]
   optionals = [":"];
   suffixes = ["sqm","m²","m2"];
 

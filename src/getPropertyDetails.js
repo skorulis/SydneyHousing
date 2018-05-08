@@ -104,25 +104,26 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
     oldSize = oldMetrics.size;
     oldCosts = oldMetrics.costs;
   } else {
-    obj = {shop:shop,station:station,travel:[]};
+    obj = {shop:shop,station:station};
     obj.size = {};
     obj.costs = {};
 
+    
+  }
+  if (!obj.travel) {
+    obj.travel = [];
     for (let loc of params.locations) {
       let directions = await helpers.getDirections(listing.address(),loc.name,loc.mode)
-      let locData = directions["routes"][0]["legs"][0]
-      let locResult = {name:loc.name,mode:loc.mode};
-      locResult["duration"] = Math.round(locData["duration"]["value"] / 60);
-      locResult["distance"] = locData["distance"]["value"] / 1000;
-      obj.travel.push(locResult);
+      obj.travel.push(helpers.condenseDirections(directions,loc.name,loc.mode));
     }
   }
+
   obj.firstSeen = obj.firstSeen || new Date();
   
   if (!obj.shop.travel) {
     let to = obj.shop.lat + "," + obj.shop.lng;
-    let directions = await helpers.getDirections(listing.address(),to,"walking");
-    obj.shop.travel = helpers.condenseDirections(directions,to,"walking");
+    let directions = await helpers.getDirections(listing.address(),to,"WALKING");
+    obj.shop.travel = helpers.condenseDirections(directions,to,"WALKING");
   }
 
   let nearbyPubs = helpers.findPubsNear(lat,lng,1000)
@@ -139,7 +140,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.costs.council = getCouncilRates(listing) || oldCosts.council;
   obj.costs.water = getWaterRates(listing) || oldCosts.water;
 
-  obj.estimatedPrice = listing.priceEstimate()
+  obj.estimatedPrice = listing.priceEstimate() || obj.estimatedPrice;
 
   calculatePropertyCosts(obj);
 

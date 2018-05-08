@@ -50,4 +50,9 @@ describe("Number extractors", function() {
     s1.value.should.equal("181")
   });
 
+  it("Extracts internal size",function() {
+    let s1 = numberExtractor.getInternalSize("Internal area: 50 sqm. (approx.)");
+    s1.value.should.equal("50")
+  })
+
 });

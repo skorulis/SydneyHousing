@@ -73,10 +73,10 @@ const getKey = function(name) {
 }
 
 const getDirections = async function(from,to,mode) {
-  let arrival = new Date('09:00 2018.04.30').getTime() / 1000;
+  let arrival = new Date('09:00 2018.06.13').getTime() / 1000;
   let baseURL = "https://maps.googleapis.com/maps/api/directions/json";
   let key = getKey("googleDirections");
-  let url = `${baseURL}?origin=${from},Sydney&destination=${to}&mode=${mode}&key=${key}&arrival_time=${arrival}`;
+  let url = `${baseURL}?mode=${mode}&origin=${encodeURIComponent(from)},Sydney&destination=${encodeURIComponent(to)}&key=${key}&arrival_time=${arrival}`;
 
   console.log(url);
 

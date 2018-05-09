@@ -1,5 +1,5 @@
 let fs = require('fs');
-let numberExtractor = require("./algo/numberExtractor")
+let numberExtractor = require("../algo/numberExtractor")
 
 class HouseListing {
   constructor(json) {

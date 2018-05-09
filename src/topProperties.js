@@ -1,6 +1,6 @@
 let fs = require('fs');
 let helpers = require("./helperFunctions");
-let HouseListing = require("./HouseListing");
+let HouseListing = require("./model/HouseListing");
 
 let propFiles = helpers.allPropertyFiles();
 

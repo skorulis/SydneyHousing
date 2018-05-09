@@ -1,7 +1,7 @@
 let fs = require('fs');
 let fetch = require("node-fetch")
 let helpers = require("./helperFunctions");
-let HouseListing = require("./HouseListing");
+let HouseListing = require("./model/HouseListing");
 let gpsUtil = require("gps-util")
 
 let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));

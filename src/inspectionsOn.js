@@ -2,7 +2,7 @@ let fs = require('fs');
 let gpsUtil = require("gps-util");
 
 let helpers = require("./helperFunctions");
-let HouseListing = require("./HouseListing");
+let HouseListing = require("./model/HouseListing");
 
 let inspectionDate = new Date('09:00 2018.04.28');
 

@@ -1,6 +1,6 @@
 let fs = require('fs');
 let helpers = require("./helperFunctions");
-let HouseListing = require("./HouseListing");
+let HouseListing = require("./model/HouseListing");
 
 let propFiles = helpers.allPropertyFiles();
 
@@ -57,6 +57,7 @@ const addStat = function(name,suburb,value) {
 }
 
 const addMultiStat = function(name,suburb,value) {
+  let suburbStats = getSuburbStats(suburb);
   if (name === "council") {
     addStat("withCouncil",suburb,1);
     addStat("maxCouncil",suburb,value);
@@ -123,3 +124,8 @@ generateStats()
 console.log(suburbStats);
 console.log("\n");
 console.log(overallStats);
+
+
+fs.writeFile("./results/stats/overall.json", JSON.stringify(overallStats,null,2),function(err){});
+fs.writeFile("./results/stats/suburbs.json", JSON.stringify(suburbStats,null,2),function(err){});
+

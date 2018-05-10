@@ -51,6 +51,17 @@ let suburbStats =  {Waverton: { count: 1, auction: 1 },
 
 describe("Finds stats",function() {
   it("Buils container",function() {
+    let container = new StatsContainer(allStats,suburbStats);
+    let sub = container.getSuburbStats("Zetland");
+    assert(sub.avgCouncil()==null);
+    sub = container.getSuburbStats("Willoughby");
+    sub.avgCouncil().should.equal(336)
+    container.avgCouncil("Willoughby").should.equal(336)
+    container.avgCouncil("Ryde").should.equal(259.475)
+
+    let water = container.avgWaterObj("Wolli Creek")
+    water.value.should.equal("172")
+    water.isEstimate.should.equal(true)
 
   });
 });

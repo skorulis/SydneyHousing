@@ -1,4 +1,5 @@
 class StatsModel {
+  
   constructor(json) {
     this.json = json
   }
@@ -10,12 +11,11 @@ class StatsModel {
     return (this.json.maxCouncil + this.json.minCouncil)/2;
   }
 
-  avgCouncilObj() {
-    let value = this.avgCouncil()
-    if (!value) {
+  avgWater() {
+    if (!this.json.maxWater) {
       return null;
     }
-    return {"value":value.toFixed(2),"text":"avg from " + this.json.withCouncil}
+    return (this.json.maxWater + this.json.minWater)/2;
   }
   
 

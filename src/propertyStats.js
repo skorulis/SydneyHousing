@@ -98,12 +98,20 @@ const generateStats = function() {
         if (metrics.costs.council) {
           costParamCount ++;
           let v = parseFloat(metrics.costs.council.value)
-          addMultiStat("council",property.suburb(),v);
+          if (metrics.costs.council.isEstimate) {
+            addStat("councilEstimate",property.suburb(),1)
+          } else {
+            addMultiStat("council",property.suburb(),v);  
+          }
         }
         if (metrics.costs.water) {
           costParamCount ++;
           let v = parseFloat(metrics.costs.water.value)
-          addMultiStat("water",property.suburb(),v);
+          if (metrics.costs.water.isEstimate) {
+            addStat("waterEstimate",property.suburb(),1)
+          } else {
+            addMultiStat("water",property.suburb(),v);
+          }
         }
       }
       if (metrics.size) {

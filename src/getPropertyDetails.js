@@ -9,6 +9,7 @@ let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));
 let onTheHouseAuth = "Bearer 1ba2f663-0995-4e99-afa7-cbdca58c2315";
 let numberExtractor = require("./algo/numberExtractor")
 
+let stats = helpers.getPropertyStats()
 
 const downloadProperty = async function(propertyId) {
   let url = "https://services.realestate.com.au/services/listings/withIds?id=" + propertyId;
@@ -122,8 +123,8 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   
   if (!obj.shop.travel) {
     let to = obj.shop.lat + "," + obj.shop.lng;
-    let directions = await helpers.getDirections(listing.address(),to,"WALKING");
-    obj.shop.travel = helpers.condenseDirections(directions,to,"WALKING");
+    let directions = await helpers.getDirections(listing.address(),to,"walking");
+    obj.shop.travel = helpers.condenseDirections(directions,to,"walking");
   }
 
   let nearbyPubs = helpers.findPubsNear(lat,lng,1000)
@@ -138,7 +139,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
 
   obj.costs.strata =  getStrata(listing) || oldCosts.strata;
   obj.costs.council = getCouncilRates(listing) || oldCosts.council;
-  obj.costs.water = getWaterRates(listing) || oldCosts.water;
+  obj.costs.water = getWaterRates(listing) || oldCosts.water || stats.avgWaterObj(listing.suburb());
 
   obj.estimatedPrice = listing.priceEstimate() || obj.estimatedPrice;
 
@@ -182,9 +183,11 @@ const calculatePropertyCosts = async function(metrics) {
   metrics.costs.virtual.shopping = parseFloat(shopCost.toFixed(0));
   parseFloat((metrics.shop.distance / 5 * 3 * 2 * 48 * params.hourValue).toFixed(0));
 
-  if (metrics.costs.yearly && metrics.size.total) {
+  let propSize = metrics.size.total || metrics.size.land
+
+  if (metrics.costs.yearly && propSize) {
     metrics.score = metrics.costs.yearly + metrics.costs.virtual.travel + metrics.costs.virtual.shopping  
-    metrics.score = (metrics.score / parseFloat(metrics.size.total.value)).toFixed(0);
+    metrics.score = (metrics.score / parseFloat(propSize.value)).toFixed(0);
     metrics.score = -parseFloat(metrics.score)
   }
 

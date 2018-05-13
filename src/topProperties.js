@@ -4,7 +4,6 @@ let HouseListing = require("./model/HouseListing");
 
 let propFiles = helpers.allPropertyFiles();
 
-
 const findTopProperties = function() {
   let topProperties = [];
 
@@ -16,10 +15,15 @@ const findTopProperties = function() {
     if (fs.existsSync(metricFile)) {
       let metrics = JSON.parse(fs.readFileSync(metricFile));
       if (metrics.score) {
+        let virtual = metrics.costs.virtual;
         let obj = {price:metrics.estimatedPrice,score:metrics.score,suburb:property.suburb(),link:property.url()}
+        obj.realCosts = metrics.costs.yearly
+        obj.virtualCosts = virtual.travel + virtual.shopping
+        obj.totalCosts = obj.realCosts + obj.virtualCosts
         topProperties.push(obj)
       }
     }
+
   }
   topProperties = topProperties.sort(function(a,b) {
     return a.score - b.score;

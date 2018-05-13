@@ -5,6 +5,7 @@ let stations = JSON.parse(fs.readFileSync("./inputs/stations.json", 'utf8'));
 let supermarkets = JSON.parse(fs.readFileSync("./inputs/supermarkets.json", 'utf8'));
 let pubs = JSON.parse(fs.readFileSync("./inputs/pubs.json", 'utf8'));
 let keys = JSON.parse(fs.readFileSync("./keys/keys.json", 'utf8'));
+let StatsContainer = require("./model/StatsContainer")
 
 const getDirectionsFilename = function(from,to,mode) {
   return `./results/${mode}/${from}-${to}.json`;
@@ -73,7 +74,7 @@ const getKey = function(name) {
 }
 
 const getDirections = async function(from,to,mode) {
-  let arrival = new Date('09:00 2018.06.13').getTime() / 1000;
+  let arrival = new Date('09:00 2018.05.14').getTime() / 1000;
   let baseURL = "https://maps.googleapis.com/maps/api/directions/json";
   let key = getKey("googleDirections");
   let url = `${baseURL}?mode=${mode}&origin=${encodeURIComponent(from)},Sydney&destination=${encodeURIComponent(to)}&key=${key}&arrival_time=${arrival}`;
@@ -103,17 +104,26 @@ const allPropertyFiles = function() {
 
   let dirs = fs.readdirSync(rootDir);
   for (let i = 0; i < dirs.length; ++i) { 
-      let suburbDir = rootDir + "/" + dirs[i];
-      let files = fs.readdirSync(suburbDir)
-      for (let j = 0; j < files.length; ++j) { 
-        let file = files[j]
-        if (file.indexOf("-metrics.json") == -1 && file.indexOf("-history.json") == -1) {
-          let fullname = suburbDir + "/" + file;
-          props.push(fullname)
-        }
+    let suburbDir = rootDir + "/" + dirs[i];
+    let files = fs.readdirSync(suburbDir)
+    for (let j = 0; j < files.length; ++j) { 
+      let file = files[j]
+      if (file.indexOf("-metrics.json") == -1 && file.indexOf("-history.json") == -1) {
+        let fullname = suburbDir + "/" + file;
+        props.push(fullname)
       }
     }
+  }
+  props = props.filter((x) => {return x.indexOf(".DS_Store") === -1})
   return props;
+}
+
+const getPropertyStats = function() {
+  let allFile = "./results/stats/overall.json"
+  let suburubFile = "./results/stats/suburbs.json"
+  let allData = JSON.parse(fs.readFileSync(allFile, 'utf8'));
+  let suburbData = JSON.parse(fs.readFileSync(suburubFile, 'utf8'));
+  return new StatsContainer(allData,suburbData)
 }
 
 module.exports = {
@@ -127,5 +137,6 @@ module.exports = {
   condenseDirections,
   findPubsNear,
   allPropertyFiles,
-  getSuburb
+  getSuburb,
+  getPropertyStats
 };

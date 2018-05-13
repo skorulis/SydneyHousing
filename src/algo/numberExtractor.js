@@ -13,7 +13,6 @@ const buildNumberRegex = function(prefixes,optionals,suffixes) {
 
 const extractNumber = function(text,prefixes,optionals,suffixes) {
   let regex = buildNumberRegex(prefixes,optionals,suffixes);
-  //console.log(regex)
   let m1 = text.match(regex)
   if (m1) {
     return {value:m1[1].replace(",",""),text:m1[0]}
@@ -63,7 +62,7 @@ const getInternalSize = function(text) {
 
 const getTotalSize = function(text) {
   prefixes = ["Total area","Total size","total","Total area size","Total living area","Apartment size"]
-  optionals = [":"];
+  optionals = [":","="];
   suffixes = ["sqm","m²","m2"];
 
   return extractNumber(text,prefixes,optionals,suffixes);

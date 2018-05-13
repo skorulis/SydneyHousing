@@ -3,13 +3,13 @@
 		{
 			"name":"Sydney Central Station",
 			"weight":1,
-			"mode":"TRANSIT",
+			"mode":"transit",
 			"max":50
 		},
 		{
 			"name":"North Sydney Station",
 			"weight":1,
-			"mode":"TRANSIT",
+			"mode":"transit",
 			"max":50
 		}
 	],

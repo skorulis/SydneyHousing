@@ -117,7 +117,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
     obj = {shop:shop,station:station};
     obj.size = {};
     obj.costs = {};
-
+    obj.features = [];
     
   }
   if (!obj.travel) {
@@ -152,6 +152,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
 
   obj.estimatedPrice = listing.priceEstimate() || obj.estimatedPrice;
   obj.isSold = listing.isSold()
+  obj.features = extractFeatures(listing,obj.features)
 
   calculatePropertyCosts(obj);
 
@@ -161,6 +162,10 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
 
   return obj
 
+}
+
+const extractFeatures = function(listing,oldFeatures) {
+  return []
 }
 
 const calculatePropertyCosts = async function(metrics) {

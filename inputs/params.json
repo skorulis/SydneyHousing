@@ -16,6 +16,20 @@
 	"deposit":200000,
 	"interestRate":0.04,
 	"hourValue":50,
+	"features":[
+		{
+			"name":"Good balcony",
+			"value":500
+		},
+		{
+			"name":"Backyard",
+			"value":1000
+		},
+		{
+			"name":"Second bathroom",
+			"value":200
+		}
+	],
 	"prices":[
 		{
 			"keyPath":["unit-buy","2BR"],

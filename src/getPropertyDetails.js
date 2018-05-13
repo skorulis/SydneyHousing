@@ -65,7 +65,16 @@ const getTotalSize = function(listing) {
 }
 
 const getStrata = function(listing) {
-  return numberExtractor.getStrata(listing.description())
+  let strata = numberExtractor.getStrata(listing.description())
+  if (!strata) {
+    if (listing.type() === "house") {
+      return {value:"0",text:"house"}
+    } else if (listing.type() === "villa") {
+      return {value:"300",text:"villa"}
+    } 
+  }
+  
+  return strata
 }
 
 const getCouncilRates = function(listing) {
@@ -138,10 +147,11 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.size.total = getTotalSize(listing) || oldSize.total;
 
   obj.costs.strata =  getStrata(listing) || oldCosts.strata;
-  obj.costs.council = getCouncilRates(listing) || oldCosts.council;
+  obj.costs.council = getCouncilRates(listing) || oldCosts.council || stats.avgCouncilObj(listing.suburb());
   obj.costs.water = getWaterRates(listing) || oldCosts.water || stats.avgWaterObj(listing.suburb());
 
   obj.estimatedPrice = listing.priceEstimate() || obj.estimatedPrice;
+  obj.isSold = listing.isSold()
 
   calculatePropertyCosts(obj);
 
@@ -186,8 +196,12 @@ const calculatePropertyCosts = async function(metrics) {
   let propSize = metrics.size.total || metrics.size.land
 
   if (metrics.costs.yearly && propSize) {
+    let size = parseFloat(propSize.value);
+    if (metrics.size.multiplier) {
+      size *= metrics.size.multiplier
+    }
     metrics.score = metrics.costs.yearly + metrics.costs.virtual.travel + metrics.costs.virtual.shopping  
-    metrics.score = (metrics.score / parseFloat(propSize.value)).toFixed(0);
+    metrics.score = (metrics.score / size).toFixed(0);
     metrics.score = -parseFloat(metrics.score)
   }
 

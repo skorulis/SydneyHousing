@@ -63,6 +63,18 @@ class HouseListing {
     return inspections.filter(x => !x.auction);
   }
 
+  type() {
+    return this.json.propertyType;
+  }
+
+  isSold() {
+    console.log(this.json.status)
+    if (this.json.status) {
+      return this.json.status.type === "sold";
+    }
+    return false;
+  }
+
   save() {
     let dir = "./results/properties/" + this.suburb();
     if (!fs.existsSync(dir)) {

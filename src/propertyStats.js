@@ -42,7 +42,7 @@ const addStat = function(name,suburb,value) {
   if (name === "count" || name == "withPrice" || name == "withStrata" ||
       name === "withWater" ||
       name == "withCouncil" || name == "withSize" || name == "withScore" || 
-      name == "auction" || name === "withAllCosts") {
+      name == "auction" || name === "withAllCosts" || name == "waterEstimate" || name == "councilEstimate") {
     increment(name,value,overallStats)
     increment(name,value,suburbStats)
   } else if (name === "maxCouncil" || name === "maxWater") {

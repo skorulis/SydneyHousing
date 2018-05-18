@@ -1,13 +1,10 @@
 let fs = require('fs');
-let helpers = require("./helperFunctions");
-let HouseListing = require("./model/HouseListing");
+let HouseListing = require("../model/HouseListing");
+let helpers = require("../helperFunctions");
 
-let propFiles = helpers.allPropertyFiles();
+var overallStats = {};
+var suburbStats = {};
 
-let count = 0;
-
-let overallStats = {};
-let suburbStats = {};
 
 const getSuburbStats = function(suburbName) {
   if (!suburbStats[suburbName]) {
@@ -70,6 +67,10 @@ const addMultiStat = function(name,suburb,value) {
 }
 
 const generateStats = function() {
+  let propFiles = helpers.allPropertyFiles();
+  overallStats = {};
+  suburbStats = {};
+
   for(let file of propFiles) {
     let propJson = JSON.parse(fs.readFileSync(file));
     let property = new HouseListing(propJson)
@@ -123,17 +124,18 @@ const generateStats = function() {
         addStat("withAllCosts",property.suburb(),1); 
       }
     }
-    
-
   }
+  return {all:overallStats,suburbs:suburbStats};
 }
 
-generateStats()
+/*generateStats()
 console.log(suburbStats);
 console.log("\n");
-console.log(overallStats);
+console.log(overallStats);*/
+//fs.writeFile("./results/stats/overall.json", JSON.stringify(overallStats,null,2),function(err){});
+//fs.writeFile("./results/stats/suburbs.json", JSON.stringify(suburbStats,null,2),function(err){});
 
-
-fs.writeFile("./results/stats/overall.json", JSON.stringify(overallStats,null,2),function(err){});
-fs.writeFile("./results/stats/suburbs.json", JSON.stringify(suburbStats,null,2),function(err){});
+module.exports = {
+  generateStats
+}
 

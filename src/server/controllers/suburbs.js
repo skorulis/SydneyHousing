@@ -2,11 +2,16 @@ let helpers = require("../../helperFunctions");
 let fs = require('fs');
 let HouseListing = require("../../model/HouseListing");
 let propertyStats = require("../../algo/propertyStats");
-
+let hateoas = require("../routes/apiHAL")()
 
 const listSuburbs = function(req,res,next) {
   let stats = propertyStats.generateStats()
-  res.send(stats.suburbs)
+  let suburbs = stats.suburbs;
+  for (let name in suburbs) {
+    let sub = suburbs[name]
+    hateoas.link("suburb",sub)
+  }
+  res.send(suburbs)
 }
 
 const suburbProperties = function(req,res,nex) {
@@ -17,7 +22,8 @@ const suburbProperties = function(req,res,nex) {
     let propJson = JSON.parse(fs.readFileSync(file));
     let property = new HouseListing(propJson)
     if (property.suburb().toLowerCase() === suburbName) {
-      properties.push(property)
+      let obj = {url:property.url(),sold:property.isSold()}
+      properties.push(obj);
     }
   }
   res.send(properties);

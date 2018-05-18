@@ -8,7 +8,7 @@ var suburbStats = {};
 
 const getSuburbStats = function(suburbName) {
   if (!suburbStats[suburbName]) {
-    suburbStats[suburbName] = {};
+    suburbStats[suburbName] = {name:suburbName};
   }
   return suburbStats[suburbName];
 }

@@ -5,7 +5,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-require("./routes/api")(app);
+require("./routes/api").setupRoutes(app);
 
 module.exports = function() {
   return app;

@@ -1,13 +1,13 @@
 let fs = require('fs');
 let fetch = require("node-fetch")
-let helpers = require("./helperFunctions");
-let HouseListing = require("./model/HouseListing");
+let helpers = require("../helperFunctions");
+let HouseListing = require("../model/HouseListing");
 let gpsUtil = require("gps-util")
 
 let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));
 
 let onTheHouseAuth = "Bearer 1ba2f663-0995-4e99-afa7-cbdca58c2315";
-let numberExtractor = require("./algo/numberExtractor")
+let numberExtractor = require("./numberExtractor")
 
 let stats = helpers.getPropertyStats()
 
@@ -232,13 +232,15 @@ const evaluateProperty = async function(propertyId) {
     let metrics = await calculateMetrics(property,history,oldMetrics)
     console.log(metrics)  
     fs.writeFile(metricsFilename, JSON.stringify(metrics,null,2),function(err){});
+    return metrics
   } catch (error) {
     console.log(error);
   }
-  
-  
-
-  
+   
 }
 
-evaluateProperty(process.argv[2])
+module.exports = {
+  evaluateProperty
+}
+
+//evaluateProperty(process.argv[2])

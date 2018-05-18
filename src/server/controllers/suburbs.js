@@ -23,6 +23,8 @@ const suburbProperties = function(req,res,nex) {
     let property = new HouseListing(propJson)
     if (property.suburb().toLowerCase() === suburbName) {
       let obj = {url:property.url(),sold:property.isSold()}
+      obj["id"] = property.id()
+      hateoas.link("property",obj)
       properties.push(obj);
     }
   }

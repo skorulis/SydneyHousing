@@ -7,5 +7,12 @@ module.exports = function() {
         "properties": "/" + suburb.name + "/properties"
     };
   })  
+
+  hateoas.registerLinkHandler("property", function(property) {
+    return {
+        "update":"/property/update/" + property.id
+    };
+  })  
+
   return hateoas;
 }

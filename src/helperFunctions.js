@@ -76,9 +76,6 @@ const getKey = function(name) {
 const nextMonday = function(date) {
   date.setDate(date.getDate() + (7-date.getDay())%7+1);
   date.setHours(9);
-  console.log( new Date('09:00 2018.05.14'));
-  console.log("today" + new Date());
-  console.log(date);
   return date;
 }
 

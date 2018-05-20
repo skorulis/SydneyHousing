@@ -230,7 +230,6 @@ const evaluateProperty = async function(propertyId) {
   }*/
   try {
     let metrics = await calculateMetrics(property,history,oldMetrics)
-    console.log(metrics)  
     fs.writeFile(metricsFilename, JSON.stringify(metrics,null,2),function(err){});
     return metrics
   } catch (error) {

@@ -21,9 +21,18 @@ const suburbProperties = function(req,res,nex) {
   for(let file of propFiles) {
     let propJson = JSON.parse(fs.readFileSync(file));
     let property = new HouseListing(propJson)
+
     if (property.suburb().toLowerCase() === suburbName) {
       let obj = {url:property.url(),sold:property.isSold()}
       obj["id"] = property.id()
+      
+      let metricFile = file.replace(".json","-metrics.json");
+      if (fs.existsSync(metricFile)) {
+        let metrics = JSON.parse(fs.readFileSync(metricFile));
+        obj["estimatedPrice"] = metrics.estimatedPrice;
+        obj["visited"] = metrics.visited || false;
+      }
+
       hateoas.link("property",obj)
       properties.push(obj);
     }

@@ -31,6 +31,7 @@ const suburbProperties = function(req,res,nex) {
         let metrics = JSON.parse(fs.readFileSync(metricFile));
         obj["estimatedPrice"] = metrics.estimatedPrice;
         obj["visited"] = metrics.visited || false;
+        obj["fistSeen"] = metrics.firstSeen;
       }
 
       hateoas.link("property",obj)

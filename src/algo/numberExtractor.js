@@ -13,6 +13,7 @@ const buildNumberRegex = function(prefixes,optionals,suffixes) {
 
 const extractNumber = function(text,prefixes,optionals,suffixes) {
   let regex = buildNumberRegex(prefixes,optionals,suffixes);
+  //console.log(regex)
   let m1 = text.match(regex)
   if (m1) {
     return {value:m1[1].replace(",",""),text:m1[0]}
@@ -22,7 +23,7 @@ const extractNumber = function(text,prefixes,optionals,suffixes) {
 
 const getStrata = function(text) {
   prefixes = ["Strata Levies","Levies","Strata","Strata levy"]
-  optionals = ["-","rates","rate",":","approx\\.","approximately","approx"];
+  optionals = ["-","rates","rate",":","approx\\.","approximately","approx","\\|"];
   suffixes = ["per quarter","pq","p/q","/q","¼","p\\.q"];
 
   return extractNumber(text,prefixes,optionals,suffixes);

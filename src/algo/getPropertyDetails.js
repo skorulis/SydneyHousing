@@ -3,6 +3,7 @@ let fetch = require("node-fetch")
 let helpers = require("../helperFunctions");
 let HouseListing = require("../model/HouseListing");
 let gpsUtil = require("gps-util")
+let scoreFunctions = require("./scoreFunctions")
 
 let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));
 
@@ -196,19 +197,9 @@ const calculatePropertyCosts = async function(metrics) {
 
   metrics.costs.virtual.travel = parseFloat(travelCost.toFixed(0));
   metrics.costs.virtual.shopping = parseFloat(shopCost.toFixed(0));
-  parseFloat((metrics.shop.distance / 5 * 3 * 2 * 48 * params.hourValue).toFixed(0));
 
-  let propSize = metrics.size.total || metrics.size.land
-
-  if (metrics.costs.yearly && propSize) {
-    let size = parseFloat(propSize.value);
-    if (metrics.size.multiplier) {
-      size *= metrics.size.multiplier
-    }
-    metrics.score = metrics.costs.yearly + metrics.costs.virtual.travel + metrics.costs.virtual.shopping  
-    metrics.score = (metrics.score / size).toFixed(0);
-    metrics.score = -parseFloat(metrics.score)
-  }
+  metrics.score = scoreFunctions.calculateSizeScore(metrics);
+  metrics.simpleScore = scoreFunctions.calculateSimpleScore(metrics);
 
 }
 

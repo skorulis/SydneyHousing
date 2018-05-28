@@ -24,7 +24,10 @@ describe("Number extractors", function() {
       s6.value.should.equal("825")            
 
       let s7 = numberExtractor.getStrata("Outgoings: Strata Levies $744.00 p/q, Council Rates $274.00 p/q, Water Rates $178.00 p/q");
-      s7.value.should.equal("744.00")      
+      s7.value.should.equal("744.00")
+
+      let s8 = numberExtractor.getStrata("STRATA | $976 per quarter");
+      s8.value.should.equal("976")
 
   });
 

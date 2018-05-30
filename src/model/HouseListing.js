@@ -50,6 +50,11 @@ class HouseListing {
     return this.json.authorityType == "Auction";
   }
 
+  imageURL() {
+    let img = this.json.mainImage;
+    return img.server + "/320x240" + img.uri;
+  }
+
   priceEstimate() {
     let display = this.json.price.display;
     return numberExtractor.getAveragedPrice(display)

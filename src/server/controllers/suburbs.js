@@ -32,6 +32,8 @@ const suburbProperties = function(req,res,nex) {
         obj["estimatedPrice"] = metrics.estimatedPrice;
         obj["visited"] = metrics.visited || false;
         obj["fistSeen"] = metrics.firstSeen;
+        obj["image"] = property.imageURL();
+        obj["address"] = property.address();
       }
 
       hateoas.link("property",obj)

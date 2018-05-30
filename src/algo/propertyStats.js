@@ -38,14 +38,14 @@ const addStat = function(name,suburb,value) {
   let suburbStats = getSuburbStats(suburb);
   if (name === "count" || name == "withPrice" || name == "withStrata" ||
       name === "withWater" ||
-      name == "withCouncil" || name == "withSize" || name == "withScore" || 
+      name == "withCouncil" || name == "withSize" || name == "withScore" || name == "withSimpleScore" || 
       name == "auction" || name === "withAllCosts" || name == "waterEstimate" || name == "councilEstimate") {
     increment(name,value,overallStats)
     increment(name,value,suburbStats)
-  } else if (name === "maxCouncil" || name === "maxWater") {
+  } else if (name === "maxCouncil" || name === "maxWater" || name === "maxScore" || name === "maxSimpleScore") {
     max(name,value,overallStats)
     max(name,value,suburbStats)
-  } else if (name === "minCouncil" || name === "minWater") {
+  } else if (name === "minCouncil" || name === "minWater" || name === "minScore" || name === "minSimpleScore") {
     min(name,value,overallStats)
     min(name,value,suburbStats)
   } else {
@@ -63,6 +63,14 @@ const addMultiStat = function(name,suburb,value) {
     addStat("withWater",suburb,1);
     addStat("maxWater",suburb,value);
     addStat("minWater",suburb,value);
+  } else if (name === "score") {
+    addStat("withScore",suburb,1);
+    addStat("maxScore",suburb,value);
+    addStat("minScore",suburb,value);
+  } else if (name === "simpleScore") {
+    addStat("withSimpleScore",suburb,1);
+    addStat("maxSimpleScore",suburb,value);
+    addStat("minSimpleScore",suburb,value);
   }
 }
 
@@ -88,7 +96,10 @@ const generateStats = function() {
         costParamCount ++;
       }
       if (metrics.score) {
-        addStat("withScore",property.suburb(),1); 
+        addMultiStat("score",property.suburb(),metrics.score); 
+      }
+      if (metrics.simpleScore) {
+        addMultiStat("simpleScore",property.suburb(),metrics.simpleScore);  
       }
 
       if (metrics.costs) {

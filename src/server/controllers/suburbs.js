@@ -4,6 +4,38 @@ let HouseListing = require("../../model/HouseListing");
 let propertyStats = require("../../algo/propertyStats");
 let hateoas = require("../routes/apiHAL")()
 
+const sortSuburbs = function(a,b) {
+  if (a.maxScore && b.minScore) {
+    return b.maxScore - a.maxScore;
+  }
+  if (a.maxSimpleScore && b.maxSimpleScore) {
+    return b.maxSimpleScore - a.maxSimpleScore;
+  }
+  return b.count - a.count;
+}
+
+const compareProperties = function(a,b) {
+  if (a.score && b.score) {
+    return b.score - a.score;
+  }
+
+  if (a.simpleScore && b.simpleScore) {
+    return b.simpleScore - a.simpleScore;
+  }
+
+  if (a.score || a.simpleScore) {
+    return -1;
+  }
+  if (b.score || b.simpleScore) {
+    return 1;
+  }
+
+  if (a.costs && b.costs && a.costs.yearly && b.costs.yearly) {
+    return b.costs.yearly - a.costs.yearly;
+  }
+  return 0;
+}
+
 const listSuburbs = function(req,res,next) {
   let stats = propertyStats.generateStats()
   let suburbs = stats.suburbs;
@@ -11,7 +43,14 @@ const listSuburbs = function(req,res,next) {
     let sub = suburbs[name]
     hateoas.link("suburb",sub)
   }
-  res.send(suburbs)
+  let suburbsArray = [];
+  for (let key in suburbs) {
+    suburbsArray.push(suburbs[key])
+  }
+
+  suburbsArray = suburbsArray.sort(sortSuburbs);
+
+  res.send(suburbsArray)
 }
 
 const suburbProperties = function(req,res,nex) {
@@ -23,23 +62,25 @@ const suburbProperties = function(req,res,nex) {
     let property = new HouseListing(propJson)
 
     if (property.suburb().toLowerCase() === suburbName) {
-      let obj = {url:property.url(),sold:property.isSold()}
-      obj["id"] = property.id()
-      
+
       let metricFile = file.replace(".json","-metrics.json");
       if (fs.existsSync(metricFile)) {
         let metrics = JSON.parse(fs.readFileSync(metricFile));
-        obj["estimatedPrice"] = metrics.estimatedPrice;
-        obj["visited"] = metrics.visited || false;
-        obj["fistSeen"] = metrics.firstSeen;
+        let obj = metrics;
+        obj.url = property.url();
+        obj.isSold = property.isSold();
+        obj["id"] = property.id();
+
         obj["image"] = property.imageURL();
         obj["address"] = property.address();
-      }
 
-      hateoas.link("property",obj)
-      properties.push(obj);
+        hateoas.link("property",obj)
+        properties.push(obj);
+      }
+      
     }
   }
+  properties = properties.sort(compareProperties);
   res.send(properties);
 }
 

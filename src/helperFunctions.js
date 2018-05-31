@@ -19,6 +19,10 @@ const getSuburbJSONFilename = function(suburb) {
   return `./results/suburb-json/${suburb}.json`; 
 }
 
+const getPropertyFilename = function(suburb,propertyId) {
+  return "./results/properties/" + suburb + "/" + propertyId + ".json";
+}
+
 const getSuburb = function(name) {
   let subs = JSON.parse(fs.readFileSync('./inputs/all-suburbs.json', 'utf8'));
   for (let s of subs) {
@@ -145,5 +149,6 @@ module.exports = {
   findPubsNear,
   allPropertyFiles,
   getSuburb,
-  getPropertyStats
+  getPropertyStats,
+  getPropertyFilename
 };

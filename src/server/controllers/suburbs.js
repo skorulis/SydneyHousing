@@ -3,6 +3,7 @@ let fs = require('fs');
 let HouseListing = require("../../model/HouseListing");
 let propertyStats = require("../../algo/propertyStats");
 let hateoas = require("../routes/apiHAL")()
+let propertyController = require("./properties");
 
 const sortSuburbs = function(a,b) {
   if (a.maxScore && b.minScore) {
@@ -62,19 +63,8 @@ const suburbProperties = function(req,res,nex) {
     let property = new HouseListing(propJson)
 
     if (property.suburb().toLowerCase() === suburbName) {
-
-      let metricFile = file.replace(".json","-metrics.json");
-      if (fs.existsSync(metricFile)) {
-        let metrics = JSON.parse(fs.readFileSync(metricFile));
-        let obj = metrics;
-        obj.url = property.url();
-        obj.isSold = property.isSold();
-        obj["id"] = property.id();
-
-        obj["image"] = property.imageURL();
-        obj["address"] = property.address();
-
-        hateoas.link("property",obj)
+      let obj = propertyController.getPropertyJson(file);
+      if (obj) {
         properties.push(obj);
       }
       

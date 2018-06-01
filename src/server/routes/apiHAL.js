@@ -13,6 +13,12 @@ module.exports = function() {
         "update":"/property/update/" + property.id,
         "setFields":"/property/" + property.suburb + "/" + property.id + "/setFields"
     };
+  })
+
+  hateoas.registerLinkHandler("inspection", function(inspection) {
+    return {
+        "property":"/property/" + inspection.suburb + "/" + inspection.propertyId
+    };
   })  
 
   return hateoas;

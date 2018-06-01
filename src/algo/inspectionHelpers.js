@@ -47,6 +47,8 @@ function findAllInspections(suburb) {
     })
 
     for(let i of inspections) {
+      i.propertyId = property.id();
+      i.suburb = property.suburb();
       i.url = property.url()
       i.address = property.address()
       i.latitude = property.latitude()

@@ -48,11 +48,19 @@ const setPropertyFields = function(req,res,next) {
   } else {
     res.send({error:"Could not find property"});
   }
+}
 
+const getPropertyDetails = function(req,res,next) {
+  let pid = req.params["pid"];
+  let suburb = req.params["suburb"];
+
+  let file = helpers.getPropertyFilename(suburb,pid);
+  res.send(getPropertyJson(file));
 }
 
 module.exports = {
   updateProperty,
   setPropertyFields,
-  getPropertyJson
+  getPropertyJson,
+  getPropertyDetails
 };

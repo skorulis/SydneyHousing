@@ -152,7 +152,8 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.costs.water = getWaterRates(listing) || oldCosts.water || stats.avgWaterObj(listing.suburb());
 
   obj.estimatedPrice = listing.priceEstimate() || obj.estimatedPrice;
-  obj.isSold = listing.isSold()
+  obj.isSold = listing.isSold();
+  obj.suburb = listing.suburb();
   obj.features = extractFeatures(listing,obj.features)
 
   calculatePropertyCosts(obj);

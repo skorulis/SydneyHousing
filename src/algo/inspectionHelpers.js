@@ -20,6 +20,14 @@ function printResult(property,inspections) {
   console.log(inspections)
 }
 
+function sortInspections(inspections) {
+  return inspections.sort((a,b) => {
+    let d1 = new Date(a.startTime);
+    let d2 = new Date(b.startTime);
+    return d1.getTime() - d2.getTime();
+  })
+}
+
 function findAllInspections(suburb) {
   let allinspections = []
   for(let file of propFiles) {
@@ -56,7 +64,7 @@ function findAllInspections(suburb) {
       allinspections.push(i);
     }
   }
-  return allinspections;
+  return sortInspections(allinspections);
 }
 
 module.exports = {

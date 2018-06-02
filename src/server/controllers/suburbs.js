@@ -15,26 +15,28 @@ const sortSuburbs = function(a,b) {
   return b.count - a.count;
 }
 
+const propertySortScore = function(prop) {
+  let total = 0;
+  if (prop.score) {
+    total += prop.score;
+  } else if (prop.simpleScore) {
+    total += prop.simpleScore;
+  } else {
+    total += -500;
+  }
+
+  if (prop.eliminated && prop.eliminated.length > 0) {
+    total -= 1000;
+  }
+
+  return total;
+}
+
 const compareProperties = function(a,b) {
-  if (a.score && b.score) {
-    return b.score - a.score;
-  }
-
-  if (a.simpleScore && b.simpleScore) {
-    return b.simpleScore - a.simpleScore;
-  }
-
-  if (a.score || a.simpleScore) {
-    return -1;
-  }
-  if (b.score || b.simpleScore) {
-    return 1;
-  }
-
-  if (a.costs && b.costs && a.costs.yearly && b.costs.yearly) {
-    return b.costs.yearly - a.costs.yearly;
-  }
-  return 0;
+  let s1 = propertySortScore(a);
+  let s2 = propertySortScore(b);
+  
+  return s2 - s1;
 }
 
 const listSuburbs = function(req,res,next) {

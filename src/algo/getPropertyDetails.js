@@ -115,7 +115,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
     oldSize = oldMetrics.size;
     oldCosts = oldMetrics.costs;
   } else {
-    obj = {shop:shop,station:station};
+    obj = {shop:shop,station:station,visited:false};
     obj.size = {};
     obj.costs = {};
     obj.features = [];

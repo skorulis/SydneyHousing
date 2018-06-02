@@ -86,7 +86,7 @@ class HouseListing {
       fs.mkdirSync(dir)
     }
     let filename = dir + "/" + this.id() + ".json"
-    fs.writeFile(filename, JSON.stringify(this.json,null,2),function(err){
+    fs.writeFileSync(filename, JSON.stringify(this.json,null,2),function(err){
     });
   }
 

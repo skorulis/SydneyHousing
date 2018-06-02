@@ -222,7 +222,7 @@ const evaluateProperty = async function(propertyId) {
   }*/
   try {
     let metrics = await calculateMetrics(property,history,oldMetrics)
-    fs.writeFile(metricsFilename, JSON.stringify(metrics,null,2),function(err){});
+    fs.writeFileSync(metricsFilename, JSON.stringify(metrics,null,2),function(err){});
     return metrics
   } catch (error) {
     console.log(error);

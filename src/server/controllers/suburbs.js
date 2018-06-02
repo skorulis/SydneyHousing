@@ -28,6 +28,9 @@ const propertySortScore = function(prop) {
   if (prop.eliminated && prop.eliminated.length > 0) {
     total -= 1000;
   }
+  if (prop.isSold) {
+    total -= 2000;
+  }
 
   return total;
 }

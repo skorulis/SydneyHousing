@@ -10,7 +10,7 @@ module.exports = function() {
 
   hateoas.registerLinkHandler("property", function(property) {
     return {
-        "update":"/property/update/" + property.id,
+        "update":"/property/" + property.suburb + "/" + property.id + "/update",
         "setFields":"/property/" + property.suburb + "/" + property.id + "/setFields"
     };
   })

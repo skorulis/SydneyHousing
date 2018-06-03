@@ -30,6 +30,18 @@ class HouseListing {
     return "./results/properties/" + this.suburb() + "/" + this.id() + ".json";
   }
 
+  metricsFilename() {
+    return this.filename().replace(".json","-metrics.json");
+  }
+
+  metricsJSON() {
+    let metricsFilename = this.metricsFilename();
+    if (fs.existsSync(metricsFilename)) {
+      return JSON.parse(fs.readFileSync(metricsFilename, 'utf8'));  
+    }
+    return null;
+  }
+
   address() {
     return this.json.address.streetAddress + "," + this.suburb()
   }
@@ -73,11 +85,17 @@ class HouseListing {
   }
 
   isSold() {
-    console.log(this.json.status)
     if (this.json.status) {
       return this.json.status.type === "sold";
     }
     return false;
+  }
+
+  isUnderOffer() {
+    if (this.json.status) {
+      return this.json.status.type === "under_offer";
+    }
+    return false; 
   }
 
   save() {

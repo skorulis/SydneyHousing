@@ -141,7 +141,15 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   let nearbyPubs = helpers.findPubsNear(lat,lng,1000)
   obj.pubs = {count1KM:nearbyPubs.length}
   if (nearbyPubs.length > 0) {
-    obj.pubs.local = nearbyPubs[0]
+    let pub = nearbyPubs[0]
+    delete pub.contact;
+    delete pub.categories;
+    delete pub.stats;
+    delete pub.location.labeledLatLngs;
+    delete pub.beenHere;
+    delete pub.specials;
+    obj.pubs.local = pub
+    
   }
 
   obj.size.internal = getInternalSize(listing) || oldSize.internal;
@@ -155,6 +163,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.estimatedPrice = listing.priceEstimate() || obj.estimatedPrice;
   obj.isSold = listing.isSold();
   obj.suburb = listing.suburb();
+  obj.underOffer = listing.isUnderOffer();
   obj.features = extractFeatures(listing,obj.features)
 
   calculatePropertyCosts(obj);
@@ -207,11 +216,7 @@ const calculatePropertyCosts = async function(metrics) {
 
 const evaluateProperty = async function(propertyId) {
   let property = await downloadProperty(propertyId);
-  let metricsFilename = property.filename().replace(".json","-metrics.json");
-  let oldMetrics = null;
-  if (fs.existsSync(metricsFilename)) {
-    oldMetrics = JSON.parse(fs.readFileSync(metricsFilename, 'utf8'));  
-  }
+  let oldMetrics = property.metricsJSON()
   
   property.save()
 

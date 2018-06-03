@@ -4,7 +4,7 @@ let gpsUtil = require("gps-util");
 let helpers = require("../helperFunctions");
 let HouseListing = require("../model/HouseListing");
 
-let inspectionDate = new Date('09:00 2018.06.02');
+let inspectionDate = new Date('09:00 2018.06.09');
 
 let propFiles = helpers.allPropertyFiles();
 
@@ -28,11 +28,27 @@ function sortInspections(inspections) {
   })
 }
 
+function filterInspections(inspections) {
+  return inspections.filter((i) => {
+    return !i.visited
+  })
+}
+
 function findAllInspections(suburb) {
   let allinspections = []
   for(let file of propFiles) {
     let propJson = JSON.parse(fs.readFileSync(file));
     let property = new HouseListing(propJson)
+    let metrics = property.metricsJSON();
+    if (!metrics) {
+      continue;
+    }
+    if (metrics.visited === "on") {
+      continue;
+    }
+    if (metrics.eliminated && metrics.eliminated.length > 0) {
+      continue;
+    }
 
     if (!property.json.address.location) {
       continue;

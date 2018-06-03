@@ -45,6 +45,7 @@ const setPropertyFields = function(req,res,next) {
     metrics.eliminated = req.body.eliminated;
     metrics.visited = req.body.visited;
     metrics.renovations = req.body.renovations;
+    metrics.features = req.body.features;
     fs.writeFileSync(metricFile, JSON.stringify(metrics,null,2),function(err){});
 
     res.send(getPropertyJson(file,req.headers.host));

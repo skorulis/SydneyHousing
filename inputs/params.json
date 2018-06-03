@@ -45,6 +45,16 @@
 				{"optionName":"No","value":0},
 				{"optionName":"Yes","value":500}
 			]
+		},
+		{
+			"name":"Surroundings",
+			"options":[
+				{"optionName":"Awful","value":-1000},
+				{"optionName":"Bad","value":-500},
+				{"optionName":"Ok","value":0},
+				{"optionName":"Good","value":500},
+				{"optionName":"Fantastic","value":1000}
+			]
 		}
 	],
 	"prices":[

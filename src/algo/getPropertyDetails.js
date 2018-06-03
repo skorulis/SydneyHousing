@@ -182,7 +182,11 @@ const extractFeatures = function(listing,oldFeatures) {
 
 const calculatePropertyCosts = async function(metrics) {
   if (metrics.estimatedPrice) {
-    let interest = (metrics.estimatedPrice - params.deposit) * params.interestRate;
+    let totalOutlay = metrics.estimatedPrice;
+    if (metrics.renovations) {
+      totalOutlay += parseFloat(metrics.renovations);
+    }
+    let interest = (totalOutlay - params.deposit) * params.interestRate;
     metrics.costs.interest = interest; 
   }
 
@@ -228,7 +232,7 @@ const evaluateProperty = async function(propertyId) {
   }*/
   try {
     let metrics = await calculateMetrics(property,history,oldMetrics)
-    fs.writeFileSync(metricsFilename, JSON.stringify(metrics,null,2),function(err){});
+    fs.writeFileSync(property.metricsFilename(), JSON.stringify(metrics,null,2),function(err){});
     return metrics
   } catch (error) {
     console.log(error);

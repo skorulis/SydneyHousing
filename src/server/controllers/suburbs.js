@@ -31,6 +31,9 @@ const propertySortScore = function(prop) {
   if (prop.isSold) {
     total -= 2000;
   }
+  if (prop.missing) {
+    total -= 2000;
+  }
 
   return total;
 }

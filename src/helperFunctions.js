@@ -6,6 +6,7 @@ let supermarkets = JSON.parse(fs.readFileSync("./inputs/supermarkets.json", 'utf
 let pubs = JSON.parse(fs.readFileSync("./inputs/pubs.json", 'utf8'));
 let keys = JSON.parse(fs.readFileSync("./keys/keys.json", 'utf8'));
 let StatsContainer = require("./model/StatsContainer")
+let HouseListing = require("./model/HouseListing");
 
 const getDirectionsFilename = function(from,to,mode) {
   return `./results/${mode}/${from}-${to}.json`;
@@ -129,6 +130,17 @@ const allPropertyFiles = function() {
   return props;
 }
 
+const getPropertyById = function(propertyId) {
+  let allProps = allPropertyFiles();
+  for (let i of allProps) {
+    if (i.endsWith(propertyId + ".json")) {
+      let json = JSON.parse(fs.readFileSync(i, 'utf8'));
+      return new HouseListing(json);
+    }
+  }
+  return null;
+}
+
 const getPropertyStats = function() {
   let allFile = "./results/stats/overall.json"
   let suburubFile = "./results/stats/suburbs.json"
@@ -150,5 +162,6 @@ module.exports = {
   allPropertyFiles,
   getSuburb,
   getPropertyStats,
-  getPropertyFilename
+  getPropertyFilename,
+  getPropertyById
 };

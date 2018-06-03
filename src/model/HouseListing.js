@@ -42,6 +42,10 @@ class HouseListing {
     return null;
   }
 
+  isMissing() {
+    return this.json.missing;
+  }
+
   address() {
     return this.json.address.streetAddress + "," + this.suburb()
   }

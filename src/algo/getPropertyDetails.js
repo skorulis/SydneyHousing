@@ -14,14 +14,19 @@ let stats = helpers.getPropertyStats()
 
 const downloadProperty = async function(propertyId) {
   let url = "https://services.realestate.com.au/services/listings/withIds?id=" + propertyId;
-
+  console.log(url)
   let response = await fetch(url);
   let json = await response.json()
+  if (json.totalResultsCount === 0) {
+    console.log("NO results");
+    let oldData = helpers.getPropertyById(propertyId);
+    oldData.json.missing = true;
+    return oldData
+  }
   let propertyJson = json.results[0]
-
   let listing = new HouseListing(propertyJson)
 
-  console.log(url)
+  console.log("Has results " + listing.isMissing());
 
   return listing
 }
@@ -114,12 +119,12 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
     oldMetrics.costs = oldMetrics.costs || {};
     oldSize = oldMetrics.size;
     oldCosts = oldMetrics.costs;
+    obj.missing = false;
   } else {
     obj = {shop:shop,station:station,visited:false};
     obj.size = {};
     obj.costs = {};
     obj.features = [];
-    
   }
   if (!obj.travel) {
     obj.travel = [];
@@ -221,7 +226,15 @@ const calculatePropertyCosts = async function(metrics) {
 const evaluateProperty = async function(propertyId) {
   let property = await downloadProperty(propertyId);
   let oldMetrics = property.metricsJSON()
-  
+  if (property.isMissing()) {
+    console.log("MISSINg")
+    if (oldMetrics) {
+      oldMetrics.missing = true;
+      fs.writeFileSync(property.metricsFilename(), JSON.stringify(oldMetrics,null,2),function(err){});
+    }
+    return oldMetrics;
+  }
+
   property.save()
 
   let history = null;

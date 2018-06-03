@@ -130,6 +130,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   }
 
   obj.firstSeen = obj.firstSeen || new Date();
+  obj.lastUpdated = new Date();
   
   if (!obj.shop.travel) {
     let to = obj.shop.lat + "," + obj.shop.lng;

@@ -28,9 +28,8 @@ const getPropertyJson = function(file) {
 
 const updateProperty = async function(req,res,next) {
   let pid = req.params["pid"]
-  let suburb = req.params["suburb"];
   let result = await propertyDetails.evaluateProperty(pid)
-  let file = helpers.getPropertyFilename(suburb,pid);
+  let file = helpers.getPropertyFilename(result.suburb,pid);
   let json = getPropertyJson(file);
   res.send(json);
 }

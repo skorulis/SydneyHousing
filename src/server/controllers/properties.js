@@ -1,10 +1,10 @@
 let propertyDetails = require("../../algo/getPropertyDetails");
 let helpers = require("../../helperFunctions");
 let fs = require('fs');
-let hateoas = require("../routes/apiHAL")()
+let hateoas = require("../routes/apiHAL")
 let HouseListing = require("../../model/HouseListing");
 
-const getPropertyJson = function(file) {
+const getPropertyJson = function(file,host) {
   let propJson = JSON.parse(fs.readFileSync(file));
   let property = new HouseListing(propJson)
 
@@ -20,7 +20,7 @@ const getPropertyJson = function(file) {
     obj["address"] = property.address();
     obj["suburb"] = property.suburb();
 
-    hateoas.link("property",obj)
+    hateoas(host).link("property",obj)
     return obj;
   }
   return null;
@@ -30,7 +30,7 @@ const updateProperty = async function(req,res,next) {
   let pid = req.params["pid"]
   let result = await propertyDetails.evaluateProperty(pid)
   let file = helpers.getPropertyFilename(result.suburb,pid);
-  let json = getPropertyJson(file);
+  let json = getPropertyJson(file,req.headers.host);
   res.send(json);
 }
 
@@ -47,7 +47,7 @@ const setPropertyFields = function(req,res,next) {
     metrics.renovations = req.body.renovations;
     fs.writeFileSync(metricFile, JSON.stringify(metrics,null,2),function(err){});
 
-    res.send(getPropertyJson(file));
+    res.send(getPropertyJson(file,req.headers.host));
   } else {
     res.send({error:"Could not find property"});
   }
@@ -58,7 +58,7 @@ const getPropertyDetails = function(req,res,next) {
   let suburb = req.params["suburb"];
 
   let file = helpers.getPropertyFilename(suburb,pid);
-  res.send(getPropertyJson(file));
+  res.send(getPropertyJson(file,req.headers.host));
 }
 
 module.exports = {

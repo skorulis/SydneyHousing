@@ -1,7 +1,8 @@
 var hateoasLib = require("hateoas")
 
-module.exports = function() {
-  let hateoas = hateoasLib({baseUrl: "http://localhost:7900"});
+module.exports = function(host) {
+  let baseUrl = "http://" + host;
+  let hateoas = hateoasLib({baseUrl: baseUrl});
   hateoas.registerLinkHandler("suburb", function(suburb) {
     return {
         "properties": "/" + suburb.name + "/properties",

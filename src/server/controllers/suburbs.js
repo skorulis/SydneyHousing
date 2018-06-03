@@ -79,7 +79,21 @@ const suburbProperties = function(req,res,nex) {
   res.send(properties);
 }
 
+const allProperties = function(req,res,nex) {
+  let propFiles = helpers.allPropertyFiles();
+  let properties = [];
+  for(let file of propFiles) {
+    let json = propertyController.getPropertyJson(file);
+    if (json) {
+      properties.push(json);  
+    }
+  }
+  properties = properties.sort(compareProperties);
+  res.send(properties);
+}
+
 module.exports = {
   listSuburbs,
-  suburbProperties
+  suburbProperties,
+  allProperties
 }

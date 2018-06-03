@@ -8,6 +8,8 @@ const setupRoutes = function(app) {
   app.get("/property/:suburb/:pid/",controllers.properties.getPropertyDetails);
 
   app.get("/inspections",controllers.inspections.getAllInspections)
+  app.get("/allProperties",controllers.suburbs.allProperties)
+  app.get("/features",controllers.features.getAllFeatures)
 }
 
 module.exports = {

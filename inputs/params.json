@@ -18,16 +18,33 @@
 	"hourValue":50,
 	"features":[
 		{
-			"name":"Good balcony",
-			"value":500
+			"name":"Balcony",
+			"options":[
+				{"optionName":"None","value":0},
+				{"optionName":"Small","value":200},
+				{"optionName":"Big","value":500}
+			]
 		},
 		{
 			"name":"Backyard",
-			"value":1000
+			"options":[
+				{"optionName":"No","value":0},
+				{"optionName":"Yes","value":1000}
+			]
 		},
 		{
 			"name":"Second bathroom",
-			"value":200
+			"options":[
+				{"optionName":"No","value":0},
+				{"optionName":"Yes","value":300}
+			]
+		},
+		{
+			"name":"Dishwasher",
+			"options":[
+				{"optionName":"No","value":0},
+				{"optionName":"Yes","value":500}
+			]
 		}
 	],
 	"prices":[

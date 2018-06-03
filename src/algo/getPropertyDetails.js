@@ -18,15 +18,12 @@ const downloadProperty = async function(propertyId) {
   let response = await fetch(url);
   let json = await response.json()
   if (json.totalResultsCount === 0) {
-    console.log("NO results");
     let oldData = helpers.getPropertyById(propertyId);
     oldData.json.missing = true;
     return oldData
   }
   let propertyJson = json.results[0]
   let listing = new HouseListing(propertyJson)
-
-  console.log("Has results " + listing.isMissing());
 
   return listing
 }

@@ -20,9 +20,9 @@
 		{
 			"name":"Balcony",
 			"options":[
-				{"optionName":"None","value":0},
-				{"optionName":"Small","value":200},
-				{"optionName":"Big","value":500}
+				{"optionName":"None","value":-200},
+				{"optionName":"Small","value":100},
+				{"optionName":"Big","value":300}
 			]
 		},
 		{
@@ -42,8 +42,8 @@
 		{
 			"name":"Dishwasher",
 			"options":[
-				{"optionName":"No","value":0},
-				{"optionName":"Yes","value":500}
+				{"optionName":"No","value":-300},
+				{"optionName":"Yes","value":300}
 			]
 		},
 		{

@@ -77,6 +77,7 @@ function findAllInspections(suburb) {
       i.address = property.address()
       i.latitude = property.latitude()
       i.longitude = property.longitude()
+      i.favourite = metrics.favourite;
       allinspections.push(i);
     }
   }

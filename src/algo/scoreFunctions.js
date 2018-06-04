@@ -22,7 +22,7 @@ const calculateBaseScore = function(metrics) {
   if (!metrics.costs.yearly) {
     return null;
   }
-  return metrics.costs.yearly + metrics.costs.virtual.travel + metrics.costs.virtual.shopping;
+  return metrics.costs.yearly + metrics.costs.virtual.travel + metrics.costs.virtual.shopping + metrics.costs.virtual.features;
 }
 
 const calculateSimpleScore = function(metrics) {

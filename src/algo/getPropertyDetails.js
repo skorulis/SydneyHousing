@@ -179,7 +179,25 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
 }
 
 const extractFeatures = function(listing,oldFeatures) {
-  return []
+  return oldFeatures
+}
+
+const findFeature = function(name) {
+  for (let p of params.features) {
+    if (p.name === name) {
+      return p;
+    }
+  }
+  return null;
+}
+
+const getParamValue = function(param,selection) {
+  for (let opt of param.options) {
+    if (opt.optionName === selection) {
+      return opt.value;
+    }
+  }
+  return 0;
 }
 
 const calculatePropertyCosts = async function(metrics) {
@@ -190,6 +208,22 @@ const calculatePropertyCosts = async function(metrics) {
     }
     let interest = (totalOutlay - params.deposit) * params.interestRate;
     metrics.costs.interest = interest; 
+  }
+
+  metrics.costs.virtual = {};
+
+  if(metrics.features) {
+    let totalFeatureValue = 0;
+    for(let key in metrics.features) {
+      let param = findFeature(key);
+      totalFeatureValue += getParamValue(param,metrics.features[key])
+
+      console.log(key);
+      console.log(metrics.features[key]);
+    }
+    metrics.costs.virtual.features = -totalFeatureValue;
+  } else {
+    metrics.costs.virtual.features = 0;
   }
 
   if(metrics.costs.strata && metrics.costs.council && metrics.costs.water) {
@@ -203,8 +237,6 @@ const calculatePropertyCosts = async function(metrics) {
     metrics.costs.yearly = metrics.costs.interest + metrics.costs.fixed;
   }
   
-  metrics.costs.virtual = {};
-
   let travelCost = 0;
   for (let t of metrics.travel) {
     let cost = (t.duration / 60) * 48 * 10 * params.hourValue;

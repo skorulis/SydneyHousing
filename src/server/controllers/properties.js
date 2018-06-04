@@ -38,6 +38,9 @@ const setPropertyFields = function(req,res,next) {
   let pid = req.params["pid"];
   let suburb = req.params["suburb"];
 
+  console.log("Update property");
+  console.log(req.body);
+
   let file = helpers.getPropertyFilename(suburb,pid);
   let metricFile = file.replace(".json","-metrics.json");
   if (fs.existsSync(metricFile)) {
@@ -46,6 +49,7 @@ const setPropertyFields = function(req,res,next) {
     metrics.visited = req.body.visited;
     metrics.renovations = req.body.renovations;
     metrics.features = req.body.features;
+    metrics.favourite = req.body.favourite;
     fs.writeFileSync(metricFile, JSON.stringify(metrics,null,2),function(err){});
 
     res.send(getPropertyJson(file,req.headers.host));

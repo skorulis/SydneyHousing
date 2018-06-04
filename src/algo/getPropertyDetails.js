@@ -162,6 +162,15 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.costs.council = getCouncilRates(listing) || oldCosts.council || stats.avgCouncilObj(listing.suburb());
   obj.costs.water = getWaterRates(listing) || oldCosts.water || stats.avgWaterObj(listing.suburb());
 
+  let price = listing.priceEstimate();
+  if (obj.estimatedPrice && price) {
+    if (obj.estimatedPrice != price) {
+      obj.originalPrice = obj.estimatedPrice;
+      obj.estimatedPrice = price;
+    }
+  } else {
+    obj.estimatedPrice = price;
+  }
   obj.estimatedPrice = listing.priceEstimate() || obj.estimatedPrice;
   obj.isSold = listing.isSold();
   obj.suburb = listing.suburb();
@@ -256,7 +265,7 @@ const evaluateProperty = async function(propertyId) {
   let property = await downloadProperty(propertyId);
   let oldMetrics = property.metricsJSON()
   if (property.isMissing()) {
-    console.log("MISSINg")
+    console.log("FOUND MISSING PROPERTY")
     if (oldMetrics) {
       oldMetrics.missing = true;
       fs.writeFileSync(property.metricsFilename(), JSON.stringify(oldMetrics,null,2),function(err){});

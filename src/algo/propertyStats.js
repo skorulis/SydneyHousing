@@ -37,7 +37,7 @@ const min = function(name,value,obj) {
 const addStat = function(name,suburb,value) {
   let suburbStats = getSuburbStats(suburb);
   if (name === "count" || name == "withPrice" || name == "withStrata" ||
-      name === "withWater" ||
+      name === "withWater" || name === "sold" || name === "removed" ||
       name == "withCouncil" || name == "withSize" || name == "withScore" || name == "withSimpleScore" || 
       name == "auction" || name === "withAllCosts" || name == "waterEstimate" || name == "councilEstimate") {
     increment(name,value,overallStats)
@@ -90,6 +90,12 @@ const generateStats = function() {
       let costParamCount = 0;
       if (property.isAuction()) {
         addStat("auction",property.suburb(),1);
+      }
+      if (property.isSold()) {
+        addStat("sold",property.suburb(),1); 
+      }
+      if (metrics.missing) {
+        addStat("removed",property.suburb(),1);
       }
       if (metrics.estimatedPrice) {
         addStat("withPrice",property.suburb(),1);

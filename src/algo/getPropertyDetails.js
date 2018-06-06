@@ -4,6 +4,7 @@ let helpers = require("../helperFunctions");
 let HouseListing = require("../model/HouseListing");
 let gpsUtil = require("gps-util")
 let scoreFunctions = require("./scoreFunctions")
+let eliminator = require("./propertyEliminator");
 
 let params = JSON.parse(fs.readFileSync("./inputs/params.json", 'utf8'));
 
@@ -177,6 +178,9 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.features = extractFeatures(listing,obj.features)
 
   calculatePropertyCosts(obj);
+  if (!oldMetrics) {
+    obj.eliminated = eliminator.getEliminationReason(listing,obj);
+  }
 
   if (history) {
     obj.pastSales = history.content;

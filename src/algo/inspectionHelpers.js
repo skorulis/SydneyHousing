@@ -28,13 +28,9 @@ function sortInspections(inspections) {
   })
 }
 
-function filterInspections(inspections) {
-  return inspections.filter((i) => {
-    return !i.visited
-  })
-}
-
-function findAllInspections(suburb) {
+function findAllInspections(suburbName) {
+  console.log("suburb",suburbName)
+  let suburb = suburbName ? helpers.getSuburb(suburbName) : null;
   let allinspections = []
   for(let file of propFiles) {
     let propJson = JSON.parse(fs.readFileSync(file));
@@ -43,7 +39,7 @@ function findAllInspections(suburb) {
     if (!metrics) {
       continue;
     }
-    if (metrics.visited === "on") {
+    if (metrics.visited === "on" || metrics.visited === true) {
       continue;
     }
     if (metrics.eliminated && metrics.eliminated.length > 0) {
@@ -56,7 +52,6 @@ function findAllInspections(suburb) {
 
     if (suburb) {
       let distance = gpsUtil.getDistance(suburb.lng,suburb.lat,property.longitude(),property.latitude())
-
       if (distance > 2000) {
         continue;
       }  

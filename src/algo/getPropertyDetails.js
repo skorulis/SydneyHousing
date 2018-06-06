@@ -169,9 +169,8 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
       obj.estimatedPrice = price;
     }
   } else {
-    obj.estimatedPrice = price;
+    obj.estimatedPrice = price || obj.estimatedPrice;
   }
-  obj.estimatedPrice = listing.priceEstimate() || obj.estimatedPrice;
   obj.isSold = listing.isSold();
   obj.suburb = listing.suburb();
   obj.underOffer = listing.isUnderOffer();

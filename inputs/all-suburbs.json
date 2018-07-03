@@ -2,2777 +2,3332 @@
   {
     "name": "Abbotsbury",
     "lat": -33.875,
-    "lng": 150.862
+    "lng": 150.862,
+    "postcode": "2176"
   },
   {
     "name": "Abbotsford",
     "lat": -33.85215,
-    "lng": 151.12726
+    "lng": 151.12726,
+    "postcode": "2046"
   },
   {
     "name": "Acacia Gardens",
     "lat": -33.7322,
-    "lng": 150.917
+    "lng": 150.917,
+    "postcode": "2763"
   },
   {
     "name": "Agnes Banks",
     "lat": -33.61529,
-    "lng": 150.71616
+    "lng": 150.71616,
+    "postcode": "2753"
   },
   {
     "name": "Airds",
     "lat": -34.0916,
-    "lng": 150.8249
+    "lng": 150.8249,
+    "postcode": "2560"
   },
   {
     "name": "Alexandria",
     "lat": -33.90166,
-    "lng": 151.20007
+    "lng": 151.20007,
+    "postcode": "2015"
   },
   {
     "name": "Alfords Point",
     "lat": -33.9848,
-    "lng": 151.02142
+    "lng": 151.02142,
+    "postcode": "2234"
   },
   {
     "name": "Allambie Heights",
     "lat": -33.7624,
-    "lng": 151.25
+    "lng": 151.25,
+    "postcode": "2100"
   },
   {
     "name": "Allawah",
     "lat": -33.9749,
-    "lng": 151.1167
+    "lng": 151.1167,
+    "postcode": "2218"
   },
   {
     "name": "Ambarvale",
     "lat": -34.08333,
-    "lng": 150.80067
+    "lng": 150.80067,
+    "postcode": "2560"
   },
   {
     "name": "Annandale",
     "lat": -33.8814,
-    "lng": 151.1707
+    "lng": 151.1707,
+    "postcode": "2038"
   },
   {
     "name": "Annangrove",
     "lat": -33.65255,
-    "lng": 150.94096
+    "lng": 150.94096,
+    "postcode": "2156"
   },
   {
     "name": "Arcadia",
     "lat": -33.62429,
-    "lng": 151.04455
+    "lng": 151.04455,
+    "postcode": "2159"
   },
   {
     "name": "Arncliffe",
     "lat": -33.9363231,
-    "lng": 151.1432325
+    "lng": 151.1432325,
+    "postcode": "2205"
   },
   {
     "name": "Arndell Park",
     "lat": -33.79,
-    "lng": 150.876
+    "lng": 150.876,
+    "postcode": "2148"
   },
   {
     "name": "Artarmon",
     "lat": -33.80894,
-    "lng": 151.18292
+    "lng": 151.18292,
+    "postcode": "2064"
   },
   {
     "name": "Ashbury",
     "lat": -33.8997098,
-    "lng": 151.1199309
+    "lng": 151.1199309,
+    "postcode": "2193"
   },
   {
     "name": "Ashcroft",
     "lat": -33.91447,
-    "lng": 150.8987392
+    "lng": 150.8987392,
+    "postcode": "2168"
   },
   {
     "name": "Ashfield",
     "lat": -33.8889,
-    "lng": 151.1249
+    "lng": 151.1249,
+    "postcode": "2131"
   },
   {
     "name": "Asquith",
     "lat": -33.689,
-    "lng": 151.105
+    "lng": 151.105,
+    "postcode": "2077"
   },
   {
     "name": "Auburn",
     "lat": -33.86563,
-    "lng": 151.0236
+    "lng": 151.0236,
+    "postcode": "2144"
   },
   {
     "name": "Austral",
     "lat": -33.93109,
-    "lng": 150.79361
+    "lng": 150.79361,
+    "postcode": "2179"
   },
   {
     "name": "Avalon Beach",
     "lat": -33.6302836,
-    "lng": 151.3297698
+    "lng": 151.3297698,
+    "postcode": "2107"
   },
   {
     "name": "Badgerys Creek",
     "lat": -33.8828765,
-    "lng": 150.7608502
+    "lng": 150.7608502,
+    "postcode": "2555"
   },
   {
     "name": "Balgowlah",
     "lat": -33.79645,
-    "lng": 151.25854
+    "lng": 151.25854,
+    "postcode": "2093"
   },
   {
     "name": "Balgowlah Heights",
     "lat": -33.8072234,
-    "lng": 151.2641654
+    "lng": 151.2641654,
+    "postcode": "2093"
   },
   {
     "name": "Balmain",
     "lat": -33.85895,
-    "lng": 151.17906
+    "lng": 151.17906,
+    "postcode": "2041"
   },
   {
     "name": "Balmain East",
     "lat": -33.85811,
-    "lng": 151.19017
+    "lng": 151.19017,
+    "postcode": "2041"
   },
   {
     "name": "Bangor",
     "lat": -34.01908,
-    "lng": 151.02735
+    "lng": 151.02735,
+    "postcode": "2234"
   },
   {
     "name": "Banksia",
     "lat": -33.94776,
-    "lng": 151.14806
+    "lng": 151.14806,
+    "postcode": "2216"
   },
   {
     "name": "Banksmeadow",
     "lat": -33.95731,
-    "lng": 151.20699
+    "lng": 151.20699,
+    "postcode": "2019"
   },
   {
     "name": "Bankstown",
     "lat": -33.91817,
-    "lng": 151.03497
+    "lng": 151.03497,
+    "postcode": "2200"
   },
   {
     "name": "Bankstown Aerodrome",
     "lat": -33.9216102,
-    "lng": 150.9860137
+    "lng": 150.9860137,
+    "postcode": "2200"
   },
   {
     "name": "Barangaroo",
     "lat": -33.8637941,
-    "lng": 151.2022304
+    "lng": 151.2022304,
+    "postcode": "2000"
   },
   {
     "name": "Barden Ridge",
     "lat": -34.032,
-    "lng": 151.01
+    "lng": 151.01,
+    "postcode": "2234"
   },
   {
     "name": "Bardwell Park",
     "lat": -33.93539,
-    "lng": 151.12541
+    "lng": 151.12541,
+    "postcode": "2207"
   },
   {
     "name": "Bardwell Valley",
     "lat": -33.937,
-    "lng": 151.133
+    "lng": 151.133,
+    "postcode": "2207"
   },
   {
     "name": "Barra Brui",
     "lat": -33.744224,
-    "lng": 151.167273
+    "lng": 151.167273,
+    "postcode": ""
   },
   {
     "name": "Bass Hill",
     "lat": -33.90092,
-    "lng": 150.9949
+    "lng": 150.9949,
+    "postcode": "2197"
   },
   {
     "name": "Baulkham Hills",
     "lat": -33.76288,
-    "lng": 150.99212
+    "lng": 150.99212,
+    "postcode": "2153"
   },
   {
     "name": "Bayview",
     "lat": -33.658,
-    "lng": 151.288
+    "lng": 151.288,
+    "postcode": "2104"
   },
   {
     "name": "Beacon Hill",
     "lat": -33.7522,
-    "lng": 151.256
+    "lng": 151.256,
+    "postcode": "2100"
   },
   {
     "name": "Beaconsfield",
     "lat": -33.91096,
-    "lng": 151.19995
+    "lng": 151.19995,
+    "postcode": "2015"
   },
   {
     "name": "Beaumont Hills",
     "lat": -33.7,
-    "lng": 150.941
+    "lng": 150.941,
+    "postcode": "2155"
   },
   {
     "name": "Beecroft",
     "lat": -33.7518,
-    "lng": 151.0633
+    "lng": 151.0633,
+    "postcode": "2119"
   },
   {
     "name": "Belfield",
     "lat": -33.905,
-    "lng": 151.084
+    "lng": 151.084,
+    "postcode": "2191"
   },
   {
     "name": "Bella Vista",
     "lat": -33.742,
-    "lng": 150.955
+    "lng": 150.955,
+    "postcode": "2153"
   },
   {
     "name": "Bellevue Hill",
     "lat": -33.88101,
-    "lng": 151.25253
+    "lng": 151.25253,
+    "postcode": "2023"
   },
   {
     "name": "Belmore",
     "lat": -33.91752,
-    "lng": 151.08782
+    "lng": 151.08782,
+    "postcode": "2192"
   },
   {
     "name": "Belrose",
     "lat": -33.73,
-    "lng": 151.22
+    "lng": 151.22,
+    "postcode": "2085"
   },
   {
     "name": "Berala",
     "lat": -33.87487,
-    "lng": 151.03073
+    "lng": 151.03073,
+    "postcode": "2141"
   },
   {
     "name": "Berkshire Park",
     "lat": -33.6886,
-    "lng": 150.78165
+    "lng": 150.78165,
+    "postcode": "2765"
   },
   {
     "name": "Berowra",
     "lat": -33.62562,
-    "lng": 151.14676
+    "lng": 151.14676,
+    "postcode": "2081"
   },
   {
     "name": "Berowra Creek",
     "lat": -33.611822,
-    "lng": 151.1221286
+    "lng": 151.1221286,
+    "postcode": "2082"
   },
   {
     "name": "Berowra Heights",
     "lat": -33.61334,
-    "lng": 151.138
+    "lng": 151.138,
+    "postcode": "2082"
   },
   {
     "name": "Berowra Waters",
     "lat": -33.602344,
-    "lng": 151.120659
+    "lng": 151.120659,
+    "postcode": "2082"
   },
   {
     "name": "Berrilee",
     "lat": -33.61547,
-    "lng": 151.09811
+    "lng": 151.09811,
+    "postcode": "2159"
   },
   {
     "name": "Beverley Park",
     "lat": -33.97897,
-    "lng": 151.1285
+    "lng": 151.1285,
+    "postcode": "2217"
   },
   {
     "name": "Beverly Hills",
     "lat": -33.9513,
-    "lng": 151.07938
+    "lng": 151.07938,
+    "postcode": "2209"
   },
   {
     "name": "Bexley",
     "lat": -33.9568,
-    "lng": 151.12621
+    "lng": 151.12621,
+    "postcode": "2207"
   },
   {
     "name": "Bexley North",
     "lat": -33.9418,
-    "lng": 151.1114
+    "lng": 151.1114,
+    "postcode": "2207"
   },
   {
     "name": "Bickley Vale",
     "lat": -34.08,
-    "lng": 150.665
+    "lng": 150.665,
+    "postcode": "2570"
   },
   {
     "name": "Bidwill",
     "lat": -33.7315556,
-    "lng": 150.8231418
+    "lng": 150.8231418,
+    "postcode": "2770"
   },
   {
     "name": "Bilgola Beach",
     "lat": -33.6444858,
-    "lng": 151.3275826
+    "lng": 151.3275826,
+    "postcode": "2107"
   },
   {
     "name": "Bilgola Plateau",
     "lat": -33.6429152,
-    "lng": 151.3137307
+    "lng": 151.3137307,
+    "postcode": "2107"
   },
   {
     "name": "Birchgrove",
     "lat": -33.85275,
-    "lng": 151.18024
+    "lng": 151.18024,
+    "postcode": "2041"
   },
   {
     "name": "Birrong",
     "lat": -33.893,
-    "lng": 151.023
+    "lng": 151.023,
+    "postcode": "2143"
   },
   {
     "name": "Blackett",
     "lat": -33.73934,
-    "lng": 150.81266
+    "lng": 150.81266,
+    "postcode": "2770"
   },
   {
     "name": "Blacktown",
     "lat": -33.771,
-    "lng": 150.9063
+    "lng": 150.9063,
+    "postcode": "2148"
   },
   {
     "name": "Blair Athol",
     "lat": -34.063,
-    "lng": 150.8
+    "lng": 150.8,
+    "postcode": "2560"
   },
   {
     "name": "Blairmount",
     "lat": -34.04881,
-    "lng": 150.78734
+    "lng": 150.78734,
+    "postcode": "2559"
   },
   {
     "name": "Blakehurst",
     "lat": -33.98983,
-    "lng": 151.10965
+    "lng": 151.10965,
+    "postcode": "2221"
   },
   {
     "name": "Bligh Park",
     "lat": -33.638,
-    "lng": 150.799
+    "lng": 150.799,
+    "postcode": "2756"
   },
   {
     "name": "Bondi",
     "lat": -33.89195,
-    "lng": 151.26099
+    "lng": 151.26099,
+    "postcode": "2026"
   },
   {
     "name": "Bondi Beach",
     "lat": -33.8914755,
-    "lng": 151.2766845
+    "lng": 151.2766845,
+    "postcode": "2026"
   },
   {
     "name": "Bondi Junction",
     "lat": -33.89145,
-    "lng": 151.2497
+    "lng": 151.2497,
+    "postcode": "2022"
   },
   {
     "name": "Bonnyrigg",
     "lat": -33.89812,
-    "lng": 150.89006
+    "lng": 150.89006,
+    "postcode": "2177"
   },
   {
     "name": "Bonnyrigg Heights",
     "lat": -33.89112,
-    "lng": 150.87206
+    "lng": 150.87206,
+    "postcode": "2177"
   },
   {
     "name": "Bossley Park",
     "lat": -33.86341,
-    "lng": 150.88364
+    "lng": 150.88364,
+    "postcode": "2176"
   },
   {
     "name": "Botany",
     "lat": -33.94513,
-    "lng": 151.19934
+    "lng": 151.19934,
+    "postcode": "2019"
   },
   {
     "name": "Bow Bowing",
     "lat": -34.01853,
-    "lng": 150.83816
+    "lng": 150.83816,
+    "postcode": "2566"
   },
   {
     "name": "Box Hill",
     "lat": -33.65,
-    "lng": 150.88
+    "lng": 150.88,
+    "postcode": "2765"
   },
   {
     "name": "Bradbury",
     "lat": -34.08734,
-    "lng": 150.81626
+    "lng": 150.81626,
+    "postcode": "2560"
   },
   {
     "name": "Breakfast Point",
     "lat": -33.844,
-    "lng": 151.1129
+    "lng": 151.1129,
+    "postcode": "2137"
   },
   {
     "name": "Brighton-Le-Sands",
     "lat": -33.9608078,
-    "lng": 151.1563262
+    "lng": 151.1563262,
+    "postcode": "2216"
   },
   {
     "name": "Bringelly",
     "lat": -33.92178,
-    "lng": 150.73234
+    "lng": 150.73234,
+    "postcode": "2556"
   },
   {
     "name": "Bronte",
     "lat": -33.90532,
-    "lng": 151.26069
+    "lng": 151.26069,
+    "postcode": "2024"
   },
   {
     "name": "Brooklyn",
     "lat": -33.5483592,
-    "lng": 151.2149798
+    "lng": 151.2149798,
+    "postcode": "2083"
   },
   {
     "name": "Brookvale",
     "lat": -33.7653,
-    "lng": 151.27041
+    "lng": 151.27041,
+    "postcode": "2100"
   },
   {
     "name": "Bundeena",
     "lat": -34.08341619999999,
-    "lng": 151.1515469
+    "lng": 151.1515469,
+    "postcode": "2230"
   },
   {
     "name": "Bungarribee",
     "lat": -33.7778159,
-    "lng": 150.8638434
+    "lng": 150.8638434,
+    "postcode": "2767"
   },
   {
     "name": "Burwood",
     "lat": -33.8772,
-    "lng": 151.1049
+    "lng": 151.1049,
+    "postcode": "2134"
   },
   {
     "name": "Burwood Heights",
     "lat": -33.8902,
-    "lng": 151.1052
+    "lng": 151.1052,
+    "postcode": "2136"
   },
   {
     "name": "Busby",
     "lat": -33.91413000000001,
-    "lng": 150.88247
+    "lng": 150.88247,
+    "postcode": "2168"
   },
   {
     "name": "Cabarita",
     "lat": -33.84802,
-    "lng": 151.11485
+    "lng": 151.11485,
+    "postcode": "2137"
   },
   {
     "name": "Cabramatta",
     "lat": -33.894444,
-    "lng": 150.9375
+    "lng": 150.9375,
+    "postcode": "2166"
   },
   {
     "name": "Cabramatta West",
     "lat": -33.8947,
-    "lng": 150.915
+    "lng": 150.915,
+    "postcode": "2166"
   },
   {
     "name": "Caddens",
     "lat": -33.7745325,
-    "lng": 150.7374139
+    "lng": 150.7374139,
+    "postcode": "2747"
   },
   {
     "name": "Cambridge Gardens",
     "lat": -33.738,
-    "lng": 150.721
+    "lng": 150.721,
+    "postcode": "2747"
   },
   {
     "name": "Cambridge Park",
     "lat": -33.748333,
-    "lng": 150.734444
+    "lng": 150.734444,
+    "postcode": "2747"
   },
   {
     "name": "Camden",
     "lat": -34.054444,
-    "lng": 150.695833
+    "lng": 150.695833,
+    "postcode": "2570"
   },
   {
     "name": "Camden South",
     "lat": -34.08539,
-    "lng": 150.70744
+    "lng": 150.70744,
+    "postcode": "2570"
   },
   {
     "name": "Camellia",
     "lat": -33.8194143,
-    "lng": 151.0333082
+    "lng": 151.0333082,
+    "postcode": "2142"
   },
   {
     "name": "Cammeray",
     "lat": -33.82306,
-    "lng": 151.21963
+    "lng": 151.21963,
+    "postcode": "2062"
   },
   {
     "name": "Campbelltown",
     "lat": -34.065,
-    "lng": 150.814167
+    "lng": 150.814167,
+    "postcode": "2560"
   },
   {
     "name": "Camperdown",
     "lat": -33.89013,
-    "lng": 151.17988
+    "lng": 151.17988,
+    "postcode": "2050"
   },
   {
     "name": "Campsie",
     "lat": -33.91461,
-    "lng": 151.10183
+    "lng": 151.10183,
+    "postcode": "2194"
   },
   {
     "name": "Canada Bay",
     "lat": -33.8561623,
-    "lng": 151.0995447
+    "lng": 151.0995447,
+    "postcode": "2046"
   },
   {
     "name": "Canley Heights",
     "lat": -33.88502,
-    "lng": 150.9276
+    "lng": 150.9276,
+    "postcode": "2166"
   },
   {
     "name": "Canley Vale",
     "lat": -33.88642,
-    "lng": 150.946
+    "lng": 150.946,
+    "postcode": "2166"
   },
   {
     "name": "Canterbury",
     "lat": -33.9126,
-    "lng": 151.118
+    "lng": 151.118,
+    "postcode": "2193"
   },
   {
     "name": "Caringbah",
     "lat": -34.0452,
-    "lng": 151.1218
+    "lng": 151.1218,
+    "postcode": "2229"
   },
   {
     "name": "Caringbah South",
     "lat": -34.0529294,
-    "lng": 151.1199309
+    "lng": 151.1199309,
+    "postcode": "2229"
   },
   {
     "name": "Carlingford",
     "lat": -33.777,
-    "lng": 151.048
+    "lng": 151.048,
+    "postcode": "2118"
   },
   {
     "name": "Carlton",
     "lat": -33.9685296,
-    "lng": 151.1246063
+    "lng": 151.1246063,
+    "postcode": "2218"
   },
   {
     "name": "Carnes Hill",
     "lat": -33.9383285,
-    "lng": 150.8478522
+    "lng": 150.8478522,
+    "postcode": "2171"
   },
   {
     "name": "Carramar",
     "lat": -33.88605,
-    "lng": 150.96442
+    "lng": 150.96442,
+    "postcode": "2163"
   },
   {
     "name": "Carss Park",
     "lat": -33.98718,
-    "lng": 151.11889
+    "lng": 151.11889,
+    "postcode": "2221"
   },
   {
     "name": "Cartwright",
     "lat": -33.9240777,
-    "lng": 150.8914686
+    "lng": 150.8914686,
+    "postcode": "2168"
   },
   {
     "name": "Castle Cove",
     "lat": -33.78464,
-    "lng": 151.20642
+    "lng": 151.20642,
+    "postcode": "2069"
   },
   {
     "name": "Castle Hill",
     "lat": -33.72925,
-    "lng": 151.00402
+    "lng": 151.00402,
+    "postcode": "2154"
   },
   {
     "name": "Castlecrag",
     "lat": -33.80137,
-    "lng": 151.22007
+    "lng": 151.22007,
+    "postcode": "2068"
   },
   {
     "name": "Castlereagh",
     "lat": -33.87256199999999,
-    "lng": 151.2089733
+    "lng": 151.2089733,
+    "postcode": "2749"
   },
   {
     "name": "Casula",
     "lat": -33.95193,
-    "lng": 150.90538
+    "lng": 150.90538,
+    "postcode": "2170"
   },
   {
     "name": "Catherine Field",
     "lat": -33.9833,
-    "lng": 150.76
+    "lng": 150.76,
+    "postcode": "2557"
   },
   {
     "name": "Cattai",
     "lat": -33.5561,
-    "lng": 150.91205
+    "lng": 150.91205,
+    "postcode": "2756"
   },
   {
     "name": "Cawdor",
     "lat": -34.083333,
-    "lng": 150.683333
+    "lng": 150.683333,
+    "postcode": "2570"
   },
   {
     "name": "Cecil Hills",
     "lat": -33.890278,
-    "lng": 150.851111
+    "lng": 150.851111,
+    "postcode": "2171"
   },
   {
     "name": "Cecil Park",
     "lat": -33.87297,
-    "lng": 150.83823
+    "lng": 150.83823,
+    "postcode": "2178"
   },
   {
     "name": "Centennial Park",
     "lat": -33.90108,
-    "lng": 151.23036
+    "lng": 151.23036,
+    "postcode": "2021"
   },
   {
     "name": "Chatswood",
     "lat": -33.80077,
-    "lng": 151.1796
+    "lng": 151.1796,
+    "postcode": "2067"
   },
   {
     "name": "Chatswood West",
     "lat": -33.7966739,
-    "lng": 151.1621677
+    "lng": 151.1621677,
+    "postcode": "2067"
   },
   {
     "name": "Cheltenham",
     "lat": -33.75839,
-    "lng": 151.07569
+    "lng": 151.07569,
+    "postcode": "2119"
   },
   {
     "name": "Cherrybrook",
     "lat": -33.7251,
-    "lng": 151.04931
+    "lng": 151.04931,
+    "postcode": "2126"
   },
   {
     "name": "Chester Hill",
     "lat": -33.87838,
-    "lng": 151.00443
+    "lng": 151.00443,
+    "postcode": "2162"
   },
   {
     "name": "Chifley",
     "lat": -33.969,
-    "lng": 151.24
+    "lng": 151.24,
+    "postcode": "2036"
   },
   {
     "name": "Chippendale",
     "lat": -33.8863,
-    "lng": 151.1999
+    "lng": 151.1999,
+    "postcode": "2008"
   },
   {
     "name": "Chipping Norton",
     "lat": -33.911,
-    "lng": 150.959
+    "lng": 150.959,
+    "postcode": "2170"
   },
   {
     "name": "Chiswick",
     "lat": -33.85192,
-    "lng": 151.13605
+    "lng": 151.13605,
+    "postcode": "2046"
   },
   {
     "name": "Chullora",
     "lat": -33.8908,
-    "lng": 151.0475
+    "lng": 151.0475,
+    "postcode": "2190"
   },
   {
     "name": "Church Point",
     "lat": -33.6544,
-    "lng": 151.2791
+    "lng": 151.2791,
+    "postcode": "2105"
   },
   {
     "name": "Claremont Meadows",
     "lat": -33.779,
-    "lng": 150.753
+    "lng": 150.753,
+    "postcode": "2747"
   },
   {
     "name": "Clarendon",
     "lat": -33.6117,
-    "lng": 150.78707
+    "lng": 150.78707,
+    "postcode": "2756"
   },
   {
     "name": "Clareville",
     "lat": -33.6362228,
-    "lng": 151.3100857
+    "lng": 151.3100857,
+    "postcode": "2107"
   },
   {
     "name": "Claymore",
     "lat": -34.0444,
-    "lng": 150.8096
+    "lng": 150.8096,
+    "postcode": "2559"
   },
   {
     "name": "Clemton Park",
     "lat": -33.9258275,
-    "lng": 151.104641
+    "lng": 151.104641,
+    "postcode": "2206"
   },
   {
     "name": "Clontarf",
     "lat": -33.80834,
-    "lng": 151.25342
+    "lng": 151.25342,
+    "postcode": "2093"
   },
   {
     "name": "Clovelly",
     "lat": -33.9121,
-    "lng": 151.2629
+    "lng": 151.2629,
+    "postcode": "2031"
   },
   {
     "name": "Clyde",
     "lat": -33.8325954,
-    "lng": 151.0223928
+    "lng": 151.0223928,
+    "postcode": "2142"
   },
   {
     "name": "Cobbitty",
     "lat": -34.016667,
-    "lng": 150.683333
+    "lng": 150.683333,
+    "postcode": "2570"
   },
   {
     "name": "Colebee",
     "lat": -33.721,
-    "lng": 150.855
+    "lng": 150.855,
+    "postcode": "2761"
   },
   {
     "name": "Collaroy",
     "lat": -33.73,
-    "lng": 151.3
+    "lng": 151.3,
+    "postcode": "2097"
   },
   {
     "name": "Collaroy Plateau",
     "lat": -33.7293326,
-    "lng": 151.290404
+    "lng": 151.290404,
+    "postcode": "2097"
   },
   {
     "name": "Colyton",
     "lat": -33.782,
-    "lng": 150.798
+    "lng": 150.798,
+    "postcode": "2760"
   },
   {
     "name": "Como",
     "lat": -34.0045,
-    "lng": 151.06379
+    "lng": 151.06379,
+    "postcode": "2226"
   },
   {
     "name": "Concord",
     "lat": -33.85985,
-    "lng": 151.10191
+    "lng": 151.10191,
+    "postcode": "2137"
   },
   {
     "name": "Concord West",
     "lat": -33.84416,
-    "lng": 151.09021
+    "lng": 151.09021,
+    "postcode": "2138"
   },
   {
     "name": "Condell Park",
     "lat": -33.92498,
-    "lng": 151.00769
+    "lng": 151.00769,
+    "postcode": "2200"
   },
   {
     "name": "Connells Point",
     "lat": -33.98246,
-    "lng": 151.10016
+    "lng": 151.10016,
+    "postcode": "2221"
   },
   {
     "name": "Constitution Hill",
     "lat": -33.7945,
-    "lng": 150.9765
+    "lng": 150.9765,
+    "postcode": "2145"
   },
   {
     "name": "Coogee",
     "lat": -33.919,
-    "lng": 151.2555
+    "lng": 151.2555,
+    "postcode": "2034"
   },
   {
     "name": "Cowan",
     "lat": -33.59072,
-    "lng": 151.16956
+    "lng": 151.16956,
+    "postcode": "2081"
   },
   {
     "name": "Cranebrook",
     "lat": -33.72088,
-    "lng": 150.71302
+    "lng": 150.71302,
+    "postcode": "2749"
   },
   {
     "name": "Cremorne",
     "lat": -33.82886939999999,
-    "lng": 151.2255485
+    "lng": 151.2255485,
+    "postcode": "2090"
   },
   {
     "name": "Cremorne Point",
     "lat": -33.84076,
-    "lng": 151.22789
+    "lng": 151.22789,
+    "postcode": "2090"
   },
   {
     "name": "Cromer",
     "lat": -33.74142,
-    "lng": 151.28227
+    "lng": 151.28227,
+    "postcode": "2099"
   },
   {
     "name": "Cronulla",
     "lat": -34.05744,
-    "lng": 151.15219
+    "lng": 151.15219,
+    "postcode": "2230"
   },
   {
     "name": "Crows Nest",
     "lat": -33.82613,
-    "lng": 151.20505
+    "lng": 151.20505,
+    "postcode": "2065"
   },
   {
     "name": "Croydon",
     "lat": -33.87904,
-    "lng": 151.11553
+    "lng": 151.11553,
+    "postcode": "2132"
   },
   {
     "name": "Croydon Park",
     "lat": -33.89679,
-    "lng": 151.10951
+    "lng": 151.10951,
+    "postcode": "2133"
   },
   {
     "name": "Curl Curl",
     "lat": -33.77213,
-    "lng": 151.28992
+    "lng": 151.28992,
+    "postcode": "2096"
   },
   {
     "name": "Currans Hill",
     "lat": -34.04084,
-    "lng": 150.76853
+    "lng": 150.76853,
+    "postcode": "2567"
   },
   {
     "name": "Currawong Beach",
     "lat": -33.5952002,
-    "lng": 151.2979869
+    "lng": 151.2979869,
+    "postcode": "2108"
   },
   {
     "name": "Daceyville",
     "lat": -33.92793,
-    "lng": 151.22349
+    "lng": 151.22349,
+    "postcode": "2032"
   },
   {
     "name": "Darling Point",
     "lat": -33.87021,
-    "lng": 151.23746
+    "lng": 151.23746,
+    "postcode": "2027"
   },
   {
     "name": "Darlinghurst",
     "lat": -33.8780176,
-    "lng": 151.2204441
+    "lng": 151.2204441,
+    "postcode": "2010"
   },
   {
     "name": "Darlington",
     "lat": -33.890334,
-    "lng": 151.19661
+    "lng": 151.19661,
+    "postcode": "2008"
   },
   {
     "name": "Davidson",
     "lat": -33.73801,
-    "lng": 151.19297
+    "lng": 151.19297,
+    "postcode": "2085"
   },
   {
     "name": "Dawes Point",
     "lat": -33.856,
-    "lng": 151.207
+    "lng": 151.207,
+    "postcode": "2000"
   },
   {
     "name": "Dean Park",
     "lat": -33.7333,
-    "lng": 150.85
+    "lng": 150.85,
+    "postcode": "2761"
   },
   {
     "name": "Dee Why",
     "lat": -33.7544,
-    "lng": 151.2854
+    "lng": 151.2854,
+    "postcode": "2099"
   },
   {
     "name": "Denham Court",
     "lat": -33.99668,
-    "lng": 150.83973
+    "lng": 150.83973,
+    "postcode": "2565"
   },
   {
     "name": "Denistone",
     "lat": -33.80085,
-    "lng": 151.08648
+    "lng": 151.08648,
+    "postcode": "2114"
   },
   {
     "name": "Denistone East",
     "lat": -33.79885,
-    "lng": 151.09948
+    "lng": 151.09948,
+    "postcode": "2112"
   },
   {
     "name": "Denistone West",
     "lat": -33.8007216,
-    "lng": 151.0777054
+    "lng": 151.0777054,
+    "postcode": "2114"
   },
   {
     "name": "Dharruk",
     "lat": -33.74807,
-    "lng": 150.8159
+    "lng": 150.8159,
+    "postcode": "2770"
   },
   {
     "name": "Dolans Bay",
     "lat": -34.06259,
-    "lng": 151.12641
+    "lng": 151.12641,
+    "postcode": "2229"
   },
   {
     "name": "Dolls Point",
     "lat": -33.99386,
-    "lng": 151.14301
+    "lng": 151.14301,
+    "postcode": "2219"
   },
   {
     "name": "Doonside",
     "lat": -33.7639837,
-    "lng": 150.8696588
+    "lng": 150.8696588,
+    "postcode": "2767"
   },
   {
     "name": "Double Bay",
     "lat": -33.8775,
-    "lng": 151.2412
+    "lng": 151.2412,
+    "postcode": "2028"
   },
   {
     "name": "Dover Heights",
     "lat": -33.87185,
-    "lng": 151.27837
+    "lng": 151.27837,
+    "postcode": "2030"
   },
   {
     "name": "Drummoyne",
     "lat": -33.85352,
-    "lng": 151.15402
+    "lng": 151.15402,
+    "postcode": "2047"
   },
   {
     "name": "Duffys Forest",
     "lat": -33.67525,
-    "lng": 151.19789
+    "lng": 151.19789,
+    "postcode": "2084"
   },
   {
     "name": "Dulwich Hill",
     "lat": -33.908333,
-    "lng": 151.141667
+    "lng": 151.141667,
+    "postcode": "2203"
   },
   {
     "name": "Dundas",
     "lat": -33.80404,
-    "lng": 151.0351
+    "lng": 151.0351,
+    "postcode": "2117"
   },
   {
     "name": "Dundas Valley",
     "lat": -33.79312,
-    "lng": 151.05999
+    "lng": 151.05999,
+    "postcode": "2117"
   },
   {
     "name": "Dural",
     "lat": -33.682,
-    "lng": 151.029
+    "lng": 151.029,
+    "postcode": "2158"
   },
   {
     "name": "Eagle Vale",
     "lat": -34.03686,
-    "lng": 150.81144
+    "lng": 150.81144,
+    "postcode": "2558"
   },
   {
     "name": "Earlwood",
     "lat": -33.92018,
-    "lng": 151.12682
+    "lng": 151.12682,
+    "postcode": "2206"
   },
   {
     "name": "East Gordon",
     "lat": -33.75732,
-    "lng": 151.14916
+    "lng": 151.14916,
+    "postcode": ""
   },
   {
     "name": "East Hills",
     "lat": -33.96396,
-    "lng": 150.98974
+    "lng": 150.98974,
+    "postcode": "2213"
   },
   {
     "name": "East Killara",
     "lat": -33.75592,
-    "lng": 151.17973
+    "lng": 151.17973,
+    "postcode": "2071"
   },
   {
     "name": "East Lindfield",
     "lat": -33.77274,
-    "lng": 151.18726
+    "lng": 151.18726,
+    "postcode": "2070"
   },
   {
     "name": "East Ryde",
     "lat": -33.81,
-    "lng": 151.135
+    "lng": 151.135,
+    "postcode": "2113"
   },
   {
     "name": "Eastern Creek",
     "lat": -33.8058783,
-    "lng": 150.8701372
+    "lng": 150.8701372,
+    "postcode": "2766"
   },
   {
     "name": "Eastgardens",
     "lat": -33.946,
-    "lng": 151.225
+    "lng": 151.225,
+    "postcode": "2036"
   },
   {
     "name": "Eastlakes",
     "lat": -33.925,
-    "lng": 151.213333
+    "lng": 151.213333,
+    "postcode": "2018"
   },
   {
     "name": "Eastwood",
     "lat": -33.790362,
-    "lng": 151.081731
+    "lng": 151.081731,
+    "postcode": "2122"
   },
   {
     "name": "Edensor Park",
     "lat": -33.88095,
-    "lng": 150.87516
+    "lng": 150.87516,
+    "postcode": "2176"
   },
   {
     "name": "Edgecliff",
     "lat": -33.8799875,
-    "lng": 151.2357452
+    "lng": 151.2357452,
+    "postcode": "2027"
   },
   {
     "name": "Edmondson Park",
     "lat": -33.96371,
-    "lng": 150.85642
+    "lng": 150.85642,
+    "postcode": "2174"
   },
   {
     "name": "Elanora Heights",
     "lat": -33.70102,
-    "lng": 151.2789
+    "lng": 151.2789,
+    "postcode": "2101"
   },
   {
     "name": "Elderslie",
     "lat": -34.05462,
-    "lng": 150.7125
+    "lng": 150.7125,
+    "postcode": "2335"
   },
   {
     "name": "Elizabeth Bay",
     "lat": -33.87143,
-    "lng": 151.22841
+    "lng": 151.22841,
+    "postcode": "2011"
   },
   {
     "name": "Elizabeth Hills",
     "lat": -33.9000666,
-    "lng": 150.8478522
+    "lng": 150.8478522,
+    "postcode": "2171"
   },
   {
     "name": "Ellis Lane",
     "lat": -34.034,
-    "lng": 150.675
+    "lng": 150.675,
+    "postcode": "2570"
   },
   {
     "name": "Emerton",
     "lat": -33.75,
-    "lng": 150.8027
+    "lng": 150.8027,
+    "postcode": "2770"
   },
   {
     "name": "Emu Heights",
     "lat": -33.73521,
-    "lng": 150.6503
+    "lng": 150.6503,
+    "postcode": "2750"
   },
   {
     "name": "Emu Plains",
     "lat": -33.75206,
-    "lng": 150.65967
+    "lng": 150.65967,
+    "postcode": "2750"
   },
   {
     "name": "Enfield",
     "lat": -33.89059,
-    "lng": 151.09246
+    "lng": 151.09246,
+    "postcode": "2136"
   },
   {
     "name": "Engadine",
     "lat": -34.065722,
-    "lng": 151.012664
+    "lng": 151.012664,
+    "postcode": "2233"
   },
   {
     "name": "Englorie Park",
     "lat": -34.0806577,
-    "lng": 150.7948026
+    "lng": 150.7948026,
+    "postcode": "2560"
   },
   {
     "name": "Enmore",
     "lat": -33.90067,
-    "lng": 151.16768
+    "lng": 151.16768,
+    "postcode": "2042"
   },
   {
     "name": "Epping",
     "lat": -33.7746,
-    "lng": 151.0788
+    "lng": 151.0788,
+    "postcode": "2121"
   },
   {
     "name": "Ermington",
     "lat": -33.81145000000001,
-    "lng": 151.06178
+    "lng": 151.06178,
+    "postcode": "2115"
   },
   {
     "name": "Erskine Park",
     "lat": -33.81323,
-    "lng": 150.80143
+    "lng": 150.80143,
+    "postcode": "2759"
   },
   {
     "name": "Erskineville",
     "lat": -33.90476,
-    "lng": 151.18479
+    "lng": 151.18479,
+    "postcode": "2043"
   },
   {
     "name": "Eschol Park",
     "lat": -34.0304,
-    "lng": 150.80942
+    "lng": 150.80942,
+    "postcode": "2558"
   },
   {
     "name": "Eveleigh",
     "lat": -33.895,
-    "lng": 151.191
+    "lng": 151.191,
+    "postcode": "2015"
   },
   {
     "name": "Fairfield",
     "lat": -33.87028,
-    "lng": 150.95622
+    "lng": 150.95622,
+    "postcode": "2165"
   },
   {
     "name": "Fairfield East",
     "lat": -33.87177,
-    "lng": 150.97346
+    "lng": 150.97346,
+    "postcode": "2165"
   },
   {
     "name": "Fairfield Heights",
     "lat": -33.86848,
-    "lng": 150.94239
+    "lng": 150.94239,
+    "postcode": "2165"
   },
   {
     "name": "Fairfield West",
     "lat": -33.87112,
-    "lng": 150.92322
+    "lng": 150.92322,
+    "postcode": "2165"
   },
   {
     "name": "Fairlight",
     "lat": -33.796,
-    "lng": 151.277
+    "lng": 151.277,
+    "postcode": "2094"
   },
   {
     "name": "Fiddletown",
     "lat": -33.60259,
-    "lng": 151.04984
+    "lng": 151.04984,
+    "postcode": "2159"
   },
   {
     "name": "Five Dock",
     "lat": -33.86512,
-    "lng": 151.12856
+    "lng": 151.12856,
+    "postcode": "2046"
   },
   {
     "name": "Flemington",
     "lat": -33.8598449,
-    "lng": 151.0712559
+    "lng": 151.0712559,
+    "postcode": ""
   },
   {
     "name": "Forest Glen",
     "lat": -33.7212253,
-    "lng": 151.037247
+    "lng": 151.037247,
+    "postcode": "2157"
   },
   {
     "name": "Forest Lodge",
     "lat": -33.88396,
-    "lng": 151.1815
+    "lng": 151.1815,
+    "postcode": "2037"
   },
   {
     "name": "Forestville",
     "lat": -33.7613,
-    "lng": 151.2113
+    "lng": 151.2113,
+    "postcode": "2087"
   },
   {
     "name": "Freemans Reach",
     "lat": -33.56146,
-    "lng": 150.79787
+    "lng": 150.79787,
+    "postcode": "2756"
   },
   {
     "name": "Frenchs Forest",
     "lat": -33.749,
-    "lng": 151.2331
+    "lng": 151.2331,
+    "postcode": "2086"
   },
   {
     "name": "Freshwater",
     "lat": -33.7749,
-    "lng": 151.28783
+    "lng": 151.28783,
+    "postcode": "2096"
   },
   {
     "name": "Galston",
     "lat": -33.65,
-    "lng": 151.043
+    "lng": 151.043,
+    "postcode": "2159"
   },
   {
     "name": "Georges Hall",
     "lat": -33.91217,
-    "lng": 150.98557
+    "lng": 150.98557,
+    "postcode": "2198"
   },
   {
     "name": "Gilead",
     "lat": -34.1410068,
-    "lng": 150.7923904
+    "lng": 150.7923904,
+    "postcode": "2560"
   },
   {
     "name": "Girraween",
     "lat": -33.80128,
-    "lng": 150.94305
+    "lng": 150.94305,
+    "postcode": "2145"
   },
   {
     "name": "Gladesville",
     "lat": -33.8296098,
-    "lng": 151.125756
+    "lng": 151.125756,
+    "postcode": "2111"
   },
   {
     "name": "Glebe",
     "lat": -33.87978,
-    "lng": 151.18541
+    "lng": 151.18541,
+    "postcode": "2037"
   },
   {
     "name": "Gledswood Hills",
     "lat": -34.011667,
-    "lng": 150.780278
+    "lng": 150.780278,
+    "postcode": "2557"
   },
   {
     "name": "Glen Alpine",
     "lat": -34.09,
-    "lng": 150.785
+    "lng": 150.785,
+    "postcode": "2560"
   },
   {
     "name": "Glendenning",
     "lat": -33.749,
-    "lng": 150.851
+    "lng": 150.851,
+    "postcode": "2761"
   },
   {
     "name": "Glenfield",
     "lat": -33.965,
-    "lng": 150.893
+    "lng": 150.893,
+    "postcode": "2167"
   },
   {
     "name": "Glenhaven",
     "lat": -33.70547,
-    "lng": 151.00334
+    "lng": 151.00334,
+    "postcode": "2156"
   },
   {
     "name": "Glenmore Park",
     "lat": -33.79,
-    "lng": 150.676
+    "lng": 150.676,
+    "postcode": "2745"
   },
   {
     "name": "Glenorie",
     "lat": -33.60224,
-    "lng": 151.00247
+    "lng": 151.00247,
+    "postcode": "2157"
   },
   {
     "name": "Glenwood",
     "lat": -33.734,
-    "lng": 150.934
+    "lng": 150.934,
+    "postcode": "2768"
   },
   {
     "name": "Glossodia",
     "lat": -33.53432,
-    "lng": 150.78231
+    "lng": 150.78231,
+    "postcode": "2756"
   },
   {
     "name": "Gordon",
     "lat": -33.75732,
-    "lng": 151.14916
+    "lng": 151.14916,
+    "postcode": "2072"
   },
   {
     "name": "Granville",
     "lat": -33.8404,
-    "lng": 151.0079
+    "lng": 151.0079,
+    "postcode": "2142"
   },
   {
     "name": "Grasmere",
     "lat": -34.057,
-    "lng": 150.667
+    "lng": 150.667,
+    "postcode": "2570"
   },
   {
     "name": "Grays Point",
     "lat": -34.05508,
-    "lng": 151.07492
+    "lng": 151.07492,
+    "postcode": "2232"
   },
   {
     "name": "Great Mackerel Beach",
     "lat": -33.59166700000001,
-    "lng": 151.300833
+    "lng": 151.300833,
+    "postcode": "2108"
   },
   {
     "name": "Green Valley",
     "lat": -33.90596,
-    "lng": 150.86681
+    "lng": 150.86681,
+    "postcode": "2168"
   },
   {
     "name": "Greenacre",
     "lat": -33.9092,
-    "lng": 151.0534
+    "lng": 151.0534,
+    "postcode": "2190"
   },
   {
     "name": "Greenfield Park",
     "lat": -33.87676,
-    "lng": 150.88819
+    "lng": 150.88819,
+    "postcode": "2176"
   },
   {
     "name": "Greenhills Beach",
     "lat": -34.034689,
-    "lng": 151.1646
+    "lng": 151.1646,
+    "postcode": "2230"
   },
   {
     "name": "Greenwich",
     "lat": -33.83302,
-    "lng": 151.18362
+    "lng": 151.18362,
+    "postcode": "2065"
   },
   {
     "name": "Gregory Hills",
     "lat": -34.0307506,
-    "lng": 150.7766392
+    "lng": 150.7766392,
+    "postcode": "2557"
   },
   {
     "name": "Greystanes",
     "lat": -33.823244,
-    "lng": 150.943633
+    "lng": 150.943633,
+    "postcode": "2145"
   },
   {
     "name": "Guildford",
     "lat": -33.8558528,
-    "lng": 150.9948543
+    "lng": 150.9948543,
+    "postcode": "2161"
   },
   {
     "name": "Guildford West",
     "lat": -33.850656,
-    "lng": 150.96308
+    "lng": 150.96308,
+    "postcode": "2161"
   },
   {
     "name": "Gymea",
     "lat": -34.0333,
-    "lng": 151.08556
+    "lng": 151.08556,
+    "postcode": "2227"
   },
   {
     "name": "Gymea Bay",
     "lat": -34.0496,
-    "lng": 151.0864
+    "lng": 151.0864,
+    "postcode": "2227"
   },
   {
     "name": "Haberfield",
     "lat": -33.8833,
-    "lng": 151.1416
+    "lng": 151.1416,
+    "postcode": "2045"
   },
   {
     "name": "Hammondville",
     "lat": -33.95214,
-    "lng": 150.96076
+    "lng": 150.96076,
+    "postcode": "2170"
   },
   {
     "name": "Harrington Park",
     "lat": -34.02769,
-    "lng": 150.73081
+    "lng": 150.73081,
+    "postcode": "2567"
   },
   {
     "name": "Harris Park",
     "lat": -33.8219453,
-    "lng": 151.0107506
+    "lng": 151.0107506,
+    "postcode": "2150"
   },
   {
     "name": "Hassall Grove",
     "lat": -33.7309406,
-    "lng": 150.840584
+    "lng": 150.840584,
+    "postcode": "2761"
   },
   {
     "name": "Haymarket",
     "lat": -33.88092,
-    "lng": 151.20294
+    "lng": 151.20294,
+    "postcode": "2000"
   },
   {
     "name": "Heathcote",
     "lat": -34.08506,
-    "lng": 151.00808
+    "lng": 151.00808,
+    "postcode": "2233"
   },
   {
     "name": "Hebersham",
     "lat": -33.7459836,
-    "lng": 150.8245953
+    "lng": 150.8245953,
+    "postcode": "2770"
   },
   {
     "name": "Heckenberg",
     "lat": -33.91068,
-    "lng": 150.88887
+    "lng": 150.88887,
+    "postcode": "2168"
   },
   {
     "name": "Henley",
     "lat": -33.84252,
-    "lng": 151.13475
+    "lng": 151.13475,
+    "postcode": "2111"
   },
   {
     "name": "Hillsdale",
     "lat": -33.95493,
-    "lng": 151.22875
+    "lng": 151.22875,
+    "postcode": "2036"
   },
   {
     "name": "Hinchinbrook",
     "lat": -33.915,
-    "lng": 150.868
+    "lng": 150.868,
+    "postcode": "2168"
   },
   {
     "name": "Hobartville",
     "lat": -33.60458,
-    "lng": 150.74298
+    "lng": 150.74298,
+    "postcode": "2753"
   },
   {
     "name": "Holroyd",
     "lat": -33.831,
-    "lng": 150.997
+    "lng": 150.997,
+    "postcode": "2142"
   },
   {
     "name": "Holsworthy",
     "lat": -33.9565362,
-    "lng": 150.9498811
+    "lng": 150.9498811,
+    "postcode": "2173"
   },
   {
     "name": "Homebush",
     "lat": -33.86405999999999,
-    "lng": 151.08234
+    "lng": 151.08234,
+    "postcode": "2140"
   },
   {
     "name": "Homebush West",
     "lat": -33.8638063,
-    "lng": 151.0664624
+    "lng": 151.0664624,
+    "postcode": "2140"
   },
   {
     "name": "Horningsea Park",
     "lat": -33.944,
-    "lng": 150.844
+    "lng": 150.844,
+    "postcode": "2171"
   },
   {
     "name": "Hornsby",
     "lat": -33.70489999999999,
-    "lng": 151.09901
+    "lng": 151.09901,
+    "postcode": "2077"
   },
   {
     "name": "Hornsby Heights",
     "lat": -33.6722,
-    "lng": 151.0988
+    "lng": 151.0988,
+    "postcode": "2077"
   },
   {
     "name": "Horsley Park",
     "lat": -33.85832,
-    "lng": 150.85537
+    "lng": 150.85537,
+    "postcode": "2175"
   },
   {
     "name": "Hoxton Park",
     "lat": -33.93382,
-    "lng": 150.85284
+    "lng": 150.85284,
+    "postcode": "2171"
   },
   {
     "name": "Hunters Hill",
     "lat": -33.8337,
-    "lng": 151.14366
+    "lng": 151.14366,
+    "postcode": "2110"
   },
   {
     "name": "Huntingwood",
     "lat": -33.799,
-    "lng": 150.885
+    "lng": 150.885,
+    "postcode": "2148"
   },
   {
     "name": "Huntleys Cove",
     "lat": -33.8385208,
-    "lng": 151.138135
+    "lng": 151.138135,
+    "postcode": "2111"
   },
   {
     "name": "Huntleys Point",
     "lat": -33.839,
-    "lng": 151.147
+    "lng": 151.147,
+    "postcode": "2111"
   },
   {
     "name": "Hurlstone Park",
     "lat": -33.91058,
-    "lng": 151.12919
+    "lng": 151.12919,
+    "postcode": "2193"
   },
   {
     "name": "Hurstville",
     "lat": -33.966667,
-    "lng": 151.1
+    "lng": 151.1,
+    "postcode": "2220"
   },
   {
     "name": "Hurstville Grove",
     "lat": -33.97972,
-    "lng": 151.09298
+    "lng": 151.09298,
+    "postcode": "2220"
   },
   {
     "name": "Illawong",
     "lat": -34.00057,
-    "lng": 151.03587
+    "lng": 151.03587,
+    "postcode": "2234"
   },
   {
     "name": "Ingleburn",
     "lat": -34.0043204,
-    "lng": 150.8630244
+    "lng": 150.8630244,
+    "postcode": "2565"
   },
   {
     "name": "Ingleside",
     "lat": -33.6823,
-    "lng": 151.26315
+    "lng": 151.26315,
+    "postcode": "2101"
   },
   {
     "name": "Jamisontown",
     "lat": -33.76829,
-    "lng": 150.67238
+    "lng": 150.67238,
+    "postcode": "2750"
   },
   {
     "name": "Jannali",
     "lat": -34.01695,
-    "lng": 151.06522
+    "lng": 151.06522,
+    "postcode": "2226"
   },
   {
     "name": "Jordan Springs",
     "lat": -33.724,
-    "lng": 150.728
+    "lng": 150.728,
+    "postcode": "2747"
   },
   {
     "name": "Kangaroo Point",
     "lat": -34.002,
-    "lng": 151.096
+    "lng": 151.096,
+    "postcode": "2224"
   },
   {
     "name": "Kareela",
     "lat": -34.01503,
-    "lng": 151.08046
+    "lng": 151.08046,
+    "postcode": "2232"
   },
   {
     "name": "Kearns",
     "lat": -34.02373,
-    "lng": 150.80628
+    "lng": 150.80628,
+    "postcode": "2558"
   },
   {
     "name": "Kellyville",
     "lat": -33.71053,
-    "lng": 150.95114
+    "lng": 150.95114,
+    "postcode": "2155"
   },
   {
     "name": "Kellyville Ridge",
     "lat": -33.703,
-    "lng": 150.919
+    "lng": 150.919,
+    "postcode": "2155"
   },
   {
     "name": "Kemps Creek",
     "lat": -33.87464,
-    "lng": 150.79868
+    "lng": 150.79868,
+    "postcode": "2178"
   },
   {
     "name": "Kensington",
     "lat": -33.90888899999999,
-    "lng": 151.223333
+    "lng": 151.223333,
+    "postcode": "2033"
   },
   {
     "name": "Kenthurst",
     "lat": -33.6693,
-    "lng": 151.00158
+    "lng": 151.00158,
+    "postcode": "2156"
   },
   {
     "name": "Kentlyn",
     "lat": -34.05193,
-    "lng": 150.87797
+    "lng": 150.87797,
+    "postcode": "2560"
   },
   {
     "name": "Killara",
     "lat": -33.76864,
-    "lng": 151.16347
+    "lng": 151.16347,
+    "postcode": "2071"
   },
   {
     "name": "Killarney Heights",
     "lat": -33.7742,
-    "lng": 151.2155
+    "lng": 151.2155,
+    "postcode": "2087"
   },
   {
     "name": "Kings Cross",
     "lat": -33.8742783,
-    "lng": 151.2229958
+    "lng": 151.2229958,
+    "postcode": ""
   },
   {
     "name": "Kings Langley",
     "lat": -33.7497644,
-    "lng": 150.933643
+    "lng": 150.933643,
+    "postcode": "2147"
   },
   {
     "name": "Kings Park",
     "lat": -33.737,
-    "lng": 150.901
+    "lng": 150.901,
+    "postcode": "2148"
   },
   {
     "name": "Kingsford",
     "lat": -33.92457,
-    "lng": 151.22765
+    "lng": 151.22765,
+    "postcode": "2032"
   },
   {
     "name": "Kingsgrove",
     "lat": -33.9391,
-    "lng": 151.10138
+    "lng": 151.10138,
+    "postcode": "2208"
   },
   {
     "name": "Kingswood",
     "lat": -33.759,
-    "lng": 150.72
+    "lng": 150.72,
+    "postcode": "2340"
   },
   {
     "name": "Kingswood Park",
     "lat": -33.759,
-    "lng": 150.72
+    "lng": 150.72,
+    "postcode": ""
   },
   {
     "name": "Kirkham",
     "lat": -34.039,
-    "lng": 150.709
+    "lng": 150.709,
+    "postcode": "2570"
   },
   {
     "name": "Kirrawee",
     "lat": -34.034722,
-    "lng": 151.071111
+    "lng": 151.071111,
+    "postcode": "2232"
   },
   {
     "name": "Kirribilli",
     "lat": -33.8491363,
-    "lng": 151.2175297
+    "lng": 151.2175297,
+    "postcode": "2061"
   },
   {
     "name": "Kogarah",
     "lat": -33.9674,
-    "lng": 151.13648
+    "lng": 151.13648,
+    "postcode": "2217"
   },
   {
     "name": "Kogarah Bay",
     "lat": -33.98338,
-    "lng": 151.12166
+    "lng": 151.12166,
+    "postcode": "2217"
   },
   {
     "name": "Ku-ring-gai Chase",
     "lat": -33.621874,
-    "lng": 151.245131
+    "lng": 151.245131,
+    "postcode": ""
   },
   {
     "name": "Kurnell",
     "lat": -34.01159,
-    "lng": 151.20686
+    "lng": 151.20686,
+    "postcode": "2231"
   },
   {
     "name": "Kurraba Point",
     "lat": -33.843,
-    "lng": 151.223
+    "lng": 151.223,
+    "postcode": "2089"
   },
   {
     "name": "Kyeemagh",
     "lat": -33.94829,
-    "lng": 151.15711
+    "lng": 151.15711,
+    "postcode": "2216"
   },
   {
     "name": "Kyle Bay",
     "lat": -33.9911107,
-    "lng": 151.1002727
+    "lng": 151.1002727,
+    "postcode": "2221"
   },
   {
     "name": "La Perouse",
     "lat": -33.9888,
-    "lng": 151.232
+    "lng": 151.232,
+    "postcode": "2036"
   },
   {
     "name": "Lakemba",
     "lat": -33.9199504,
-    "lng": 151.0791612
+    "lng": 151.0791612,
+    "postcode": "2195"
   },
   {
     "name": "Lalor Park",
     "lat": -33.7666,
-    "lng": 150.9277
+    "lng": 150.9277,
+    "postcode": "2147"
   },
   {
     "name": "Lane Cove",
     "lat": -33.8148708,
-    "lng": 151.1664351
+    "lng": 151.1664351,
+    "postcode": "2066"
   },
   {
     "name": "Lane Cove North",
     "lat": -33.807,
-    "lng": 151.164
+    "lng": 151.164,
+    "postcode": "2066"
   },
   {
     "name": "Lane Cove West",
     "lat": -33.812,
-    "lng": 151.15
+    "lng": 151.15,
+    "postcode": "2066"
   },
   {
     "name": "Lansdowne",
     "lat": -33.89499,
-    "lng": 150.97418
+    "lng": 150.97418,
+    "postcode": "2163"
   },
   {
     "name": "Lansvale",
     "lat": -33.906913,
-    "lng": 150.9685549
+    "lng": 150.9685549,
+    "postcode": "2166"
   },
   {
     "name": "Lavender Bay",
     "lat": -33.8435728,
-    "lng": 151.2069658
+    "lng": 151.2069658,
+    "postcode": "2060"
   },
   {
     "name": "Leichhardt",
     "lat": -33.8847,
-    "lng": 151.1573
+    "lng": 151.1573,
+    "postcode": "2040"
   },
   {
     "name": "Len Waters Estate",
     "lat": -33.9143238,
-    "lng": 150.853667
+    "lng": 150.853667,
+    "postcode": "2171"
   },
   {
     "name": "Leonay",
     "lat": -33.76506,
-    "lng": 150.64568
+    "lng": 150.64568,
+    "postcode": "2750"
   },
   {
     "name": "Leppington",
     "lat": -33.965,
-    "lng": 150.801
+    "lng": 150.801,
+    "postcode": "2179"
   },
   {
     "name": "Lethbridge Park",
     "lat": -33.7374293,
-    "lng": 150.8013419
+    "lng": 150.8013419,
+    "postcode": "2770"
   },
   {
     "name": "Leumeah",
     "lat": -34.05546,
-    "lng": 150.83328
+    "lng": 150.83328,
+    "postcode": "2560"
   },
   {
     "name": "Lewisham",
     "lat": -33.8949,
-    "lng": 151.144415
+    "lng": 151.144415,
+    "postcode": "2049"
   },
   {
     "name": "Liberty Grove",
     "lat": -33.841667,
-    "lng": 151.083611
+    "lng": 151.083611,
+    "postcode": "2138"
   },
   {
     "name": "Lidcombe",
     "lat": -33.86462,
-    "lng": 151.04563
+    "lng": 151.04563,
+    "postcode": "2141"
   },
   {
     "name": "Lilli Pilli",
     "lat": -34.068333,
-    "lng": 151.115833
+    "lng": 151.115833,
+    "postcode": "2229"
   },
   {
     "name": "Lilyfield",
     "lat": -33.87303,
-    "lng": 151.16601
+    "lng": 151.16601,
+    "postcode": "2040"
   },
   {
     "name": "Lindfield",
     "lat": -33.77674,
-    "lng": 151.17119
+    "lng": 151.17119,
+    "postcode": "2070"
   },
   {
     "name": "Linley Point",
     "lat": -33.8274222,
-    "lng": 151.1497868
+    "lng": 151.1497868,
+    "postcode": "2066"
   },
   {
     "name": "Little Bay",
     "lat": -33.98054,
-    "lng": 151.24301
+    "lng": 151.24301,
+    "postcode": "2036"
   },
   {
     "name": "Liverpool",
     "lat": -33.92092,
-    "lng": 150.92314
+    "lng": 150.92314,
+    "postcode": "2170"
   },
   {
     "name": "Llandilo",
     "lat": -33.7061,
-    "lng": 150.7453
+    "lng": 150.7453,
+    "postcode": "2747"
   },
   {
     "name": "Loftus",
     "lat": -34.0465,
-    "lng": 151.0471
+    "lng": 151.0471,
+    "postcode": "2232"
   },
   {
     "name": "Londonderry",
     "lat": -33.6485,
-    "lng": 150.7355
+    "lng": 150.7355,
+    "postcode": "2753"
   },
   {
     "name": "Long Point",
     "lat": -34.012,
-    "lng": 150.897
+    "lng": 150.897,
+    "postcode": "2330"
   },
   {
     "name": "Longueville",
     "lat": -33.83309,
-    "lng": 151.16494
+    "lng": 151.16494,
+    "postcode": "2066"
   },
   {
     "name": "Lugarno",
     "lat": -33.98469,
-    "lng": 151.04352
+    "lng": 151.04352,
+    "postcode": "2210"
   },
   {
     "name": "Lurnea",
     "lat": -33.93492,
-    "lng": 150.89557
+    "lng": 150.89557,
+    "postcode": "2170"
   },
   {
     "name": "Macquarie Fields",
     "lat": -33.99434,
-    "lng": 150.88757
+    "lng": 150.88757,
+    "postcode": "2564"
   },
   {
     "name": "Macquarie Links",
     "lat": -33.982,
-    "lng": 150.874
+    "lng": 150.874,
+    "postcode": "2565"
   },
   {
     "name": "Macquarie Park",
     "lat": -33.7772,
-    "lng": 151.12412
+    "lng": 151.12412,
+    "postcode": "2113"
   },
   {
     "name": "Maianbar",
     "lat": -34.0764794,
-    "lng": 151.1272123
+    "lng": 151.1272123,
+    "postcode": "2230"
   },
   {
     "name": "Malabar",
     "lat": -33.9656,
-    "lng": 151.2487
+    "lng": 151.2487,
+    "postcode": "2036"
   },
   {
     "name": "Manly",
     "lat": -33.8060158,
-    "lng": 151.2947775
+    "lng": 151.2947775,
+    "postcode": "2095"
   },
   {
     "name": "Manly Vale",
     "lat": -33.783,
-    "lng": 151.2622
+    "lng": 151.2622,
+    "postcode": "2093"
   },
   {
     "name": "Maraylya",
     "lat": -33.59775,
-    "lng": 150.91609
+    "lng": 150.91609,
+    "postcode": "2765"
   },
   {
     "name": "Marayong",
     "lat": -33.7495256,
-    "lng": 150.8929227
+    "lng": 150.8929227,
+    "postcode": "2148"
   },
   {
     "name": "Maroota",
     "lat": -33.5241,
-    "lng": 150.9485
+    "lng": 150.9485,
+    "postcode": "2756"
   },
   {
     "name": "Maroubra",
     "lat": -33.9495,
-    "lng": 151.2437
+    "lng": 151.2437,
+    "postcode": "2035"
   },
   {
     "name": "Marrickville",
     "lat": -33.9051,
-    "lng": 151.1551
+    "lng": 151.1551,
+    "postcode": "2204"
   },
   {
     "name": "Marsden Park",
     "lat": -33.68908,
-    "lng": 150.80285
+    "lng": 150.80285,
+    "postcode": "2765"
   },
   {
     "name": "Marsfield",
     "lat": -33.77963,
-    "lng": 151.10253
+    "lng": 151.10253,
+    "postcode": "2122"
   },
   {
     "name": "Mascot",
     "lat": -33.9291,
-    "lng": 151.18793
+    "lng": 151.18793,
+    "postcode": "2020"
   },
   {
     "name": "Matraville",
     "lat": -33.9613,
-    "lng": 151.2315
+    "lng": 151.2315,
+    "postcode": "2036"
   },
   {
     "name": "Mays Hill",
     "lat": -33.8206367,
-    "lng": 150.9881962
+    "lng": 150.9881962,
+    "postcode": "2145"
   },
   {
     "name": "McCarrs Creek",
     "lat": -33.643,
-    "lng": 151.277
+    "lng": 151.277,
+    "postcode": "2105"
   },
   {
     "name": "McGraths Hill",
     "lat": -33.61939,
-    "lng": 150.84304
+    "lng": 150.84304,
+    "postcode": "2756"
   },
   {
     "name": "McMahons Point",
     "lat": -33.84524,
-    "lng": 151.20433
+    "lng": 151.20433,
+    "postcode": "2060"
   },
   {
     "name": "Meadowbank",
     "lat": -33.81692,
-    "lng": 151.08333
+    "lng": 151.08333,
+    "postcode": "2114"
   },
   {
     "name": "Melrose Park",
     "lat": -33.8145781,
-    "lng": 151.0718821
+    "lng": 151.0718821,
+    "postcode": "2114"
   },
   {
     "name": "Menai",
     "lat": -34.0118,
-    "lng": 151.0089
+    "lng": 151.0089,
+    "postcode": "2234"
   },
   {
     "name": "Menangle Park",
     "lat": -34.102939,
-    "lng": 150.742442
+    "lng": 150.742442,
+    "postcode": "2563"
   },
   {
     "name": "Merrylands",
     "lat": -33.83742,
-    "lng": 150.99168
+    "lng": 150.99168,
+    "postcode": "2160"
   },
   {
     "name": "Merrylands West",
     "lat": -33.83742,
-    "lng": 150.96168
+    "lng": 150.96168,
+    "postcode": "2160"
   },
   {
     "name": "Middle Cove",
     "lat": -33.7938,
-    "lng": 151.2086
+    "lng": 151.2086,
+    "postcode": "2068"
   },
   {
     "name": "Middle Dural",
     "lat": -33.6408817,
-    "lng": 151.0180269
+    "lng": 151.0180269,
+    "postcode": "2158"
   },
   {
     "name": "Middleton Grange",
     "lat": -33.915,
-    "lng": 150.842
+    "lng": 150.842,
+    "postcode": "2171"
   },
   {
     "name": "Miller",
     "lat": -33.9268,
-    "lng": 150.8724
+    "lng": 150.8724,
+    "postcode": "2168"
   },
   {
     "name": "Millers Point",
     "lat": -33.86085,
-    "lng": 151.20281
+    "lng": 151.20281,
+    "postcode": "2000"
   },
   {
     "name": "Milperra",
     "lat": -33.9370971,
-    "lng": 150.9825635
+    "lng": 150.9825635,
+    "postcode": "2214"
   },
   {
     "name": "Milsons Point",
     "lat": -33.84765,
-    "lng": 151.21201
+    "lng": 151.21201,
+    "postcode": "2061"
   },
   {
     "name": "Minchinbury",
     "lat": -33.7862557,
-    "lng": 150.8173282
+    "lng": 150.8173282,
+    "postcode": "2770"
   },
   {
     "name": "Minto",
     "lat": -34.02646,
-    "lng": 150.8507
+    "lng": 150.8507,
+    "postcode": "2566"
   },
   {
     "name": "Minto Heights",
     "lat": -34.031,
-    "lng": 150.8743
+    "lng": 150.8743,
+    "postcode": "2566"
   },
   {
     "name": "Miranda",
     "lat": -34.03562,
-    "lng": 151.10276
+    "lng": 151.10276,
+    "postcode": "2228"
   },
   {
     "name": "Mona Vale",
     "lat": -33.67596,
-    "lng": 151.30653
+    "lng": 151.30653,
+    "postcode": "2103"
   },
   {
     "name": "Monterey",
     "lat": -33.9738,
-    "lng": 151.1479
+    "lng": 151.1479,
+    "postcode": "2217"
   },
   {
     "name": "Moore Park",
     "lat": -33.89655,
-    "lng": 151.21998
+    "lng": 151.21998,
+    "postcode": "2021"
   },
   {
     "name": "Moorebank",
     "lat": -33.933,
-    "lng": 150.95015
+    "lng": 150.95015,
+    "postcode": "2170"
   },
   {
     "name": "Mortdale",
     "lat": -33.96932,
-    "lng": 151.06969
+    "lng": 151.06969,
+    "postcode": "2223"
   },
   {
     "name": "Mortlake",
     "lat": -33.8405772,
-    "lng": 151.1060971
+    "lng": 151.1060971,
+    "postcode": "2137"
   },
   {
     "name": "Mosman",
     "lat": -33.829075,
-    "lng": 151.24409
+    "lng": 151.24409,
+    "postcode": "2088"
   },
   {
     "name": "Mount Annan",
     "lat": -34.065,
-    "lng": 150.76
+    "lng": 150.76,
+    "postcode": "2567"
   },
   {
     "name": "Mount Colah",
     "lat": -33.66382,
-    "lng": 151.11341
+    "lng": 151.11341,
+    "postcode": "2079"
   },
   {
     "name": "Mount Druitt",
     "lat": -33.7722,
-    "lng": 150.8194
+    "lng": 150.8194,
+    "postcode": "2770"
   },
   {
     "name": "Mount Kuring-Gai",
     "lat": -33.64543,
-    "lng": 151.13115
+    "lng": 151.13115,
+    "postcode": "2080"
   },
   {
     "name": "Mount Lewis",
     "lat": -33.915,
-    "lng": 151.051
+    "lng": 151.051,
+    "postcode": "2190"
   },
   {
     "name": "Mount Pritchard",
     "lat": -33.898,
-    "lng": 150.901
+    "lng": 150.901,
+    "postcode": "2170"
   },
   {
     "name": "Mount Vernon",
     "lat": -33.857,
-    "lng": 150.81
+    "lng": 150.81,
+    "postcode": "2178"
   },
   {
     "name": "Mulgoa",
     "lat": -33.8461,
-    "lng": 150.6525
+    "lng": 150.6525,
+    "postcode": "2745"
   },
   {
     "name": "Mulgrave",
     "lat": -33.615,
-    "lng": 150.828
+    "lng": 150.828,
+    "postcode": "2756"
   },
   {
     "name": "Narellan Vale",
     "lat": -34.0504,
-    "lng": 150.7483
+    "lng": 150.7483,
+    "postcode": "2567"
   },
   {
     "name": "Naremburn",
     "lat": -33.81925,
-    "lng": 151.19971
+    "lng": 151.19971,
+    "postcode": "2065"
   },
   {
     "name": "Narrabeen",
     "lat": -33.7231,
-    "lng": 151.2952
+    "lng": 151.2952,
+    "postcode": "2101"
   },
   {
     "name": "Narraweena",
     "lat": -33.748611,
-    "lng": 151.267778
+    "lng": 151.267778,
+    "postcode": "2099"
   },
   {
     "name": "Narwee",
     "lat": -33.94762,
-    "lng": 151.07093
+    "lng": 151.07093,
+    "postcode": "2209"
   },
   {
     "name": "Nelson",
     "lat": -33.6457,
-    "lng": 150.922
+    "lng": 150.922,
+    "postcode": "2550"
   },
   {
     "name": "Neutral Bay",
     "lat": -33.83450000000001,
-    "lng": 151.2184
+    "lng": 151.2184,
+    "postcode": "2089"
   },
   {
     "name": "Newington",
     "lat": -33.839,
-    "lng": 151.055
+    "lng": 151.055,
+    "postcode": "2127"
   },
   {
     "name": "Newport",
     "lat": -33.6564,
-    "lng": 151.3137
+    "lng": 151.3137,
+    "postcode": "2106"
   },
   {
     "name": "Newtown",
     "lat": -33.897,
-    "lng": 151.1793
+    "lng": 151.1793,
+    "postcode": "2042"
   },
   {
     "name": "Normanhurst",
     "lat": -33.7245321,
-    "lng": 151.0970108
+    "lng": 151.0970108,
+    "postcode": "2076"
   },
   {
     "name": "North Balgowlah",
     "lat": -33.785604,
-    "lng": 151.2495903
+    "lng": 151.2495903,
+    "postcode": "2093"
   },
   {
     "name": "North Bondi",
     "lat": -33.8879,
-    "lng": 151.2808
+    "lng": 151.2808,
+    "postcode": "2026"
   },
   {
     "name": "North Curl Curl",
     "lat": -33.7645,
-    "lng": 151.2973
+    "lng": 151.2973,
+    "postcode": "2099"
   },
   {
     "name": "North Epping",
     "lat": -33.7623,
-    "lng": 151.101
+    "lng": 151.101,
+    "postcode": "2121"
   },
   {
     "name": "North Manly",
     "lat": -33.7754,
-    "lng": 151.2689
+    "lng": 151.2689,
+    "postcode": "2100"
   },
   {
     "name": "North Narrabeen",
     "lat": -33.7065,
-    "lng": 151.2884
+    "lng": 151.2884,
+    "postcode": "2101"
   },
   {
     "name": "North Parramatta",
     "lat": -33.8032,
-    "lng": 151.0055
+    "lng": 151.0055,
+    "postcode": "2151"
   },
   {
     "name": "North Richmond",
     "lat": -33.5817778,
-    "lng": 150.7150959
+    "lng": 150.7150959,
+    "postcode": "2754"
   },
   {
     "name": "North Rocks",
     "lat": -33.77607,
-    "lng": 151.01984
+    "lng": 151.01984,
+    "postcode": "2151"
   },
   {
     "name": "North Ryde",
     "lat": -33.79242,
-    "lng": 151.11954
+    "lng": 151.11954,
+    "postcode": "2113"
   },
   {
     "name": "North Seaforth",
     "lat": -33.785604,
-    "lng": 151.2495903
+    "lng": 151.2495903,
+    "postcode": ""
   },
   {
     "name": "North St Ives",
     "lat": -33.72136,
-    "lng": 151.16844
+    "lng": 151.16844,
+    "postcode": ""
   },
   {
     "name": "North St Marys",
     "lat": -33.749,
-    "lng": 150.782
+    "lng": 150.782,
+    "postcode": "2760"
   },
   {
     "name": "North Strathfield",
     "lat": -33.8604,
-    "lng": 151.08856
+    "lng": 151.08856,
+    "postcode": "2137"
   },
   {
     "name": "North Sydney",
     "lat": -33.83965,
-    "lng": 151.20541
+    "lng": 151.20541,
+    "postcode": "2060"
   },
   {
     "name": "North Turramurra",
     "lat": -33.704927,
-    "lng": 151.1490162
+    "lng": 151.1490162,
+    "postcode": "2074"
   },
   {
     "name": "North Wahroonga",
     "lat": -33.701,
-    "lng": 151.126
+    "lng": 151.126,
+    "postcode": "2076"
   },
   {
     "name": "North Willoughby",
     "lat": -33.795,
-    "lng": 151.204
+    "lng": 151.204,
+    "postcode": "2068"
   },
   {
     "name": "Northbridge",
     "lat": -33.81325,
-    "lng": 151.21717
+    "lng": 151.21717,
+    "postcode": "2063"
   },
   {
     "name": "Northmead",
     "lat": -33.78166,
-    "lng": 151.00209
+    "lng": 151.00209,
+    "postcode": "2152"
   },
   {
     "name": "Northwood",
     "lat": -33.82813000000001,
-    "lng": 151.17619
+    "lng": 151.17619,
+    "postcode": "2066"
   },
   {
     "name": "Oakhurst",
     "lat": -33.7411625,
-    "lng": 150.840584
+    "lng": 150.840584,
+    "postcode": "2761"
   },
   {
     "name": "Oakville",
     "lat": -33.6222,
-    "lng": 150.8669
+    "lng": 150.8669,
+    "postcode": "2765"
   },
   {
     "name": "Oatlands",
     "lat": -33.794,
-    "lng": 151.032
+    "lng": 151.032,
+    "postcode": "2117"
   },
   {
     "name": "Oatley",
     "lat": -33.98118,
-    "lng": 151.07479
+    "lng": 151.07479,
+    "postcode": "2223"
   },
   {
     "name": "Old Guildford",
     "lat": -33.86577,
-    "lng": 150.98346
+    "lng": 150.98346,
+    "postcode": "2161"
   },
   {
     "name": "Old Toongabbie",
     "lat": -33.787,
-    "lng": 150.966
+    "lng": 150.966,
+    "postcode": "2146"
   },
   {
     "name": "Oran Park",
     "lat": -34.003,
-    "lng": 150.743
+    "lng": 150.743,
+    "postcode": "2570"
   },
   {
     "name": "Orchard Hills",
     "lat": -33.7814,
-    "lng": 150.7365
+    "lng": 150.7365,
+    "postcode": "2748"
   },
   {
     "name": "Osborne Park",
     "lat": -33.82013999999999,
-    "lng": 151.1779914
+    "lng": 151.1779914,
+    "postcode": ""
   },
   {
     "name": "Oxford Falls",
     "lat": -33.7352,
-    "lng": 151.2469
+    "lng": 151.2469,
+    "postcode": "2100"
   },
   {
     "name": "Oxley Park",
     "lat": -33.7709,
-    "lng": 150.7934
+    "lng": 150.7934,
+    "postcode": "2760"
   },
   {
     "name": "Oyster Bay",
     "lat": -34.00754,
-    "lng": 151.07514
+    "lng": 151.07514,
+    "postcode": "2225"
   },
   {
     "name": "Paddington",
     "lat": -33.88477,
-    "lng": 151.22621
+    "lng": 151.22621,
+    "postcode": "2021"
   },
   {
     "name": "Padstow",
     "lat": -33.95592,
-    "lng": 151.03247
+    "lng": 151.03247,
+    "postcode": "2211"
   },
   {
     "name": "Padstow Heights",
     "lat": -33.973,
-    "lng": 151.035
+    "lng": 151.035,
+    "postcode": "2211"
   },
   {
     "name": "Pagewood",
     "lat": -33.9421,
-    "lng": 151.22287
+    "lng": 151.22287,
+    "postcode": "2035"
   },
   {
     "name": "Palm Beach",
     "lat": -33.601111,
-    "lng": 151.321667
+    "lng": 151.321667,
+    "postcode": "2108"
   },
   {
     "name": "Panania",
     "lat": -33.95793,
-    "lng": 151.002
+    "lng": 151.002,
+    "postcode": "2213"
   },
   {
     "name": "Parklea",
     "lat": -33.7291,
-    "lng": 150.919
+    "lng": 150.919,
+    "postcode": "2768"
   },
   {
     "name": "Parramatta",
     "lat": -33.815,
-    "lng": 151.001111
+    "lng": 151.001111,
+    "postcode": "2150"
   },
   {
     "name": "Peakhurst",
     "lat": -33.9654,
-    "lng": 151.0502
+    "lng": 151.0502,
+    "postcode": "2210"
   },
   {
     "name": "Peakhurst Heights",
     "lat": -33.981667,
-    "lng": 151.051111
+    "lng": 151.051111,
+    "postcode": "2210"
   },
   {
     "name": "Pemulwuy",
     "lat": -33.817,
-    "lng": 150.926
+    "lng": 150.926,
+    "postcode": "2145"
   },
   {
     "name": "Pendle Hill",
     "lat": -33.80739,
-    "lng": 150.95518
+    "lng": 150.95518,
+    "postcode": "2145"
   },
   {
     "name": "Pennant Hills",
     "lat": -33.7394846,
-    "lng": 151.0733379
+    "lng": 151.0733379,
+    "postcode": "2120"
   },
   {
     "name": "Penrith",
     "lat": -33.75,
-    "lng": 150.7
+    "lng": 150.7,
+    "postcode": "2750"
   },
   {
     "name": "Penshurst",
     "lat": -33.9633344,
-    "lng": 151.0865878
+    "lng": 151.0865878,
+    "postcode": "2222"
   },
   {
     "name": "Petersham",
     "lat": -33.8961,
-    "lng": 151.1543
+    "lng": 151.1543,
+    "postcode": "2049"
   },
   {
     "name": "Phillip Bay",
     "lat": -33.9781348,
-    "lng": 151.2321019
+    "lng": 151.2321019,
+    "postcode": "2036"
   },
   {
     "name": "Picnic Point",
     "lat": -33.96929,
-    "lng": 151.00624
+    "lng": 151.00624,
+    "postcode": "2213"
   },
   {
     "name": "Pitt Town",
     "lat": -33.5816502,
-    "lng": 150.8667511
+    "lng": 150.8667511,
+    "postcode": "2756"
   },
   {
     "name": "Pleasure Point",
     "lat": -33.96776,
-    "lng": 150.978
+    "lng": 150.978,
+    "postcode": "2172"
   },
   {
     "name": "Plumpton",
     "lat": -33.7531,
-    "lng": 150.8392
+    "lng": 150.8392,
+    "postcode": "2761"
   },
   {
     "name": "Point Piper",
     "lat": -33.87045,
-    "lng": 151.25097
+    "lng": 151.25097,
+    "postcode": "2027"
   },
   {
     "name": "Port Botany",
     "lat": -33.976,
-    "lng": 151.218
+    "lng": 151.218,
+    "postcode": "2036"
   },
   {
     "name": "Potts Hill",
     "lat": -33.89,
-    "lng": 151.03
+    "lng": 151.03,
+    "postcode": "2143"
   },
   {
     "name": "Potts Point",
     "lat": -33.86795,
-    "lng": 151.22411
+    "lng": 151.22411,
+    "postcode": "2011"
   },
   {
     "name": "Prairiewood",
     "lat": -33.861,
-    "lng": 150.9048
+    "lng": 150.9048,
+    "postcode": "2176"
   },
   {
     "name": "Prestons",
     "lat": -33.94286,
-    "lng": 150.87116
+    "lng": 150.87116,
+    "postcode": "2170"
   },
   {
     "name": "Prospect",
     "lat": -33.7980063,
-    "lng": 150.9160156
+    "lng": 150.9160156,
+    "postcode": "2148"
   },
   {
     "name": "Punchbowl",
     "lat": -33.933333,
-    "lng": 151.05
+    "lng": 151.05,
+    "postcode": "2196"
   },
   {
     "name": "Putney",
     "lat": -33.827,
-    "lng": 151.106
+    "lng": 151.106,
+    "postcode": "2112"
   },
   {
     "name": "Pymble",
     "lat": -33.7455788,
-    "lng": 151.1374068
+    "lng": 151.1374068,
+    "postcode": "2073"
   },
   {
     "name": "Pyrmont",
     "lat": -33.8737167,
-    "lng": 151.1956918
+    "lng": 151.1956918,
+    "postcode": "2009"
   },
   {
     "name": "Quakers Hill",
     "lat": -33.7241591,
-    "lng": 150.8889765
+    "lng": 150.8889765,
+    "postcode": "2763"
   },
   {
     "name": "Queens Park",
     "lat": -33.901,
-    "lng": 151.248
+    "lng": 151.248,
+    "postcode": "2022"
   },
   {
     "name": "Queenscliff",
     "lat": -33.7825,
-    "lng": 151.284722
+    "lng": 151.284722,
+    "postcode": "2096"
   },
   {
     "name": "Raby",
     "lat": -34.0209207,
-    "lng": 150.8173282
+    "lng": 150.8173282,
+    "postcode": "2566"
   },
   {
     "name": "Ramsgate",
     "lat": -33.98194,
-    "lng": 151.14007
+    "lng": 151.14007,
+    "postcode": "2217"
   },
   {
     "name": "Ramsgate Beach",
     "lat": -33.982,
-    "lng": 151.148
+    "lng": 151.148,
+    "postcode": "2217"
   },
   {
     "name": "Randwick",
     "lat": -33.91643,
-    "lng": 151.23653
+    "lng": 151.23653,
+    "postcode": "2031"
   },
   {
     "name": "Redfern",
     "lat": -33.89333999999999,
-    "lng": 151.20461
+    "lng": 151.20461,
+    "postcode": "2016"
   },
   {
     "name": "Regents Park",
     "lat": -33.88572,
-    "lng": 151.02833
+    "lng": 151.02833,
+    "postcode": "2143"
   },
   {
     "name": "Regentville",
     "lat": -33.7711622,
-    "lng": 150.6604462
+    "lng": 150.6604462,
+    "postcode": "2745"
   },
   {
     "name": "Revesby",
     "lat": -33.95001,
-    "lng": 151.01016
+    "lng": 151.01016,
+    "postcode": "2212"
   },
   {
     "name": "Revesby Heights",
     "lat": -33.96806,
-    "lng": 151.01773
+    "lng": 151.01773,
+    "postcode": "2212"
   },
   {
     "name": "Rhodes",
     "lat": -33.82821,
-    "lng": 151.08569
+    "lng": 151.08569,
+    "postcode": "2138"
   },
   {
     "name": "Richmond",
     "lat": -33.6,
-    "lng": 150.75
+    "lng": 150.75,
+    "postcode": "2753"
   },
   {
     "name": "Riverstone",
     "lat": -33.6819,
-    "lng": 150.8594
+    "lng": 150.8594,
+    "postcode": "2765"
   },
   {
     "name": "Riverview",
     "lat": -33.82466,
-    "lng": 151.1622
+    "lng": 151.1622,
+    "postcode": "2066"
   },
   {
     "name": "Riverwood",
     "lat": -33.95,
-    "lng": 151.05
+    "lng": 151.05,
+    "postcode": "2210"
   },
   {
     "name": "Rockdale",
     "lat": -33.95329,
-    "lng": 151.13996
+    "lng": 151.13996,
+    "postcode": "2216"
   },
   {
     "name": "Rodd Point",
     "lat": -33.86607,
-    "lng": 151.14366
+    "lng": 151.14366,
+    "postcode": "2046"
   },
   {
     "name": "Rookwood",
     "lat": -33.87276,
-    "lng": 151.05562
+    "lng": 151.05562,
+    "postcode": "2141"
   },
   {
     "name": "Rooty Hill",
     "lat": -33.771543,
-    "lng": 150.843922
+    "lng": 150.843922,
+    "postcode": "2766"
   },
   {
     "name": "Ropes Crossing",
     "lat": -33.733,
-    "lng": 150.791
+    "lng": 150.791,
+    "postcode": "2760"
   },
   {
     "name": "Rose Bay",
     "lat": -33.8754209,
-    "lng": 151.265623
+    "lng": 151.265623,
+    "postcode": "2029"
   },
   {
     "name": "Rosebery",
     "lat": -33.92369,
-    "lng": 151.20528
+    "lng": 151.20528,
+    "postcode": "2018"
   },
   {
     "name": "Rosehill",
     "lat": -33.82721,
-    "lng": 151.01699
+    "lng": 151.01699,
+    "postcode": "2142"
   },
   {
     "name": "Roselands",
     "lat": -33.93166,
-    "lng": 151.08514
+    "lng": 151.08514,
+    "postcode": "2196"
   },
   {
     "name": "Rosemeadow",
     "lat": -34.107,
-    "lng": 150.793
+    "lng": 150.793,
+    "postcode": "2560"
   },
   {
     "name": "Roseville",
     "lat": -33.78903,
-    "lng": 151.17119
+    "lng": 151.17119,
+    "postcode": "2069"
   },
   {
     "name": "Roseville Chase",
     "lat": -33.7755896,
-    "lng": 151.2000449
+    "lng": 151.2000449,
+    "postcode": "2069"
   },
   {
     "name": "Rossmore",
     "lat": -33.9224,
-    "lng": 150.76964
+    "lng": 150.76964,
+    "postcode": "2557"
   },
   {
     "name": "Rouse Hill",
     "lat": -33.68162,
-    "lng": 150.91552
+    "lng": 150.91552,
+    "postcode": "2155"
   },
   {
     "name": "Rozelle",
     "lat": -33.86488,
-    "lng": 151.16735
+    "lng": 151.16735,
+    "postcode": "2039"
   },
   {
     "name": "Ruse",
     "lat": -34.071,
-    "lng": 150.8423
+    "lng": 150.8423,
+    "postcode": "2560"
   },
   {
     "name": "Rushcutters Bay",
     "lat": -33.8742991,
-    "lng": 151.2284588
+    "lng": 151.2284588,
+    "postcode": "2011"
   },
   {
     "name": "Russell Lea",
     "lat": -33.859471,
-    "lng": 151.14244
+    "lng": 151.14244,
+    "postcode": "2046"
   },
   {
     "name": "Rydalmere",
     "lat": -33.8122993,
-    "lng": 151.0417407
+    "lng": 151.0417407,
+    "postcode": "2116"
   },
   {
     "name": "Ryde",
     "lat": -33.815278,
-    "lng": 151.101111
+    "lng": 151.101111,
+    "postcode": "2112"
   },
   {
     "name": "Sadleir",
     "lat": -33.9164233,
-    "lng": 150.8914686
+    "lng": 150.8914686,
+    "postcode": "2168"
   },
   {
     "name": "Sandringham",
     "lat": -33.99861080000001,
-    "lng": 151.1395914
+    "lng": 151.1395914,
+    "postcode": "2219"
   },
   {
     "name": "Sans Souci",
     "lat": -33.98898,
-    "lng": 151.1393
+    "lng": 151.1393,
+    "postcode": "2219"
   },
   {
     "name": "Scheyville",
     "lat": -33.6112,
-    "lng": 150.88291
+    "lng": 150.88291,
+    "postcode": "2756"
   },
   {
     "name": "Schofields",
     "lat": -33.7,
-    "lng": 150.8833
+    "lng": 150.8833,
+    "postcode": "2762"
   },
   {
     "name": "Seaforth",
     "lat": -33.796,
-    "lng": 151.238
+    "lng": 151.238,
+    "postcode": "2092"
   },
   {
     "name": "Sefton",
     "lat": -33.88836,
-    "lng": 151.00713
+    "lng": 151.00713,
+    "postcode": "2162"
   },
   {
     "name": "Seven Hills",
     "lat": -33.7777,
-    "lng": 150.9416
+    "lng": 150.9416,
+    "postcode": "2147"
   },
   {
     "name": "Shalvey",
     "lat": -33.7270571,
-    "lng": 150.8057017
+    "lng": 150.8057017,
+    "postcode": "2770"
   },
   {
     "name": "Shanes Park",
     "lat": -33.71118,
-    "lng": 150.77224
+    "lng": 150.77224,
+    "postcode": "2747"
   },
   {
     "name": "Silverwater",
     "lat": -33.83,
-    "lng": 151.051
+    "lng": 151.051,
+    "postcode": "2128"
   },
   {
     "name": "Smeaton Grange",
     "lat": -34.035,
-    "lng": 150.757
+    "lng": 150.757,
+    "postcode": "2567"
   },
   {
     "name": "Smithfield",
     "lat": -33.8535722,
-    "lng": 150.9406861
+    "lng": 150.9406861,
+    "postcode": "2164"
   },
   {
     "name": "South Coogee",
     "lat": -33.933,
-    "lng": 151.259
+    "lng": 151.259,
+    "postcode": "2034"
   },
   {
     "name": "South Hurstville",
     "lat": -33.98,
-    "lng": 151.1035
+    "lng": 151.1035,
+    "postcode": "2221"
   },
   {
     "name": "South Maroota",
     "lat": -33.5241,
-    "lng": 150.9485
+    "lng": 150.9485,
+    "postcode": "2756"
   },
   {
     "name": "South Penrith",
     "lat": -33.7715054,
-    "lng": 150.7011034
+    "lng": 150.7011034,
+    "postcode": "2750"
   },
   {
     "name": "South Turramurra",
     "lat": -33.7546,
-    "lng": 151.113
+    "lng": 151.113,
+    "postcode": "2074"
   },
   {
     "name": "South Wentworthville",
     "lat": -33.82344,
-    "lng": 150.96541
+    "lng": 150.96541,
+    "postcode": "2145"
   },
   {
     "name": "South Windsor",
     "lat": -33.62535,
-    "lng": 150.80437
+    "lng": 150.80437,
+    "postcode": "2756"
   },
   {
     "name": "Spring Farm",
     "lat": -34.072,
-    "lng": 150.718
+    "lng": 150.718,
+    "postcode": "2570"
   },
   {
     "name": "St Andrews",
@@ -2782,466 +3337,559 @@
   {
     "name": "St Clair",
     "lat": -33.7987,
-    "lng": 150.7824
+    "lng": 150.7824,
+    "postcode": "2330"
   },
   {
     "name": "St Helens Park",
     "lat": -34.1105,
-    "lng": 150.8079
+    "lng": 150.8079,
+    "postcode": "2560"
   },
   {
     "name": "St Ives",
     "lat": -33.72136,
-    "lng": 151.16844
+    "lng": 151.16844,
+    "postcode": "2075"
   },
   {
     "name": "St Ives Chase",
     "lat": -33.711,
-    "lng": 151.1595
+    "lng": 151.1595,
+    "postcode": "2075"
   },
   {
     "name": "St Johns Park",
     "lat": -33.8847,
-    "lng": 150.907
+    "lng": 150.907,
+    "postcode": "2176"
   },
   {
     "name": "St Leonards",
     "lat": -33.8227402,
-    "lng": 151.1942171
+    "lng": 151.1942171,
+    "postcode": "2065"
   },
   {
     "name": "St Marys",
     "lat": -33.7589212,
-    "lng": 150.7708274
+    "lng": 150.7708274,
+    "postcode": "2760"
   },
   {
     "name": "St Peters",
     "lat": -33.90951,
-    "lng": 151.17723
+    "lng": 151.17723,
+    "postcode": "2044"
   },
   {
     "name": "Stanhope Gardens",
     "lat": -33.723,
-    "lng": 150.926
+    "lng": 150.926,
+    "postcode": "2768"
   },
   {
     "name": "Stanmore",
     "lat": -33.8942,
-    "lng": 151.1644
+    "lng": 151.1644,
+    "postcode": "2048"
   },
   {
     "name": "Strathfield",
     "lat": -33.88081,
-    "lng": 151.08308
+    "lng": 151.08308,
+    "postcode": "2135"
   },
   {
     "name": "Strathfield South",
     "lat": -33.8929126,
-    "lng": 151.0733379
+    "lng": 151.0733379,
+    "postcode": "2136"
   },
   {
     "name": "Summer Hill",
     "lat": -33.8915,
-    "lng": 151.1382
+    "lng": 151.1382,
+    "postcode": "2130"
   },
   {
     "name": "Surry Hills",
     "lat": -33.886111,
-    "lng": 151.211111
+    "lng": 151.211111,
+    "postcode": "2010"
   },
   {
     "name": "Sutherland",
     "lat": -34.03314,
-    "lng": 151.0583
+    "lng": 151.0583,
+    "postcode": "2232"
   },
   {
     "name": "Sydenham",
     "lat": -33.9158055,
-    "lng": 151.1679944
+    "lng": 151.1679944,
+    "postcode": "2044"
   },
   {
     "name": "Sydney Olympic Park",
     "lat": -33.84801,
-    "lng": 151.06488
+    "lng": 151.06488,
+    "postcode": "2127"
   },
   {
     "name": "Sylvania",
     "lat": -34.01253,
-    "lng": 151.10604
+    "lng": 151.10604,
+    "postcode": "2224"
   },
   {
     "name": "Sylvania Waters",
     "lat": -34.02318,
-    "lng": 151.11156
+    "lng": 151.11156,
+    "postcode": "2224"
   },
   {
     "name": "Tamarama",
     "lat": -33.898,
-    "lng": 151.268
+    "lng": 151.268,
+    "postcode": "2026"
   },
   {
     "name": "Taren Point",
     "lat": -34.01909,
-    "lng": 151.12028
+    "lng": 151.12028,
+    "postcode": "2229"
   },
   {
     "name": "Telopea",
     "lat": -33.79417,
-    "lng": 151.03802
+    "lng": 151.03802,
+    "postcode": "2117"
   },
   {
     "name": "Tempe",
     "lat": -33.92524,
-    "lng": 151.1584
+    "lng": 151.1584,
+    "postcode": "2044"
   },
   {
     "name": "Tennyson Point",
     "lat": -33.832435,
-    "lng": 151.116938
+    "lng": 151.116938,
+    "postcode": "2111"
   },
   {
     "name": "Terrey Hills",
     "lat": -33.683,
-    "lng": 151.223
+    "lng": 151.223,
+    "postcode": "2084"
   },
   {
     "name": "The Ponds",
     "lat": -33.703,
-    "lng": 150.909
+    "lng": 150.909,
+    "postcode": "2769"
   },
   {
     "name": "The Rocks",
     "lat": -33.85985,
-    "lng": 151.20901
+    "lng": 151.20901,
+    "postcode": "2000"
   },
   {
     "name": "Thornleigh",
     "lat": -33.7219807,
-    "lng": 151.0849848
+    "lng": 151.0849848,
+    "postcode": "2120"
   },
   {
     "name": "Toongabbie",
     "lat": -33.78606,
-    "lng": 150.95645
+    "lng": 150.95645,
+    "postcode": "2146"
   },
   {
     "name": "Tregear",
     "lat": -33.75,
-    "lng": 150.7944
+    "lng": 150.7944,
+    "postcode": "2770"
   },
   {
     "name": "Turramurra",
     "lat": -33.7338,
-    "lng": 151.1301
+    "lng": 151.1301,
+    "postcode": "2074"
   },
   {
     "name": "Turrella",
     "lat": -33.93297,
-    "lng": 151.14079
+    "lng": 151.14079,
+    "postcode": "2205"
   },
   {
     "name": "Ultimo",
     "lat": -33.88223,
-    "lng": 151.19696
+    "lng": 151.19696,
+    "postcode": "2007"
   },
   {
     "name": "Varroville",
     "lat": -34.00758,
-    "lng": 150.8151
+    "lng": 150.8151,
+    "postcode": "2566"
   },
   {
     "name": "Vaucluse",
     "lat": -33.85582,
-    "lng": 151.2712
+    "lng": 151.2712,
+    "postcode": "2030"
   },
   {
     "name": "Villawood",
     "lat": -33.88610000000001,
-    "lng": 150.9788
+    "lng": 150.9788,
+    "postcode": "2163"
   },
   {
     "name": "Vineyard",
     "lat": -33.65021,
-    "lng": 150.85619
+    "lng": 150.85619,
+    "postcode": "2765"
   },
   {
     "name": "Voyager Point",
     "lat": -33.959,
-    "lng": 150.979
+    "lng": 150.979,
+    "postcode": "2172"
   },
   {
     "name": "Wahroonga",
     "lat": -33.7183,
-    "lng": 151.1187
+    "lng": 151.1187,
+    "postcode": "2076"
   },
   {
     "name": "Waitara",
     "lat": -33.7083472,
-    "lng": 151.1068252
+    "lng": 151.1068252,
+    "postcode": "2077"
   },
   {
     "name": "Wakeley",
     "lat": -33.8762,
-    "lng": 150.9123
+    "lng": 150.9123,
+    "postcode": "2176"
   },
   {
     "name": "Wallacia",
     "lat": -33.865,
-    "lng": 150.64
+    "lng": 150.64,
+    "postcode": "2745"
   },
   {
     "name": "Wareemba",
     "lat": -33.8574937,
-    "lng": 151.1323094
+    "lng": 151.1323094,
+    "postcode": "2046"
   },
   {
     "name": "Warrawee",
     "lat": -33.725,
-    "lng": 151.12338
+    "lng": 151.12338,
+    "postcode": "2074"
   },
   {
     "name": "Warriewood",
     "lat": -33.69404,
-    "lng": 151.30093
+    "lng": 151.30093,
+    "postcode": "2102"
   },
   {
     "name": "Warwick Farm",
     "lat": -33.91395,
-    "lng": 150.93739
+    "lng": 150.93739,
+    "postcode": "2170"
   },
   {
     "name": "Waterfall",
     "lat": -34.1424139,
-    "lng": 150.9918338
+    "lng": 150.9918338,
+    "postcode": "2233"
   },
   {
     "name": "Waterloo",
     "lat": -33.9004,
-    "lng": 151.20664
+    "lng": 151.20664,
+    "postcode": "2017"
   },
   {
     "name": "Watsons Bay",
     "lat": -33.8398183,
-    "lng": 151.2816573
+    "lng": 151.2816573,
+    "postcode": "2030"
   },
   {
     "name": "Wattle Grove",
     "lat": -33.957,
-    "lng": 150.941
+    "lng": 150.941,
+    "postcode": "2173"
   },
   {
     "name": "Waverley",
     "lat": -33.899693,
-    "lng": 151.2554202
+    "lng": 151.2554202,
+    "postcode": "2024"
   },
   {
     "name": "Waverton",
     "lat": -33.84016,
-    "lng": 151.19543
+    "lng": 151.19543,
+    "postcode": "2060"
   },
   {
     "name": "Wedderburn",
     "lat": -34.12612,
-    "lng": 150.81789
+    "lng": 150.81789,
+    "postcode": "2560"
   },
   {
     "name": "Wentworth Point",
     "lat": -33.828026,
-    "lng": 151.0769775
+    "lng": 151.0769775,
+    "postcode": "2127"
   },
   {
     "name": "Wentworthville",
     "lat": -33.807,
-    "lng": 150.97259
+    "lng": 150.97259,
+    "postcode": "2145"
   },
   {
     "name": "Werrington",
     "lat": -33.75943,
-    "lng": 150.74708
+    "lng": 150.74708,
+    "postcode": "2747"
   },
   {
     "name": "Werrington County",
     "lat": -33.7478023,
-    "lng": 150.7475824
+    "lng": 150.7475824,
+    "postcode": "2747"
   },
   {
     "name": "Werrington Downs",
     "lat": -33.73910000000001,
-    "lng": 150.7273
+    "lng": 150.7273,
+    "postcode": "2747"
   },
   {
     "name": "West Hoxton",
     "lat": -33.93569,
-    "lng": 150.8308
+    "lng": 150.8308,
+    "postcode": "2171"
   },
   {
     "name": "West Killara",
     "lat": -33.76864,
-    "lng": 151.16347
+    "lng": 151.16347,
+    "postcode": ""
   },
   {
     "name": "West Lindfield",
     "lat": -33.77674,
-    "lng": 151.17119
+    "lng": 151.17119,
+    "postcode": ""
   },
   {
     "name": "West Pennant Hills",
     "lat": -33.74504,
-    "lng": 151.04697
+    "lng": 151.04697,
+    "postcode": "2125"
   },
   {
     "name": "West Pymble",
     "lat": -33.765,
-    "lng": 151.12606
+    "lng": 151.12606,
+    "postcode": "2073"
   },
   {
     "name": "West Ryde",
     "lat": -33.80818,
-    "lng": 151.08352
+    "lng": 151.08352,
+    "postcode": "2114"
   },
   {
     "name": "Westleigh",
     "lat": -33.72299,
-    "lng": 151.07064
+    "lng": 151.07064,
+    "postcode": "2120"
   },
   {
     "name": "Westmead",
     "lat": -33.80829,
-    "lng": 150.98208
+    "lng": 150.98208,
+    "postcode": "2145"
   },
   {
     "name": "Wetherill Park",
     "lat": -33.84975000000001,
-    "lng": 150.91101
+    "lng": 150.91101,
+    "postcode": "2164"
   },
   {
     "name": "Whalan",
     "lat": -33.7583,
-    "lng": 150.8083
+    "lng": 150.8083,
+    "postcode": "2770"
   },
   {
     "name": "Wheeler Heights",
     "lat": -33.7315,
-    "lng": 151.28016
+    "lng": 151.28016,
+    "postcode": "2097"
   },
   {
     "name": "Wiley Park",
     "lat": -33.92594,
-    "lng": 151.06347
+    "lng": 151.06347,
+    "postcode": "2195"
   },
   {
     "name": "Willmot",
     "lat": -33.7254,
-    "lng": 150.79238
+    "lng": 150.79238,
+    "postcode": "2770"
   },
   {
     "name": "Willoughby",
     "lat": -33.8071059,
-    "lng": 151.1993737
+    "lng": 151.1993737,
+    "postcode": "2068"
   },
   {
     "name": "Willoughby East",
     "lat": -33.799,
-    "lng": 151.206
+    "lng": 151.206,
+    "postcode": "2068"
   },
   {
     "name": "Windsor",
     "lat": -33.615,
-    "lng": 150.817222
+    "lng": 150.817222,
+    "postcode": "2756"
   },
   {
     "name": "Windsor Downs",
     "lat": -33.657,
-    "lng": 150.81
+    "lng": 150.81,
+    "postcode": "2756"
   },
   {
     "name": "Winston Hills",
     "lat": -33.77747,
-    "lng": 150.97788
+    "lng": 150.97788,
+    "postcode": "2153"
   },
   {
     "name": "Wisemans Ferry",
     "lat": -33.381944,
-    "lng": 150.985
+    "lng": 150.985,
+    "postcode": "2775"
   },
   {
     "name": "Wolli Creek",
     "lat": -33.9299813,
-    "lng": 151.1534281
+    "lng": 151.1534281,
+    "postcode": "2205"
   },
   {
     "name": "Wollstonecraft",
     "lat": -33.83356,
-    "lng": 151.19128
+    "lng": 151.19128,
+    "postcode": "2065"
   },
   {
     "name": "Woodbine",
     "lat": -34.0462495,
-    "lng": 150.8216884
+    "lng": 150.8216884,
+    "postcode": "2560"
   },
   {
     "name": "Woodcroft",
     "lat": -33.759,
-    "lng": 150.878
+    "lng": 150.878,
+    "postcode": "2767"
   },
   {
     "name": "Woodpark",
     "lat": -33.84182699999999,
-    "lng": 150.962577
+    "lng": 150.962577,
+    "postcode": "2164"
   },
   {
     "name": "Woollahra",
     "lat": -33.8865002,
-    "lng": 151.2437606
+    "lng": 151.2437606,
+    "postcode": "2025"
   },
   {
     "name": "Woolloomooloo",
     "lat": -33.8704,
-    "lng": 151.2223
+    "lng": 151.2223,
+    "postcode": "2011"
   },
   {
     "name": "Woolooware",
     "lat": -34.04788,
-    "lng": 151.14113
+    "lng": 151.14113,
+    "postcode": "2230"
   },
   {
     "name": "Woolwich",
     "lat": -33.8417,
-    "lng": 151.16968
+    "lng": 151.16968,
+    "postcode": "2110"
   },
   {
     "name": "Woronora",
     "lat": -34.02772,
-    "lng": 151.04152
+    "lng": 151.04152,
+    "postcode": "2232"
   },
   {
     "name": "Woronora Heights",
     "lat": -34.030434,
-    "lng": 151.030555
+    "lng": 151.030555,
+    "postcode": "2233"
   },
   {
     "name": "Yagoona",
     "lat": -33.9078,
-    "lng": 151.0251
+    "lng": 151.0251,
+    "postcode": "2199"
   },
   {
     "name": "Yarrawarrah",
     "lat": -34.0552,
-    "lng": 151.0321
+    "lng": 151.0321,
+    "postcode": "2233"
   },
   {
     "name": "Yennora",
     "lat": -33.8627,
-    "lng": 150.966
+    "lng": 150.966,
+    "postcode": "2161"
   },
   {
     "name": "Yowie Bay",
     "lat": -34.04977,
-    "lng": 151.10334
+    "lng": 151.10334,
+    "postcode": "2228"
   },
   {
     "name": "Zetland",
     "lat": -33.908,
-    "lng": 151.2105
+    "lng": 151.2105,
+    "postcode": "2017"
   }
 ]

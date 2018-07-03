@@ -4,15 +4,25 @@ let HouseListing = require("../../model/HouseListing");
 let propertyStats = require("../../algo/propertyStats");
 let hateoas = require("../routes/apiHAL")
 let propertyController = require("./properties");
+let propertyFilter = require("../../algo/propertyFilter")
+
+const getSuburbRanking = function(suburb) {
+  let sold = suburb.sold || 0;
+  let removed = suburb.removed || 0;
+  let available = suburb.count - sold - removed;
+
+  return (available * 5) + sold + removed;
+}
 
 const sortSuburbs = function(a,b) {
-  if (a.maxScore && b.minScore) {
+  return b.rankScore - a.rankScore;
+  /*if (a.maxScore && b.minScore) {
     return b.maxScore - a.maxScore;
   }
   if (a.maxSimpleScore && b.maxSimpleScore) {
     return b.maxSimpleScore - a.maxSimpleScore;
   }
-  return b.count - a.count;
+  return b.count - a.count;*/
 }
 
 const propertySortScore = function(prop) {
@@ -56,6 +66,9 @@ const listSuburbs = function(req,res,next) {
   for (let key in suburbs) {
     suburbsArray.push(suburbs[key])
   }
+  for (let sub of suburbsArray) {
+    sub.rankScore = getSuburbRanking(sub);
+  }
 
   suburbsArray = suburbsArray.sort(sortSuburbs);
 
@@ -83,11 +96,12 @@ const suburbProperties = function(req,res,nex) {
 }
 
 const allProperties = function(req,res,nex) {
+  filter = req.body["filter"];
   let propFiles = helpers.allPropertyFiles();
   let properties = [];
   for(let file of propFiles) {
     let json = propertyController.getPropertyJson(file,req.headers.host);
-    if (json) {
+    if (json && propertyFilter.matchesFilter(filter,json)) {
       properties.push(json);  
     }
   }

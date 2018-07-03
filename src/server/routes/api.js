@@ -12,7 +12,9 @@ const setupRoutes = function(app) {
   app.get("/inspections",controllers.inspections.getAllInspections)
 
   app.get("/allProperties",controllers.suburbs.allProperties)
+  app.post("/allProperties",controllers.suburbs.allProperties)
   app.get("/features",controllers.features.getAllFeatures)
+  app.get("/",controllers.root.getRoot);
 }
 
 module.exports = {

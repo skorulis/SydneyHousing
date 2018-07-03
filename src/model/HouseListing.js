@@ -84,6 +84,24 @@ class HouseListing {
     return inspections.filter(x => !x.auction);
   }
 
+  auctionDate() {
+    if (!this.json.inspectionsAndAuctions) {
+      return null;
+    }
+    let auction = this.json.inspectionsAndAuctions.filter(x => x.auction);
+    if (auction.length > 0) {
+      return auction[0].dateDisplay;
+    }
+  }
+
+  nextInspection() {
+    let inspection = this.json.nextInspectionTime;
+    if (!inspection) {
+      return null;
+    }
+    return inspection.dateDisplay + " " + inspection.startTimeDisplay;
+  }
+
   type() {
     return this.json.propertyType;
   }
@@ -93,6 +111,13 @@ class HouseListing {
       return this.json.status.type === "sold";
     }
     return false;
+  }
+
+  roomDetails() {
+    let beds = this.json.features.general.bedrooms;
+    let baths = this.json.features.general.bathrooms;
+    let cars = this.json.features.general.parkingSpaces;
+    return "🛏" + beds + " 🚿" + baths + " 🚗" + cars;
   }
 
   isUnderOffer() {

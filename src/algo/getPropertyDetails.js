@@ -134,6 +134,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
 
   obj.firstSeen = obj.firstSeen || new Date();
   obj.lastUpdated = new Date();
+  obj.nextInspection = listing.nextInspection();
   
   if (!obj.shop.travel) {
     let to = obj.shop.lat + "," + obj.shop.lng;
@@ -175,7 +176,9 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.isSold = listing.isSold();
   obj.suburb = listing.suburb();
   obj.underOffer = listing.isUnderOffer();
+  obj.auctionDate = listing.auctionDate();
   obj.features = extractFeatures(listing,obj.features)
+  obj.roomDetails = listing.roomDetails();
 
   calculatePropertyCosts(obj);
   if (!oldMetrics) {

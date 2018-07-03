@@ -4,7 +4,7 @@ let gpsUtil = require("gps-util");
 let helpers = require("../helperFunctions");
 let HouseListing = require("../model/HouseListing");
 
-let inspectionDate = new Date('09:00 2018.06.09');
+let inspectionDate = new Date('09:00 2018.06.23');
 
 let propFiles = helpers.allPropertyFiles();
 
@@ -67,13 +67,11 @@ function findAllInspections(suburbName) {
 
     for(let i of inspections) {
       i.propertyId = property.id();
-      i.suburb = property.suburb();
       i.url = property.url()
       i.address = property.address()
       i.latitude = property.latitude()
       i.longitude = property.longitude()
-      i.favourite = metrics.favourite;
-      i.comments = metrics.comments;
+      i.metrics = metrics;
       allinspections.push(i);
     }
   }

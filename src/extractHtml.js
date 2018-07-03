@@ -13,6 +13,11 @@ const extractAndSave = function(suburb) {
 
   let unitPriceList = $(".median-price-subsections.units").find(".price.strong");
   
+  let postcodeContainer = $("#title").find(".subtitle")
+  if (postcodeContainer.text().length == 0) {
+    postcodeContainer = $(".suburb-box").find(".subtitle")
+  }
+
   let json = {}
   json["house-buy"] = {};
   json["house-buy"]["median"] = housePriceList.eq(0).text();
@@ -24,8 +29,8 @@ const extractAndSave = function(suburb) {
   json["unit-buy"]["median"] = unitPriceList.eq(0).text();
   json["unit-buy"]["1BR"] = unitPriceList.eq(1).text();
   json["unit-buy"]["2BR"] = unitPriceList.eq(2).text();
-  json["unit-buy"]["3BR"] = unitPriceList.eq(3).text();  
-  
+  json["unit-buy"]["3BR"] = unitPriceList.eq(3).text();
+  json["postcode"] = postcodeContainer.text().replace("New South Wales ","");
 
   fs.writeFile(helpers.getSuburbJSONFilename(suburb), JSON.stringify(json,null,2),function(err){
 

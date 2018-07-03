@@ -18,6 +18,7 @@
     "express": "^4.16.3",
     "gps-util": "^1.0.1",
     "hateoas": "^1.0.0",
+    "mongoose": "^5.1.4",
     "node-fetch": "^2.1.2",
     "node-geocoder": "^3.22.0",
     "npm": "^5.8.0",

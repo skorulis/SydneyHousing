@@ -12,7 +12,6 @@ app.all('/*', function(req, res, next) {
 });
 
 require("./routes/api").setupRoutes(app);
-require("./routes/web")(app)
 
 module.exports = function() {
   return app;

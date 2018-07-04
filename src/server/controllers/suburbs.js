@@ -60,6 +60,10 @@ const listSuburbs = function(req,res,next) {
   let suburbs = stats.suburbs;
   for (let name in suburbs) {
     let sub = suburbs[name]
+    let subDetails = helpers.getSuburb(name);
+    if (subDetails) {
+      sub.postcode = subDetails.postcode;  
+    }
     hateoas(req.headers.host).link("suburb",sub)
   }
   let suburbsArray = [];

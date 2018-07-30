@@ -3,6 +3,7 @@ let helpers = require("../../helperFunctions");
 let fs = require('fs');
 let hateoas = require("../routes/apiHAL")
 let HouseListing = require("../../model/HouseListing");
+let dataPopulator = require("../../algo/dataPopulator")
 
 const getPropertyJson = function(file,host) {
   let propJson = JSON.parse(fs.readFileSync(file));
@@ -11,17 +12,9 @@ const getPropertyJson = function(file,host) {
   let metricFile = file.replace(".json","-metrics.json");
   if (fs.existsSync(metricFile)) {
     let metrics = JSON.parse(fs.readFileSync(metricFile));
-    let obj = metrics;
-    obj.url = property.url();
-    obj.isSold = property.isSold();
-    obj["id"] = property.id();
-
-    obj["image"] = property.imageURL();
-    obj["address"] = property.address();
-    obj["suburb"] = property.suburb();
-
-    hateoas(host).link("property",obj)
-    return obj;
+    dataPopulator.populateMetrics(metrics,property);
+    hateoas(host).link("property",metrics)
+    return metrics;
   }
   return null;
 }

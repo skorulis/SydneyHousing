@@ -4,9 +4,10 @@ let gpsUtil = require("gps-util");
 let helpers = require("../helperFunctions");
 let HouseListing = require("../model/HouseListing");
 
-let inspectionDate = new Date('09:00 2018.06.23');
+let inspectionDate = new Date('09:00 2018.07.28');
 
 let propFiles = helpers.allPropertyFiles();
+let dataPopulator = require("./dataPopulator")
 
 function sameDay(d1, d2) {
   return d1.getFullYear() === d2.getFullYear() &&
@@ -36,6 +37,8 @@ function findAllInspections(suburbName) {
     let propJson = JSON.parse(fs.readFileSync(file));
     let property = new HouseListing(propJson)
     let metrics = property.metricsJSON();
+
+    
     if (!metrics) {
       continue;
     }
@@ -43,6 +46,9 @@ function findAllInspections(suburbName) {
       continue;
     }
     if (metrics.eliminated && metrics.eliminated.length > 0) {
+      continue;
+    }
+    if (metrics.missing) {
       continue;
     }
 
@@ -57,6 +63,8 @@ function findAllInspections(suburbName) {
       }  
     }
     
+    dataPopulator.populateMetrics(metrics,property);
+
 
     let inspections = property.inspections();
     inspections = inspections.filter(function(x) {
@@ -72,6 +80,7 @@ function findAllInspections(suburbName) {
       i.latitude = property.latitude()
       i.longitude = property.longitude()
       i.metrics = metrics;
+
       allinspections.push(i);
     }
   }

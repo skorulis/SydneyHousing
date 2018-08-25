@@ -165,7 +165,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.costs.water = getWaterRates(listing) || oldCosts.water || stats.avgWaterObj(listing.suburb());
 
   let price = listing.priceEstimate();
-  if (obj.estimatedPrice && price) {
+  if (obj.estimatedPrice && price && !obj.originalPrice) {
     if (obj.estimatedPrice != price) {
       obj.originalPrice = obj.estimatedPrice;
       obj.estimatedPrice = price;

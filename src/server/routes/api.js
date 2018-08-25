@@ -15,6 +15,8 @@ const setupRoutes = function(app) {
   app.post("/allProperties",controllers.suburbs.allProperties)
   app.get("/features",controllers.features.getAllFeatures)
   app.get("/",controllers.root.getRoot);
+
+  app.get("/search/:suburb",controllers.search.suburbSearch)
 }
 
 module.exports = {

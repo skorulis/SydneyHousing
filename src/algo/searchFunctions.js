@@ -1,4 +1,5 @@
 let fetch = require("node-fetch")
+let HouseListing = require("../model/HouseListing");
 
 const performSearch = async function(suburb) {
   let postcode = "2193";
@@ -14,18 +15,17 @@ const performSearch = async function(suburb) {
   let url = "https://services.realestate.com.au/services/listings/search?query=";
   url = url + encodeURIComponent(JSON.stringify(query))
 
-  console.log("START-------")
-  console.log(encodeURIComponent(JSON.stringify(query)))
-  console.log("--------")
-  console.log(url)
-  console.log("--------")
+  console.log("START------- SEARCH")
 
   let response = await fetch(url);
   let json = await response.json()
 
   let results = json.tieredResults[0].results
+  let mappedResults = results.map(r => new HouseListing(r))
 
-  return results
+  console.log("FINISH------- SEARCH")
+
+  return mappedResults.map(listing => listing.json)
 }
 
 

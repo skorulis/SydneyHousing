@@ -9,8 +9,9 @@ const performSearch = async function(suburb) {
     filters:
       {bedroomsRange:{maximum:"3",minimum:"2"},
       surroundingSuburbs:false,
+      priceRange:{maximum:"900000",minimum:"600000"},
       localities:[{"searchLocation":searchLocation}],
-      pageSize:"30"}
+      pageSize:"50"}
   }
   let url = "https://services.realestate.com.au/services/listings/search?query=";
   url = url + encodeURIComponent(JSON.stringify(query))
@@ -22,6 +23,10 @@ const performSearch = async function(suburb) {
 
   let results = json.tieredResults[0].results
   let mappedResults = results.map(r => new HouseListing(r))
+  mappedResults = mappedResults.filter(x => {
+    let existingMetrics = x.metricsJSON()
+    return existingMetrics == null;
+  })
 
   console.log("FINISH------- SEARCH")
 

@@ -23,7 +23,7 @@ let schema = new mongoose.Schema({
 		council:valueSchema,
 		water:valueSchema,
 		strata:valueSchema
-	}
+	},
 	travel:[travelSchema],
 	visited:Boolean,
 	firstSeen:String, //TODO: replace with timestamps

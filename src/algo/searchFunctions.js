@@ -17,6 +17,7 @@ const performSearch = async function(suburb) {
   url = url + encodeURIComponent(JSON.stringify(query))
 
   console.log("START------- SEARCH")
+  console.log(url);
 
   let response = await fetch(url);
   let json = await response.json()

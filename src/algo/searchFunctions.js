@@ -1,8 +1,9 @@
 let fetch = require("node-fetch")
 let HouseListing = require("../model/HouseListing");
+let suburbFunctions = require("./suburbFunctions");
 
 const performSearch = async function(suburb) {
-  let postcode = "2193";
+  let postcode = suburbFunctions.getPostcode(suburb);
   let searchLocation = suburb + ", NSW " + postcode
 
   let query = {channel:"buy",

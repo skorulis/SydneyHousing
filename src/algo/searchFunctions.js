@@ -24,6 +24,7 @@ const performSearch = async function(suburb) {
   let json = await response.json()
 
   let results = json.tieredResults[0].results
+  results = results.filter(x => !x.childListings)
   let mappedResults = results.map(r => new HouseListing(r))
   mappedResults = mappedResults.filter(x => {
     let existingMetrics = x.metricsJSON()

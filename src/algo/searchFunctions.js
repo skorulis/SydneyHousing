@@ -11,6 +11,8 @@ const performSearch = async function(suburb) {
       {bedroomsRange:{maximum:"3",minimum:"2"},
       surroundingSuburbs:false,
       priceRange:{maximum:"900000",minimum:"600000"},
+      minimumCars:1,
+      sortType:"new-desc",
       localities:[{"searchLocation":searchLocation}],
       pageSize:"50"}
   }

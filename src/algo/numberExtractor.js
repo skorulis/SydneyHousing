@@ -97,6 +97,15 @@ function averagePriceMatches(matches,multiplier) {
   return total;
 }
 
+function streetAddress(fullAddress) {
+  let regex = "^(Unit |[A-Z]){0,1}\\d{1,5}(\\/|, )";
+  let matches = fullAddress.match(regex);
+  if (matches && matches.length > 0) {
+    fullAddress = fullAddress.replace(matches[0],"");
+  }
+  return fullAddress;
+}
+
 module.exports = {
   extractNumber,
   getStrata,
@@ -105,5 +114,6 @@ module.exports = {
   getBuildingSize,
   getTotalSize,
   getInternalSize,
-  getAveragedPrice
+  getAveragedPrice,
+  streetAddress
 };

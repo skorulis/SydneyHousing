@@ -4,7 +4,7 @@ let gpsUtil = require("gps-util");
 let helpers = require("../helperFunctions");
 let HouseListing = require("../model/HouseListing");
 
-let inspectionDate = new Date('09:00 2018.09.15');
+let inspectionDate = new Date('09:00 2018.09.22');
 
 let propFiles = helpers.allPropertyFiles();
 let dataPopulator = require("./dataPopulator")

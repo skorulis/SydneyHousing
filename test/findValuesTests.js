@@ -73,4 +73,45 @@ describe("Number extractors", function() {
     s2.should.equal(1127000)
   })
 
+  it("Extracts street address",function() {
+    let s2 = numberExtractor.streetAddress("3/1 Cooks Avenue,Canterbury")
+    s2.should.equal("1 Cooks Avenue,Canterbury")
+
+    let s1 = numberExtractor.streetAddress("Unit 205/8 Broughton St,Canterbury")
+    s1.should.equal("8 Broughton St,Canterbury")
+
+    let s3 = numberExtractor.streetAddress("9/237-239 Canterbury Road,Canterbury")
+    s3.should.equal("237-239 Canterbury Road,Canterbury")
+
+    let s4 = numberExtractor.streetAddress("405/2A Cooks Avenue,Canterbury")
+    s4.should.equal("2A Cooks Avenue,Canterbury")
+
+    let s5 = numberExtractor.streetAddress("2A Cooks Avenue,Canterbury")
+    s5.should.equal("2A Cooks Avenue,Canterbury")
+
+    let s6 = numberExtractor.streetAddress("51 Cressy Street,Canterbury")
+    s6.should.equal("51 Cressy Street,Canterbury")
+
+    let s7 = numberExtractor.streetAddress("32-34 Loftus St,Campsie")
+    s7.should.equal("32-34 Loftus St,Campsie")
+
+    let s8 = numberExtractor.streetAddress("D510, 2 Mackinder Street,Campsie")
+    s8.should.equal("2 Mackinder Street,Campsie")
+
+    let s9 = numberExtractor.streetAddress("B310/1A Coulson Street,Erskineville")
+    s9.should.equal("1A Coulson Street,Erskineville")
+
+    let s10 = numberExtractor.streetAddress("A608/33 Bridge Street,Erskineville")
+    s10.should.equal("33 Bridge Street,Erskineville")
+
+    
+    
+    
+
+    
+
+
+
+  })
+
 });

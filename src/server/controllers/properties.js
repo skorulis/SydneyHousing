@@ -4,6 +4,7 @@ let fs = require('fs');
 let hateoas = require("../routes/apiHAL")
 let HouseListing = require("../../model/HouseListing");
 let dataPopulator = require("../../algo/dataPopulator")
+let extractor = require("../../algo/numberExtractor")
 
 const getPropertyJson = function(file,host) {
   let propJson = JSON.parse(fs.readFileSync(file));
@@ -64,9 +65,28 @@ const getPropertyDetails = function(req,res,next) {
   res.send(getPropertyJson(file,req.headers.host));
 }
 
+const query = function(req,res,next) {
+  let queryAddress = req.query.address;
+  let propFiles = helpers.allPropertyFiles();
+  let properties = [];
+  for(let file of propFiles) {
+    let propJson = JSON.parse(fs.readFileSync(file));
+    let property = new HouseListing(propJson)
+
+    let streetAddress = extractor.streetAddress(property.address())
+
+    if (streetAddress === queryAddress) {
+      properties.push(property);
+    }
+  }
+
+  res.send(properties)
+}
+
 module.exports = {
   updateProperty,
   setPropertyFields,
   getPropertyJson,
-  getPropertyDetails
+  getPropertyDetails,
+  query
 };

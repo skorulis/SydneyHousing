@@ -142,7 +142,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
     obj.shop.travel = helpers.condenseDirections(directions,to,"walking");
   }
 
-  let nearbyPubs = helpers.findPubsNear(lat,lng,1000)
+  /*let nearbyPubs = helpers.findPubsNear(lat,lng,1000)
   obj.pubs = {count1KM:nearbyPubs.length}
   if (nearbyPubs.length > 0) {
     let pub = nearbyPubs[0]
@@ -153,8 +153,7 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
     delete pub.beenHere;
     delete pub.specials;
     obj.pubs.local = pub
-    
-  }
+  } */
 
   obj.size.internal = getInternalSize(listing) || oldSize.internal;
   obj.size.land = getLandSize(listing) || oldSize.land;

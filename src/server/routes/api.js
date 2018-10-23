@@ -7,6 +7,7 @@ const setupRoutes = function(app) {
   app.get("/property/:pid/update",controllers.properties.updateProperty);
   app.post("/property/:suburb/:pid/setFields",controllers.properties.setPropertyFields);
   app.get("/property/:suburb/:pid/",controllers.properties.getPropertyDetails);
+  app.get("/property/query",controllers.properties.query)
 
   app.get("/inspections/:suburb",controllers.inspections.getAllInspections)
   app.get("/inspections",controllers.inspections.getAllInspections)
@@ -17,6 +18,7 @@ const setupRoutes = function(app) {
   app.get("/",controllers.root.getRoot);
 
   app.get("/search/:suburb",controllers.search.suburbSearch)
+  app.get("/search/:suburb/:page",controllers.search.suburbSearch)
 }
 
 module.exports = {

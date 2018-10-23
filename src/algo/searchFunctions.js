@@ -42,8 +42,7 @@ const performSearch = async function(suburb,page) {
   let props = mappedResults.map(listing => listing.json)
   let next = null;
   if (Object.keys(json._links.next).length > 0) {
-    next = json._links.next
-    "/search/" + suburb + "/" + (parseInt(page) + 1)
+    next = "/search/" + suburb + "/" + (parseInt(page) + 1)
   }
 
 

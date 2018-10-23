@@ -66,21 +66,21 @@ const getPropertyDetails = function(req,res,next) {
 }
 
 const query = function(req,res,next) {
-  let queryAddress = req.query.address;
+  let queryAddress = extractor.streetAddress(req.query.address).replace(/( |,)/g, '');
   let propFiles = helpers.allPropertyFiles();
   let properties = [];
   for(let file of propFiles) {
     let propJson = JSON.parse(fs.readFileSync(file));
     let property = new HouseListing(propJson)
 
-    let streetAddress = extractor.streetAddress(property.address())
+    let streetAddress = extractor.streetAddress(property.address()).replace(/( |,)/g, '');
 
     if (streetAddress === queryAddress) {
       properties.push(property);
     }
   }
 
-  res.send(properties)
+  res.send({properties:properties,address:queryAddress})
 }
 
 module.exports = {

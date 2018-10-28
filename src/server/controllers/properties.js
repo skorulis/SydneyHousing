@@ -67,6 +67,8 @@ const getPropertyDetails = function(req,res,next) {
 
 const query = function(req,res,next) {
   let queryAddress = extractor.streetAddress(req.query.address).replace(/( |,)/g, '');
+  let excluding = req.query.excluding;
+  console.log("Related properties: " + queryAddress)
   let propFiles = helpers.allPropertyFiles();
   let properties = [];
   for(let file of propFiles) {
@@ -75,8 +77,9 @@ const query = function(req,res,next) {
 
     let streetAddress = extractor.streetAddress(property.address()).replace(/( |,)/g, '');
 
-    if (streetAddress === queryAddress) {
-      properties.push(property);
+    if (streetAddress === queryAddress && property.id() != excluding) {
+      let json = getPropertyJson(file,req.headers.host);
+      properties.push(json);
     }
   }
 

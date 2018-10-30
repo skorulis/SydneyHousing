@@ -76,6 +76,12 @@ class HouseListing {
     return numberExtractor.getAveragedPrice(display)
   }
 
+  priceObject() {
+    let display = this.json.price.display;
+    let obj = numberExtractor.priceValues(display)
+    return obj;
+  }
+
   inspections() {
     let inspections = this.json.inspectionsAndAuctions;
     if (!inspections) {

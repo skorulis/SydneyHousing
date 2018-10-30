@@ -69,7 +69,7 @@ const getTotalSize = function(text) {
   return extractNumber(text,prefixes,optionals,suffixes);
 }
 
-const getAveragedPrice = function(text) {
+const getPriceMatches = function(text) {
   let regex = /\$((?:\d,)?\d{3},?\d{3})/ig;
   let matches = text.match(regex);
 
@@ -79,11 +79,24 @@ const getAveragedPrice = function(text) {
     matches = text.match(regex);
     multiplier = 1000;
     if (!matches || matches.length == 0) {
-      return null;
+      return [];
     }      
   }
 
-  return averagePriceMatches(matches,multiplier);
+  return matches.map((m) => {
+    let mStripped = m.replace(new RegExp(",", 'g'), "");
+    mStripped = mStripped.replace("$","").replace("k","");
+    return parseFloat(mStripped) * multiplier;
+  })
+
+}
+
+const getAveragedPrice = function(text) {
+  let matches = getPriceMatches(text)
+  if (matches.length == 0) {
+    return null;
+  }
+  return matches.reduce((a, b) => a + b, 0) / matches.length;
 }
 
 function averagePriceMatches(matches,multiplier) {
@@ -95,6 +108,38 @@ function averagePriceMatches(matches,multiplier) {
   }
   total = total / matches.length;
   return total;
+}
+
+function getPriceValues(display) {
+  let matches = getPriceMatches(display)
+  if (matches.length == 0) {
+    return {}
+  }
+  let obj = {};
+  obj.estimate = matches.reduce((a, b) => a + b, 0) / matches.length;
+  obj.low = Math.min.apply(null, matches);
+  obj.high = Math.max.apply(null, matches);
+  return obj
+}
+
+function mergePriceValues(old,newObj) {
+  let merged = {};
+  merged.estimate = newObj.estimate || old.estimate
+  if (!old.low || !newObj.low) {
+    merged.low = newObj.low || old.low
+  } else {
+    merged.low = Math.min(old.low,newObj.low)  
+  }
+
+  if (!old.high || !newObj.high) {
+    merged.high = newObj.high || old.high
+  } else {
+    merged.high = Math.max(old.high,newObj.high)  
+  }
+
+  merged.sale = newObj.sale || old.sale
+
+  return merged
 }
 
 function streetAddress(fullAddress) {
@@ -115,5 +160,8 @@ module.exports = {
   getTotalSize,
   getInternalSize,
   getAveragedPrice,
-  streetAddress
+  streetAddress,
+  getPriceValues,
+  getPriceMatches,
+  mergePriceValues
 };

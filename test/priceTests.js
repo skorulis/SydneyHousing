@@ -60,6 +60,10 @@ describe("Extracts price information", function() {
   		merged2.high.should.equal(300000)
   		merged2.estimate.should.equal(200000)
 
+  		let merged3 = numberExtractor.mergePriceValues({},{sold:50000})
+		merged3.sold.should.equal(50000)  		
+
+
   	})
 
 });

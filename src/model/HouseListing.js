@@ -78,8 +78,12 @@ class HouseListing {
 
   priceObject() {
     let display = this.json.price.display;
-    let obj = numberExtractor.priceValues(display)
-    return obj;
+    if (this.isSold()) {
+      let value = numberExtractor.getAveragedPrice(display)
+      return {sold:value}
+    } else {
+      return numberExtractor.getPriceValues(display)
+    }
   }
 
   inspections() {

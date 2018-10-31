@@ -163,6 +163,25 @@ const calculateMetrics = async function(listing,history,oldMetrics) {
   obj.costs.council = getCouncilRates(listing) || oldCosts.council || stats.avgCouncilObj(listing.suburb());
   obj.costs.water = getWaterRates(listing) || oldCosts.water || stats.avgWaterObj(listing.suburb());
 
+
+  if (!obj.price && obj.estimatedPrice) {
+    obj.price = {estimate:obj.estimatedPrice}
+    if (obj.originalPrice) {
+      if (obj.originalPrice > obj.estimatedPrice) {
+        obj.price.high = obj.originalPrice;
+      } else {
+        obj.price.low = obj.originalPrice;
+      }
+    }
+  }
+
+  if (obj.price) {
+    obj.price = numberExtractor.mergePriceValues(obj.price,listing.priceObject())
+  } else {
+    obj.price = listing.priceObject()  
+  }
+  
+
   let price = listing.priceEstimate();
   if (obj.estimatedPrice && price && !obj.originalPrice) {
     if (obj.estimatedPrice != price) {

@@ -137,7 +137,7 @@ function mergePriceValues(old,newObj) {
     merged.high = Math.max(old.high,newObj.high)  
   }
 
-  merged.sale = newObj.sale || old.sale
+  merged.sold = newObj.sold || old.sale
 
   return merged
 }

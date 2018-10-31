@@ -2,6 +2,16 @@ let fetch = require("node-fetch")
 let HouseListing = require("../model/HouseListing");
 let suburbFunctions = require("./suburbFunctions");
 
+const passesFilter = function(listing) {
+  if (listing.suburb() === "Canterbury") {
+    if (listing.address().includes("Charles Street")) {
+      return false;  
+    }
+  }
+
+  return true;
+}
+
 const performSearch = async function(suburb,page) {
   let postcode = suburbFunctions.getPostcode(suburb);
   let searchLocation = suburb + ", NSW " + postcode
@@ -39,14 +49,24 @@ const performSearch = async function(suburb,page) {
 
   console.log("FINISH------- SEARCH")
 
-  let props = mappedResults.map(listing => listing.json)
+  let props = [];
+  let filtered = [];
+  for (let l of mappedResults) {
+    if (passesFilter(l)) {
+      props.push(l.json)
+    } else {
+      filtered.push(l.json)
+    }
+    
+  }
+
   let next = null;
   if (Object.keys(json._links.next).length > 0) {
     next = "/search/" + suburb + "/" + (parseInt(page) + 1)
   }
 
 
-  return {properties:props,next:next}
+  return {properties:props,next:next,filtered:filtered}
 
 }
 

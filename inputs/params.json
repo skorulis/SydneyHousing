@@ -1,4 +1,9 @@
 {
+	"search":{
+		"bedroomsRange":{"maximum":"3","minimum":"2"},
+      	"priceRange":{"maximum":"900000","minimum":"600000"},
+      	"minimumCars":1
+	},
 	"locations":[
 		{
 			"name":"Sydney Central Station",

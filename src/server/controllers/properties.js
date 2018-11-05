@@ -48,6 +48,7 @@ const setPropertyFields = function(req,res,next) {
     metrics.rating = req.body.rating;
     metrics.estimatedPrice = req.body.estimatedPrice;
     metrics.costs = req.body.costs;
+    metrics.price = req.body.price;
     metrics.size = req.body.size;
     fs.writeFileSync(metricFile, JSON.stringify(metrics,null,2),function(err){});
 

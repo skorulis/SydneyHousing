@@ -234,8 +234,16 @@ const getParamValue = function(param,selection) {
 }
 
 const calculatePropertyCosts = async function(metrics) {
-  if (metrics.estimatedPrice) {
-    let totalOutlay = metrics.estimatedPrice;
+  let totalOutlay = metrics.estimatedPrice;
+  if (metrics.price) {
+    if (metrics.price.sold) {
+      totalOutlay = metrics.price.sold
+    } else if (metrics.price.estimate) {
+      totalOutlay = metrics.price.estimate;
+    }
+  }
+
+  if (totalOutlay) {
     if (metrics.renovations) {
       totalOutlay += parseFloat(metrics.renovations);
     }

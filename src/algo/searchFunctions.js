@@ -1,6 +1,7 @@
 let fetch = require("node-fetch")
 let HouseListing = require("../model/HouseListing");
 let suburbFunctions = require("./suburbFunctions");
+let searchParams = require("../../inputs/params.json").search
 
 const passesFilter = function(listing) {
   if (listing.suburb() === "Canterbury") {
@@ -18,18 +19,20 @@ const performSearch = async function(suburb,page) {
 
   page = (page || 1)
 
+  searchParams.surroundingSuburbs = false;
+  searchParams.sortType = "new-desc";
+  searchParams.localities = [{"searchLocation":searchLocation}]
+
+  console.log(searchParams)
+
   let query = {channel:"buy",
     pageSize:"20",
     page:page.toString(),
-    filters:
-      {bedroomsRange:{maximum:"3",minimum:"2"},
-      surroundingSuburbs:false,
-      priceRange:{maximum:"900000",minimum:"600000"},
-      minimumCars:1,
-      sortType:"new-desc",
-      localities:[{"searchLocation":searchLocation}]
-    }
+    filters:searchParams
   }
+
+  console.log(query)
+
   let url = "https://services.realestate.com.au/services/listings/search?query=";
   url = url + encodeURIComponent(JSON.stringify(query))
   

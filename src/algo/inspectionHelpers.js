@@ -4,7 +4,6 @@ let gpsUtil = require("gps-util");
 let helpers = require("../helperFunctions");
 let HouseListing = require("../model/HouseListing");
 
-let inspectionDate = new Date('09:00 2018.11.03');
 
 let propFiles = helpers.allPropertyFiles();
 let dataPopulator = require("./dataPopulator")
@@ -29,8 +28,9 @@ function sortInspections(inspections) {
   })
 }
 
-function findAllInspections(suburbName) {
+function findAllInspections(suburbName,date) {
   console.log("suburb",suburbName)
+  let inspectionDate = date || helpers.nextSaturday(new Date());
   let suburb = suburbName ? helpers.getSuburb(suburbName) : null;
   let allinspections = []
   for(let file of propFiles) {

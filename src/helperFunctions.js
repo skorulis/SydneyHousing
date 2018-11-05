@@ -84,6 +84,11 @@ const nextMonday = function(date) {
   return date;
 }
 
+const nextSaturday = function(date) {
+  date.setDate(date.getDate() + (6-date.getDay())%7);
+  return date;
+}
+
 const getDirections = async function(from,to,mode) {
   let arrival = nextMonday(new Date());
   arrival = (arrival.getTime() / 1000).toFixed(0);
@@ -163,5 +168,6 @@ module.exports = {
   getSuburb,
   getPropertyStats,
   getPropertyFilename,
-  getPropertyById
+  getPropertyById,
+  nextSaturday
 };
